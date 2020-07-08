@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Privacy-Preserving Machine Learning Workshop
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://ppml." # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://crypto-ppml.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-redirect-from
