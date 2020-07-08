@@ -58,11 +58,10 @@ Submissions must comply with the following rules:
 - Submissions must be non-anonymous and must clearly specify which author will give the talk.
 - The submission should provide sufficient detail to explain what the talk will be about.
 - As the workshop does not have formal proceedings, we accept contributed talk proposals which correspond to papers that are under submission or already published elsewhere.
-
+- The committee will follow COI standards according to the IACR policy.  
 
 ## Contributed Talks Committee 
 
-- Gil Segev (The Hebrew University of Jerusalem)
 
 
 
