@@ -3,7 +3,6 @@ title: Privacy-Preserving Machine Learning Workshop 2019
 headerTitle: PPML 2019
 headerInfoDate: August 18, 2019
 layout: default
-redirect_from: "/"
 ---
 
 ## Affiliated Event: Privacy-Preserving Machine Learning Workshop 2019
