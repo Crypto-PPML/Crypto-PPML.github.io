@@ -40,5 +40,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
-theme: jekyll-theme-tactile
