@@ -26,7 +26,7 @@ Zoom. A link to the stream will be given later.
 ### Program
 
 
-Similarly to last year, the program will consist of several invited speakers as well as contributed talks. Please see the call for contributed talks below. 
+The program will consist of several invited speakers as well as contributed talks. Please see the call for contributed talks below. 
 
 
 
