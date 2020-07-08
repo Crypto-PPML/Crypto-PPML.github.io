@@ -1,0 +1,333 @@
+{
+  "name": "CRYPTO-PPML 2019",
+  "config": {
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "default_talk_minutes": 25,
+    "unassigned_talks": [
+      {
+        "name": "Uncategorized",
+        "talks": [],
+        "id": "category-0"
+      },
+      {
+        "id": "category-13",
+        "name": "Invited Speaker",
+        "talks": []
+      },
+      {
+        "id": "category-16",
+        "name": "Survey",
+        "talks": []
+      },
+      {
+        "id": "category-17",
+        "name": "Contributed Talk",
+        "talks": []
+      }
+    ],
+    "uniqueIDIndex": 62
+  },
+  "days": [
+    {
+      "date": "2019-08-18",
+      "timeslots": [
+        {
+          "starttime": "9:00",
+          "endtime": "9:30",
+          "sessions": [
+            {
+              "id": "session-53",
+              "session_title": "A Survey",
+              "talks": [
+                {
+                  "id": "talk-11",
+                  "title": "A Survey on Deep Learning Techniques for Privacy-Preserving",
+                  "authors": [
+                    "Harry Chandra Tanuwidjaja",
+                    "Rakyong Choi",
+                    "Kwangjo Kim (speaker)"
+                  ],
+                  "affiliations": "KAIST",
+                  "category": "Uncategorized",
+                  "starttime": "9:00",
+                  "endtime": "9:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "9:30",
+          "endtime": "10:30",
+          "sessions": [
+            {
+              "id": "session-54",
+              "session_title": "Invited Talk",
+              "talks": [
+                {
+                  "id": "talk-12",
+                  "title": "Fairness in Automated Classification: A Foundational Perspective",
+                  "starttime": "9:15",
+                  "endtime": "10:15",
+                  "authors": [
+                    "Guy Rothblum (Weizmann Institute of Science)"
+                  ],
+                  "affiliations": "",
+                  "category": "Uncategorized"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "endtime": "11:00",
+          "starttime": "10:30",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-55"
+            }
+          ]
+        },
+        {
+          "starttime": "11:00",
+          "endtime": "12:00",
+          "sessions": [
+            {
+              "id": "session-56",
+              "session_title": "Invited Talk",
+              "talks": [
+                {
+                  "id": "talk-15",
+                  "title": "Unwanted Machine Learning",
+                  "starttime": "11:00",
+                  "endtime": "12:00",
+                  "authors": [
+                    "Vitaly Shmatlikov (Cornell Tech)"
+                  ],
+                  "affiliations": "",
+                  "category": "Uncategorized"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "endtime": "12:45",
+          "starttime": "12:00",
+          "sessions": [
+            {
+              "session_title": "Contributed Talks",
+              "talks": [
+                {
+                  "id": "talk-19",
+                  "title": "CrptFllow: Secure Tensorflow Inference",
+                  "starttime": "12:00",
+                  "endtime": "12:15",
+                  "authors": [
+                    "Nishanth Chandran (speaker)",
+                    "Nishant Kumar",
+                    "Mayank Rathee",
+                    "Divya Gupta",
+                    "Aseem Rastogi",
+                    "Rahul Sharma"
+                  ],
+                  "affiliations": "Microsoft Research, India",
+                  "category": "Uncategorized"
+                },
+                {
+                  "id": "talk-20",
+                  "title": "  CHET: An Optimizing Compiler for Fully-Homomorphic Neural-Network Inferencing",
+                  "starttime": "12:15",
+                  "endtime": "12:30",
+                  "authors": [
+                    "Roshan Dathathri (speaker)",
+                    "Olli Saarikivi",
+                    "Hao Chen",
+                    "Kim Laine",
+                    "Kristin Lauter",
+                    "Saeed Maleki",
+                    "Madanlal Musuvathi",
+                    "Todd Mytkowicz"
+                  ],
+                  "affiliations": "University of Texas at Austin; Microsoft Research",
+                  "category": "Uncategorized"
+                },
+                {
+                  "id": "talk-18",
+                  "title": "Foundations of Differentially Oblivious Algorithms",
+                  "starttime": "12:30",
+                  "endtime": "12:45",
+                  "authors": [
+                    "T-H. Hubert Chan",
+                    "Kai-Min Chung",
+                    "Bruce Maggs",
+                    "Elaine Shi (speaker)"
+                  ],
+                  "affiliations": "HKU; Academia Sinica; Duke; Cornell",
+                  "category": "Uncategorized"
+                }
+              ],
+              "id": "session-57"
+            }
+          ]
+        },
+        {
+          "endtime": "14:00",
+          "starttime": "12:45",
+          "sessions": [
+            {
+              "session_title": "Lunch",
+              "id": "session-58"
+            }
+          ]
+        },
+        {
+          "starttime": "14:00",
+          "endtime": "15:00",
+          "sessions": [
+            {
+              "id": "session-59",
+              "session_title": "Invited Talk",
+              "talks": [
+                {
+                  "id": "talk-14",
+                  "title": "Private AI",
+                  "starttime": "14:00",
+                  "endtime": "15:00",
+                  "authors": [
+                    "Kristin Lauter (Microsoft Research)"
+                  ],
+                  "affiliations": "",
+                  "category": "Uncategorized"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "endtime": "15:30",
+          "starttime": "15:00",
+          "sessions": [
+            {
+              "session_title": "Contributed Talks",
+              "id": "session-60",
+              "talks": [
+                {
+                  "id": "talk-21",
+                  "title": "Garbled Neural Networks are Practical",
+                  "starttime": "15:00",
+                  "endtime": "15:15",
+                  "authors": [
+                    "Marshall Ball (speaker)",
+                    "Brent Carmer",
+                    "Tal Malkin",
+                    "Mike Rosulek",
+                    "Nichole Schimanski"
+                  ],
+                  "affiliations": "Columbia University; Galois, Inc; Columbia University; Oregon State University; Galois, Inc",
+                  "category": "Uncategorized"
+                },
+                {
+                  "id": "talk-22",
+                  "title": "Helen: Maliciously Secure Coopetitive Learning for Linear Models",
+                  "authors": [
+                    "Wenting Zheng (speaker)",
+                    "Raluca Ada Popa",
+                    "Joseph E. Gonzalez",
+                    "Ion Stoica"
+                  ],
+                  "affiliations": "UC Berkeley",
+                  "category": "Uncategorized",
+                  "starttime": "15:15",
+                  "endtime": "15:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "endtime": "16:00",
+          "starttime": "15:30",
+          "sessions": [
+            {
+              "session_title": "Coffee Break",
+              "id": "session-61"
+            }
+          ]
+        },
+        {
+          "endtime": "17:00",
+          "starttime": "16:00",
+          "sessions": [
+            {
+              "session_title": "Contributed Talks",
+              "talks": [
+                {
+                  "id": "talk-23",
+                  "title": "How to trade Efficiency and Accuracy using Fault-Tolerant Computations over the Reals",
+                  "authors": [
+                    "Ran Cohen (speaker)",
+                    "Jonathan Frankle",
+                    "Shafi Goldwasser",
+                    "Hayim Shaul",
+                    "Vinod Vaikuntanathan"
+                  ],
+                  "affiliations": "Boston University and Northeastern University; MIT; UC Berkeley; IDC Herzliya; MIT",
+                  "category": "Uncategorized",
+                  "starttime": "16:00",
+                  "endtime": "16:15"
+                },
+                {
+                  "id": "talk-24",
+                  "title": "Secure Evaluation of Quantized Neural Networks",
+                  "authors": [
+                    "Anders Dalskov (speaker)",
+                    "Daniel Escudero",
+                    "Marcel Keller"
+                  ],
+                  "affiliations": "Aarhus University; Aarhus University; Data61",
+                  "category": "Uncategorized",
+                  "starttime": "16:15",
+                  "endtime": "16:30"
+                },
+                {
+                  "id": "talk-25",
+                  "title": "Partially Encrypted Machine Learning using Functional Encryption",
+                  "authors": [
+                    "Théo Ryffel",
+                    "Edouard Dufour-Sans (speaker)",
+                    "Romain Gay",
+                    "Francis Bach",
+                    "David Pointcheval"
+                  ],
+                  "affiliations": "ENS, INRIA; ENS; ENS, UC Berkeley; INRIA, ENS; ENS, INRIA",
+                  "category": "Uncategorized",
+                  "starttime": "16:30",
+                  "endtime": "16:45"
+                },
+                {
+                  "id": "talk-26",
+                  "title": "Improving the Adaptability of Differential Privacy",
+                  "authors": [
+                    "Mugunthan Vaikkunth (speaker), Wanyi Xiao, Lalana Kagal"
+                  ],
+                  "affiliations": "MIT",
+                  "category": "Uncategorized",
+                  "starttime": "16:45",
+                  "endtime": "17:00"
+                }
+              ],
+              "id": "session-62"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "database_id": "254"
+}

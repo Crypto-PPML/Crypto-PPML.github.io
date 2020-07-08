@@ -1,0 +1,158 @@
+<div id="renderedProgram" class="col-xs-12">
+<!-- Handlebars script that will render the program template based on the program.json file -->
+  <script id="program-template" type="text/x-handlebars-template" data-program-json="{{include.programURL}}">
+    {% raw %}
+
+    {{#each days}}
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <h4 class="pageH4">
+            {{date}}
+          </h4>
+        </div>
+      </div>
+      {{#each timeslots}}
+        <div class="row">
+          <div class="col-xs-2 col-sm-2">
+            <p class="timeSlot">
+              {{starttime}}-{{endtime}}
+            </p>
+          </div>
+        {{#if twosessions}}
+          <div class="col-xs-10 col-sm-5">
+            <div class="track1Event panel-body">
+              {{#if sessions.0.session_title}}
+                <h4 class="text-center">
+                  {{sessions.0.session_title}}
+                </h4>
+              {{/if}}
+              {{#if sessions.0.location.name.name}}
+                <p class="dualTrackDescr">
+                  {{sessions.0.location.name.name}}
+                </p>
+              {{/if}}
+              {{#if sessions.0.moderator}}
+                <p class="dualTrackDescr">
+                  {{sessions.0.moderator}}
+                </p>
+              {{/if}}
+              {{#each sessions.0.talks}}
+                <p class="talkTitle">
+                  {{title}}
+                </p>
+                <p class="dualTrackDescr">
+                  {{#each authors}}
+                    <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
+                  {{/each}}
+                </p>
+                {{#if paperUrl}}
+                <span class="talkMedia">
+                  Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                </span>
+                {{/if}}
+                {{#if slidesUrl}}
+                <span class="talkMedia">
+                  <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                </span>
+                {{/if}}
+              {{/each}}
+            </div>
+          </div>
+          <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+            <p class="timeSlot">
+              {{starttime}}-{{endtime}}
+            </p>
+          </div>
+          <div class="col-xs-10 col-sm-5">
+            <div class="panel-body track2Event">
+              {{#if sessions.1.session_title}}
+                <h4 class="text-center">
+                  {{sessions.1.session_title}}
+                </h4>
+              {{/if}}
+              {{#if sessions.1.location.name}}
+                <p class="dualTrackDescr">
+                  {{sessions.1.location.name}}
+                </p>
+              {{/if}}
+              {{#if sessions.1.moderator}}
+                <p class="dualTrackDescr">
+                  {{sessions.1.moderator}}
+                </p>
+              {{/if}}
+              {{#each sessions.1.talks}}
+                <p class="talkTitle">
+                  {{title}}
+                </p>
+                <p class="dualTrackDescr">
+                  {{#each authors}}
+                    <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
+                  {{/each}}
+                </p>
+                {{#if paperUrl}}
+                <span class="talkMedia">
+                  Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                </span>
+                {{/if}}
+                {{#if slidesUrl}}
+                <span class="talkMedia">
+                  <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                </span>
+                {{/if}}
+              {{/each}}
+            </div>
+          </div>
+        {{else}}
+          <div class="col-xs-10 col-sm-10">
+            <div class="panel-body mutualEvent {{#if sessions.0.talks}}mutualEventTalks{{/if}}">
+              {{#if sessions.0.session_title}}
+                <h4>
+                  {{sessions.0.session_title}}
+                </h4>
+              {{/if}}
+              {{#if sessions.0.location.name}}
+                <p class="eventDescr">
+                  {{sessions.0.location.name}}
+                </p>
+              {{/if}}
+              {{#if sessions.0.moderator}}
+                <p class="eventDescr">
+                  {{keepBRTags sessions.0.moderator}}
+                </p>
+              {{/if}}
+              {{#each sessions.0.talks}}
+                <p class="mutualEventTalkTitle">
+                  {{#if abstractUrl}}
+                    <a target="_blank" class="abstractUrl" href="{{abstractUrl}}">
+                  {{/if}}
+                      {{title}}
+                  {{#if abstractUrl}}
+                    </a>
+                  {{/if}}
+                </p>
+                <p class="eventDescr">
+                  {{#each authors}}
+                    <span class="authorName">{{#if name}}{{name}}{{else}}{{.}}{{/if}}</span>
+                  {{/each}}
+                </p>
+                {{#if paperUrl}}
+                <span class="talkMedia">
+                  Media: &nbsp; <a href="{{paperUrl}}"><img class="talkMediaIcon" src="images/file.svg" title="Paper"></a>
+                </span>
+                {{/if}}
+                {{#if slidesUrl}}
+                <span class="talkMedia">
+                  <a href="{{slidesUrl}}"><img class="talkMediaIcon" src="images/presentation.svg" title="Slides"></a>
+                </span>
+                {{/if}}
+              {{/each}}
+            </div>
+          </div>
+        {{/if}}
+        </div>
+      {{/each}}
+    {{/each}}
+
+    {% endraw %}
+  </script>
+</div>

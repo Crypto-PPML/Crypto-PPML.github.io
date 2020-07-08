@@ -1,0 +1,387 @@
+/* NOTE: this is a supplemental style sheet. You should only include orange.css OR green.css OR blue.css on all individual html pages. One of these supplemental style sheets MUST be included in addition to main.css */
+
+/* Firefox hack for responsive table - https://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685 */
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+/* Hide navbar when printing, and different title, on rump sessio  */
+.only-print {
+  display: none;
+}
+
+@media print {
+  body {
+    padding-top: 0px;
+  }
+  nav.navbar {
+    display: none;
+  }
+  .hidden-print {
+    display: none;
+  }
+  .only-print {
+    display: block;
+  }
+  .qr-rump {
+    max-width: 25% !important;
+  }
+  .table-print-condensed>tbody>tr>td {
+    padding: 0px 5px;
+  }
+}
+
+
+.abstractUrl {
+  color: #1F2161;
+}
+
+.talkAward {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.highlighted {
+  background-color: rgba(86,138,185,0.5);
+}
+
+.link-color {
+  color: #0F773C;
+}
+
+.affevents-nav {
+  padding-left: 30px;
+}
+
+.affevents-nav>li>a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.affevents-twitter .twitter-follow-button {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.align-h2 {
+  margin-bottom: 10px;
+}
+
+.tooltip-arrow,
+.tooltip > .tooltip-inner {
+  background-image: -webkit-linear-gradient(#6d94bf, #446e9b 75%, #3e648d);
+    background-image: -o-linear-gradient(#6d94bf, #446e9b 75%, #3e648d);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6d94bf), color-stop(75%, #446e9b), to(#3e648d));
+    background-image: linear-gradient(#6d94bf, #446e9b 75%, #3e648d);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d94bf', endColorstr='#ff3e648d', GradientType=0);
+    -webkit-filter: none;
+    filter: none;
+    border: 1px solid #345578;
+    text-align: left;
+    max-width: 400px;
+}
+
+.regBtn {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: normal;
+}
+
+@media (min-width: 1400px) { /* 768px */
+  .regBtn {
+    width: 75%;
+  }
+}
+
+.regBtnAllPages {
+  margin-bottom: 10px;
+  white-space: normal;
+  font-size: large;
+}
+
+.largeText {
+  font-size: large;
+}
+
+.hugeText {
+  font-size: 300%;
+}
+
+.rowRegBtn {
+  margin-bottom: 20px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+/* fix issue with Safari - see https://stackoverflow.com/a/36476586 */
+.display-flex.container:before,
+.display-flex.container:after,
+.display-flex.row:before,
+.display-flex.row:after {
+   content: normal; /* IE doesn't support `initial` */
+}
+
+.inline-title {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .org-affevents {
+    margin-bottom: 10px;
+    margin-top: auto;
+    text-align: right;
+  }
+}
+
+.panel-subtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: small;
+}
+
+.panel-title-left {
+  font-size: large;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.panel-title-middle {
+  font-size: small;
+}
+
+.panel-title-right {
+  font-size: smaller;
+  padding-left: 15px;
+}
+
+.panel-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/*
+.day0 {
+  float: left;
+}
+
+.day1 {
+  float: right;
+}
+
+.day2 {
+  float: left;
+  clear: left;
+}
+*/
+
+@media (min-width: 768px) {
+  .bottom-align-row {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.passedDeadline {
+  text-decoration: line-through;
+}
+
+/* https://stackoverflow.com/a/22311212/2945326 */
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail .logo-index-caption {
+  padding-top: 3px;
+  padding-bottom: 9px;
+}
+
+.logo-text {
+  margin-bottom: 0px;
+}
+
+.logo-img {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.logo-img-wrapper {
+	padding-bottom: 56.25%; /* 16:9 */
+	position: relative;
+}
+
+.logo-img-wrapper-child {
+	position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img-wrapper-child > a {
+  width: 100%;
+}
+
+.dateAside {
+  margin-left: 30px;
+}
+
+.headerInfoAff {
+  font-family: 'Roboto Condensed', sans-serif;
+  /* color: #0F773C; */
+  color: #FFF;
+  text-shadow: 2px 0px 0.5px #0F773C, 0px 2px 0.5px #0F773C, -2px 0px 0.5px #0F773C, 0px -2px 0.5px #0F773C; 
+  letter-spacing: 2px;
+  font-size: 2.6em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.headerInfoDate {
+  font-family: 'Roboto Condensed', sans-serif;
+  /* color: #0F773C; */
+  color: #FFF;
+  text-shadow: 2px 0px 0.5px #0F773C, 0px 2px 0.5px #0F773C, -2px 0px 0.5px #0F773C, 0px -2px 0.5px #0F773C; 
+  letter-spacing: 2px;
+  font-size: 1.7em;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.headerInfoBottom {
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .headerTitle {
+    font-size: 2.8em;
+    padding-top: 0px;
+  }
+
+  .headerInfoTop {
+    font-size: 1.2em;
+    padding-top: 0px;
+  }
+
+  .headerInfoBottom {
+    font-size: 1.2em;
+    padding-top: 0px;
+  }
+
+  .headerInfoAff {
+    font-size: 2em;
+    padding-top: 0px;
+  }
+
+  .headerInfoDate {
+    font-size: 1.2em;
+  }
+}
+
+/***** General styling *****/
+body, .listItems {
+  background-color: #F3F3FB;
+}
+
+a:hover {
+  color: #568ab9;
+}
+
+.dateTitle {
+  color: #568ab9;
+}
+
+.pageSubtitle {
+  color: #568ab9;
+}
+
+h3 {
+  color: #568ab9;
+}
+
+.pageH4 {
+  color: #568ab9;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.new-label {
+  font-size: 150%;
+}
+
+/***** Nav (in /fragments/nav.html) *****/
+nav#mainmenu {
+  background-color: #F3F3FB;
+}
+
+
+/***** Header (found in ./index.html) *****/
+.navHeader {
+  color: #2E3192;
+}
+
+.headerImg {
+  margin-bottom: 30px;
+}
+
+.headerGradient {
+  /*
+  background: rgba(47, 50, 147, 0.6);
+  background: -webkit-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
+  background: -o-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
+  background: -moz-linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
+  background: linear-gradient(rgba(47, 50, 147, 0.6), rgba(243, 243, 251, 1));
+  */
+}
+
+.headerGradient {
+  margin-top: -40px;
+}
+
+.headerTitle {
+  /* color: #0F773C; */
+  color: #FFF;
+  text-shadow: 2px 0px 0.5px #0F773C, 0px 2px 0.5px #0F773C, -2px 0px 0.5px #0F773C, 0px -2px 0.5px #0F773C;
+  
+}
+
+.headerInfoTop {
+  /* color: #0F773C; */
+  color: #FFF;
+  text-shadow: 2px 0px 0.5px #0F773C, 0px 2px 0.5px #0F773C, -2px 0px 0.5px #0F773C, 0px -2px 0.5px #0F773C;
+}
+
+.headerInfoBottom {
+  /* color: #0F773C; */
+  color: #FFF;
+  text-shadow: 2px 0px 0.5px #0F773C, 0px 2px 0.5px #0F773C, -2px 0px 0.5px #0F773C, 0px -2px 0.5px #0F773C;  
+}
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  color: #0F773C;
+}
+
+h2 {
+  color: #0F773C;
+}
