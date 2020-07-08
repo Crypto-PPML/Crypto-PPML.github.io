@@ -45,11 +45,12 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 - Model stealing
 - Fairness and accountability
 
-**Submission site:** https://secure.iacr.org/websubrev/privAI2019/submit/index.php
 
-**Submission deadline:** June 15, 2019.
+**Submission site:** https://secure.iacr.org/websubrev/privAI2020/submit/index.php
 
-**Notifications:** June 21, 2019.
+**Submission deadline:** July 30, 2020.
+
+**Notifications:** August 3rd, 2020.
 
 
 
