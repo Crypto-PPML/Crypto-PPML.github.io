@@ -46,7 +46,7 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 - Fairness and accountability
 
 
-**Submission site:** https://secure.iacr.org/websubrev/privAI2020/submit/index.php
+**Submission site:** 
 
 **Submission deadline:** July 30, 2020.
 
