@@ -4,7 +4,7 @@ This uses Github Pages and is available on https://crypto-ppml.github.io
 
 ## Redirect the main page to the current year
 
-Add in the frontmatter
+Add in the frontmatter of the correct page (e.g., `2020/index.markdown`):
 ```
 redirect_from: "/"
 ```
