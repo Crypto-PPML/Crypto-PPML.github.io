@@ -25,7 +25,7 @@ rbenv install -l
 rbenv install 2.7.1
 rbenv global 2.7.1
 ```
-(replace 2.7.1 by the latest version displayed by `rbenv inctall -l`)
+(replace 2.7.1 by the latest version displayed by `rbenv install -l`)
 2. Add the following to `~/.bashrc` or `~/.zshrc` to load `rbenv`:
 ```
 # rbenv
