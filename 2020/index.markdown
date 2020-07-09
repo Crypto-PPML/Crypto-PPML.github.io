@@ -46,7 +46,7 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 - Fairness and accountability
 
 
-**Submission site:** 
+**Submission site:** [https://secure.iacr.org/websubrev/privAI2020/submit/](https://secure.iacr.org/websubrev/privAI2020/submit/)
 
 **Submission deadline:** July 30, 2020.
 
@@ -69,9 +69,9 @@ The committee will follow COI standards according to the IACR policy.
 
 ## Organizers
 
-- Gilad Asharov (Bar-Ilan University) 
-- Rafail Ostrovsky (UCLA) 
-- Antigoni Polychroniadou (JP Morgan AI Research)
+- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) 
+- [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) 
+- [Antigoni Polychroniadou](http://www.cs.cornell.edu/~polychroniadou/) (JP Morgan AI Research)
 
 Contact email: [CRYPTO.PPML.2020@gmail.com](mailto:CRYPTO.PPML.2020@gmail.com)
 
