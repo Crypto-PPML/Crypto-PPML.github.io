@@ -40,7 +40,7 @@ The program will consist of several invited speakers as well as contributed talk
 
 We encourage submissions exploring a range of techniques for privacy preserving machine learning, including, but not limited to:
 
--  Multiparty computation
+- Multiparty computation
 - Homomorphic encryption
 - Differential privacy
 - Adversarial machine learning
