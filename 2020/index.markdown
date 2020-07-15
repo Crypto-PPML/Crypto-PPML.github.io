@@ -30,9 +30,11 @@ The program will consist of several invited speakers as well as contributed talk
 
 
 
-### Invited Speakers 
+### (Confirmed) Invited Speakers 
 
-To be added.
+- Shafi Goldwasser (UC Berkeley)
+- Mohammad Mahmoody (University of Virginia)
+
 
 ### Call for Contributed Talks
 
