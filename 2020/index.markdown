@@ -64,7 +64,7 @@ Submissions must comply with the following rules:
 
 The committee will follow COI standards according to the IACR policy.  
 
-## Contributed Talks Committee 
+### Contributed Talks Committee 
 
 - Adi Akavia (Haifa University)
 - Gilad Asharov (Bar-Ilan University)
@@ -79,7 +79,7 @@ The committee will follow COI standards according to the IACR policy.
 
 
 
-## Organizers
+### Organizers
 
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) 
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) 
