@@ -83,7 +83,7 @@ The committee will follow COI standards according to the IACR policy.
 
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) 
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) 
-- [Antigoni Polychroniadou](http://www.cs.cornell.edu/~polychroniadou/) (JP Morgan AI Research)
+- [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
 Contact email: [CRYPTO.PPML.2020@gmail.com](mailto:CRYPTO.PPML.2020@gmail.com)
 
