@@ -50,9 +50,9 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 
 **Submission site:** [https://secure.iacr.org/websubrev/privAI2020/submit/](https://secure.iacr.org/websubrev/privAI2020/submit/)
 
-**Submission deadline:** July 30, 2020.
+**Submission deadline:** August 2nd, 2020.
 
-**Notifications:** August 3rd, 2020.
+**Notifications:** August 6th, 2020.
 
 
 
