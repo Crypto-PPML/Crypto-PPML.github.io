@@ -34,6 +34,8 @@ The program will consist of several invited speakers as well as contributed talk
 
 - Shafi Goldwasser (UC Berkeley)
 - Mohammad Mahmoody (University of Virginia)
+- Ilya Mironov (Facebook AI)
+- Ramesh Raskar (MIT Media Lab)
 
 
 ### Call for Contributed Talks
