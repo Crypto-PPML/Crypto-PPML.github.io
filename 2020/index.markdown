@@ -64,7 +64,7 @@ Submissions must comply with the following rules:
 - The submission should provide sufficient detail to explain what the talk will be about.
 - As the workshop does not have formal proceedings, we accept contributed talk proposals which correspond to papers that are under submission or already published elsewhere (parallel submissions are allowed). 
 
-The committee will follow COI standards according to the IACR policy.  
+The committee will follow COI standards according to the IACR policy. Contributed talks committee members are allowed to submit as well. 
 
 ### Contributed Talks Committee 
 
