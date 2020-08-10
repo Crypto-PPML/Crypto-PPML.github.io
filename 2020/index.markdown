@@ -22,20 +22,21 @@ August 16, 2020 (Sunday)
 
 Zoom. A link to the stream will be given later. 
 
-
-### Program
-
-
-The program will consist of several invited speakers as well as contributed talks. Please see the call for contributed talks below. 
-
-
-
 ### (Confirmed) Invited Speakers 
 
 - Shafi Goldwasser (UC Berkeley)
 - Mohammad Mahmoody (University of Virginia)
 - Ilya Mironov (Facebook AI)
 - Ramesh Raskar (MIT Media Lab)
+
+### Program
+
+The times is in UTC. 
+
+<div markdown="0">
+    {% include program.html programURL='2020/assets/program.json' %}
+</div>
+
 
 
 ### Call for Contributed Talks
