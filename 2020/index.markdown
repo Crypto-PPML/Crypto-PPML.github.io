@@ -29,9 +29,9 @@ Zoom. A link to the stream will be given later.
 - Ilya Mironov (Facebook AI)
 - Ramesh Raskar (MIT Media Lab)
 
-### Program
+### (Tentative) Program
 
-The times is in UTC. 
+The time displayed is in UTC. 
 
 <div markdown="0">
     {% include program.html programURL='2020/assets/program.json' %}
