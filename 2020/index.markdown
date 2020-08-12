@@ -17,10 +17,12 @@ The workshop aims to strengthen collaborations among the machine learning and cr
 ### Date of Event
 August 16, 2020 (Sunday)
 
+### Registration
+The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/2020/). To register to the workshop, please register to CRYPTO 2020, and mark in the registration form the PPML workshop. Please read [the participation guidelines](https://crypto.iacr.org/2020/participation.php).
 
 ### Location
 
-Zoom. A link to the stream will be given later. 
+Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php). 
 
 ### (Confirmed) Invited Speakers 
 
