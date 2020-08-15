@@ -26,7 +26,7 @@
           "sessions": [
             {
               "moderator": "Workshop General Chair",
-              "session_title": "Session I - Welcome and Invited Talk",
+              "session_title": "Session I - Welcome and Invited Talk - Ramesh Raskar",
               "id": "session-2",
               "talks": [
                 {
@@ -136,7 +136,7 @@
           "sessions": [
             {
               "moderator": "Chair: TBD",
-              "session_title": "Session III - Invited Talks",
+              "session_title": "Session III - Invited Talks - Ilya Mironov and Shafi Goldwasser",
               "talks": [
                 {
                   "id": "talk-22",
@@ -150,7 +150,7 @@
                 },
                 {
                   "id": "talk-24",
-                  "title": "TBD",
+                  "title": "Trustworthy ML: Etudes in Robustness and Privacy",
                   "authors": [
                     "Shafi Goldwasser (UC Berkeley)"
                   ],
@@ -179,7 +179,7 @@
           "sessions": [
             {
               "id": "session-27",
-              "session_title": "Session IV - Invited Talk",
+              "session_title": "Session IV - Invited Talk - Mohammad Mahmoody",
               "talks": [
                 {
                   "id": "talk-23",

@@ -22,7 +22,7 @@ The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/202
 
 ### Location
 
-Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php). 
+####**Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php).**
 
 ### (Confirmed) Invited Speakers 
 
@@ -53,7 +53,7 @@ TBD
 **Abstract:**
 We will survey the recent history of remarkably fruitful interaction between machine learning and cryptography, starting with the definition of differential privacy, its relaxations, and applications. We will talk about the progress in making MPC accessible to machine learning practitioners and the unexpected power of anonymous channels. Throughout the talk we will be highlighting open problems and outstanding challenges.
 
-#### **Shafi Goldwasser (UC Berkley):** TBD
+#### **Shafi Goldwasser (UC Berkley):** Trustworthy ML: Etudes in Robustness and Privacy
 
 **Abstract:**
 
