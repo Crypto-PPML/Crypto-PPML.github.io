@@ -22,7 +22,7 @@ The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/202
 
 ### Location
 
-####**Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php).**
+#### **Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php).**
 
 ### (Confirmed) Invited Speakers 
 
