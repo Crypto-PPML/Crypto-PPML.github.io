@@ -35,6 +35,9 @@ The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/202
 
 The time displayed is in UTC. Abstracts are given below.
 
+*All lectures appear in [YouTube](https://www.youtube.com/watch?v=WicRo6SLpCQ&list=PLeeS-3Ml-rpqtfdQWOAawf3_G-0qwTgQ9&index=1)*
+
+
 <div markdown="0">
     {% include program.html programURL='2020/assets/program.json' %}
 </div>
