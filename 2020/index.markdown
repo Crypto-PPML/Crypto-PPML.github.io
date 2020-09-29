@@ -24,6 +24,10 @@ The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/202
 
 #### **Zoom. Links will be provided [here](https://crypto.iacr.org/2020/affiliated.php).**
 
+
+*All lectures appear in [YouTube](https://www.youtube.com/watch?v=WicRo6SLpCQ&list=PLeeS-3Ml-rpqtfdQWOAawf3_G-0qwTgQ9&index=1)*
+
+
 ### (Confirmed) Invited Speakers 
 
 - Shafi Goldwasser (UC Berkeley)
@@ -34,8 +38,6 @@ The workshop is an affiliated event of [CRYPTO 2020](https://crypto.iacr.org/202
 ### (Tentative) Program
 
 The time displayed is in UTC. Abstracts are given below.
-
-*All lectures appear in [YouTube](https://www.youtube.com/watch?v=WicRo6SLpCQ&list=PLeeS-3Ml-rpqtfdQWOAawf3_G-0qwTgQ9&index=1)*
 
 
 <div markdown="0">
