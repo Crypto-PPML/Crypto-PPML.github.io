@@ -27,11 +27,6 @@ The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/202
 
 ### (Confirmed) Invited Speakers
 
-### (Tentative) Program
-
-### Abstracts -- Invited Speakers
-
-
 ### Call for Contributed Talks
 
 We encourage submissions exploring a range of techniques for privacy preserving machine learning, including, but not limited to:
