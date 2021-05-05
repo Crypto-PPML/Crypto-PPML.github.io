@@ -25,11 +25,12 @@ The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/202
 #### **Zoom. Links will be provided [here](https://crypto.iacr.org/2021/affiliated.php).**
 
 
-### (Confirmed) Invited Speakers
+### Invited Speakers
+To be announced.
 
 ### Call for Contributed Talks
 
-We encourage submissions exploring a range of techniques for privacy preserving machine learning, including, but not limited to:
+We encourage submissions exploring a range of techniques and applications for privacy preserving machine learning, including, but not limited to:
 
 - Multiparty computation
 - Homomorphic encryption
@@ -37,6 +38,8 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 - Adversarial machine learning
 - Model stealing
 - Fairness and accountability
+- Federated Learning
+- Synthetic data generation
 
 
 **Submission site:** TO BE ANNOUNCED
@@ -48,7 +51,7 @@ We encourage submissions exploring a range of techniques for privacy preserving 
 
 
 Submissions must comply with the following rules:
-- Submissions can be full papers, abstracts (maximum 2 pages), or the expected presentation slides.
+- We encourage submitting full papers. Abstracts can also be provided. 
 - Submissions must be non-anonymous and must clearly specify which author will give the talk.
 - The submission should provide sufficient detail to explain what the talk will be about.
 - As the workshop does not have formal proceedings, we accept contributed talk proposals which correspond to papers that are under submission or already published elsewhere (parallel submissions are allowed).
@@ -66,4 +69,4 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
-Contact email: [CRYPTO.PPML.2020@gmail.com](mailto:CRYPTO.PPML.2020@gmail.com)
+Contact email: [CRYPTO.PPML@gmail.com](mailto:CRYPTO.PPML@gmail.com)
