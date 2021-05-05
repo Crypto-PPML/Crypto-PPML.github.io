@@ -42,11 +42,15 @@ We encourage submissions exploring a range of techniques and applications for pr
 - Synthetic data generation
 
 
-**Submission site:** TO BE ANNOUNCED
+**Submission site:** 
 
-**Submission deadline:** TO BE ANNOUNCED
 
-**Notifications:** TO BE ANNOUNCED
+**Submission deadline:** 
+Thursday, July 15th, 2021, 11:59pm EST. 
+
+
+**Notifications:** 
+Wednesday, July 28th, 2021.
 
 
 
@@ -65,7 +69,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 
 ### Organizers
 
-- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
+- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University and JP Morgan AI Research)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
