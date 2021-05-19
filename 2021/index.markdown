@@ -25,8 +25,14 @@ The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/202
 #### **Zoom. Links will be provided [here](https://crypto.iacr.org/2021/affiliated.php).**
 
 
-### Invited Speakers
-To be announced.
+### (Confirmed) Invited Speakers
+
+- [Yuval Ishai](https://www.cs.technion.ac.il/~yuvali/) (Technion)
+- [Brendan McMahan](https://research.google/people/author35837/) (Google Research)
+- [Nicolas Papernot](https://www.papernot.fr) (University of Toronto)
+- [Vinod Vaikuntanathan](http://people.csail.mit.edu/vinodv/) (MIT)
+
+
 
 ### Call for Contributed Talks
 
