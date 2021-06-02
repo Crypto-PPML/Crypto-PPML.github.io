@@ -36,6 +36,8 @@ The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/202
 
 ### Call for Contributed Talks
 
+There will be a session of contributed talks. Since the conference is on zoom, the contributed talks will be shorter this year (10 minutes at most). 
+
 We encourage submissions exploring a range of techniques and applications for privacy preserving machine learning, including, but not limited to:
 
 - Multiparty computation
@@ -46,6 +48,8 @@ We encourage submissions exploring a range of techniques and applications for pr
 - Fairness and accountability
 - Federated Learning
 - Synthetic data generation
+
+
 
 
 **Submission site:** 
