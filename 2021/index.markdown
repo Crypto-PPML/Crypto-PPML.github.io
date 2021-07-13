@@ -75,10 +75,13 @@ The committee will follow COI standards according to the IACR policy. Contribute
 ### Contributed Talks Committee
 
 - [Adi Akavia](https://sites.google.com/view/akavia) (University of Haifa)
-- [Carsten Baum](http://carstenbaum.com) (Aarhus)
+- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
+- [Carsten Baum](http://carstenbaum.com) (Aarhus University)
 - [Elette Boyle](https://cs.idc.ac.il/~elette/) (IDC)
 - [Vipul Goyal](https://www.cs.cmu.edu/~goyal/) (CMU and NTT)
 - [Sahar Mazloom](http://mason.gmu.edu/~sseyedma/index.html) (JPM AI Research)
+- [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
+- [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 - [Gil Segev](https://www.gilsegev.net) (Hebrew University)
 
 
@@ -87,7 +90,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 
 ### Organizers
 
-- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University and JP Morgan AI Research)
+- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
