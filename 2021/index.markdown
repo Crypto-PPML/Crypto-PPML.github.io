@@ -79,6 +79,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Carsten Baum](http://carstenbaum.com) (Aarhus University)
 - [Elette Boyle](https://cs.idc.ac.il/~elette/) (IDC)
 - [Vipul Goyal](https://www.cs.cmu.edu/~goyal/) (CMU and NTT)
+- [Mohammad Mahmoody](https://www.cs.virginia.edu/~mohammad/) (University of Virginia (UVA))
 - [Sahar Mazloom](http://mason.gmu.edu/~sseyedma/index.html) (JPM AI Research)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
