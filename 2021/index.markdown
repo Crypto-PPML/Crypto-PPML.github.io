@@ -36,7 +36,7 @@ The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/202
 
 ### Call for Contributed Talks
 
-There will be a session of contributed talks. Since the conference is on zoom, the contributed talks will be shorter this year (10 minutes at most). 
+There will be a session of contributed talks. Since the conference is on zoom, the contributed talks will be shorter this year (10 minutes at most).
 
 We encourage submissions exploring a range of techniques and applications for privacy preserving machine learning, including, but not limited to:
 
@@ -52,20 +52,20 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 
 
-**Submission site:** 
+**Submission site:**
+The submission site is available [here](https://secure.iacr.org/websubrev/ppml2021/submit/)
+
+**Submission deadline:**
+Thursday, July 22nd, 2021, 11:59pm EST.
 
 
-**Submission deadline:** 
-Thursday, July 15th, 2021, 11:59pm EST. 
-
-
-**Notifications:** 
-Wednesday, July 28th, 2021.
+**Notifications:**
+Sunday, August 1st, 2021.
 
 
 
 Submissions must comply with the following rules:
-- We encourage submitting full papers. Abstracts can also be provided. 
+- We encourage submitting full papers. Abstracts can also be provided.
 - Submissions must be non-anonymous and must clearly specify which author will give the talk.
 - The submission should provide sufficient detail to explain what the talk will be about.
 - As the workshop does not have formal proceedings, we accept contributed talk proposals which correspond to papers that are under submission or already published elsewhere (parallel submissions are allowed).
@@ -73,6 +73,14 @@ Submissions must comply with the following rules:
 The committee will follow COI standards according to the IACR policy. Contributed Talks Committee members are allowed to submit as well.
 
 ### Contributed Talks Committee
+
+- [Adi Akavia](https://sites.google.com/view/akavia) (University of Haifa)
+- [Carsten Baum](http://carstenbaum.com) (Aarhus)
+- [Elette Boyle](https://cs.idc.ac.il/~elette/) (IDC)
+- [Vipul Goyal](https://www.cs.cmu.edu/~goyal/) (CMU and NTT)
+- [Sahar Mazloom](http://mason.gmu.edu/~sseyedma/index.html) (JPM AI Research)
+- [Gil Segev](https://www.gilsegev.net) (Hebrew University)
+
 
 
 
