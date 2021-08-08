@@ -45,6 +45,34 @@ The time displayed is in UTC.
 <p>&nbsp;</p>
 
 
+### Abstracts -- Invited Speakers
+
+#### **Yuval Ishai:** New Techniques for Efficient Secure Computation
+**Abstract:**
+The explosive growth of interest in privacy-preserving ML motivates new techniques for efficient secure computation. In this talk I will survey recent techniques that were developed in the context of general-purpose secure computation but can be particularly appealing for ML-related applications:
+
+- Using function secret sharing for fast secure computation of simple nonlinear functions in an offline-online setting. This applies in particular to ReLU and other popular activation functions;
+
+- Using pseudorandom correlation generators for "silent" secure generation of useful sources of correlated randomness, including random oblivious transfers and (authenticated) multiplication triples;
+
+- Using fully linear zero-knowledge proof systems for practical "semi-honest to malicious" compilers with sublinear additive communication overhead.
+
+
+#### **Adria Gascon, Peter Kairouz, Kallista (Kaylee) Bonawitz:** TBD
+**Abstract:**
+TBD
+
+
+#### **Vinod Vaikuntanathan:** TBD
+**Abstract:**
+TBD
+
+#### **Nicolas Papernot:**  What can we learn from cryptography to develop more trustworthy ML?
+
+**Abstract:**
+The attack surface of machine learning is large: training data can be poisoned, predictions manipulated using adversarial examples, models exploited to reveal sensitive information contained in training data, etc. This is in large parts due to the absence of security and privacy considerations in the design of ML algorithms. In this talk, we show that by drawing inspiration from ideas common in the crypto community, we can make principled progress towards more trustworthy ML. We will give examples including work on data privacy, model ownership, and integrity verification for the training algorithm.
+
+
 
 ### Call for Contributed Talks
 
