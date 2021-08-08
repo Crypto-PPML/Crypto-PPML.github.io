@@ -1,5 +1,5 @@
 {
-  "name": "PPML 2020",
+  "name": "CRYPTO-PPML 2021",
   "config": {
     "default_track_locations": [
       {
@@ -9,154 +9,127 @@
     "default_talk_minutes": 25,
     "unassigned_talks": [
       {
+        "name": "Invited Talks",
+        "talks": [],
+        "id": "category-1"
+      },
+      {
         "name": "Uncategorized",
         "talks": [],
         "id": "category-0"
       }
     ],
-    "uniqueIDIndex": 35
+    "uniqueIDIndex": 31,
+    "timezone": {
+      "name": "UTC",
+      "abbr": "UTC"
+    }
   },
   "days": [
     {
-      "date": "2020-08-16",
+      "date": "2021-08-15",
       "timeslots": [
         {
           "endtime": "14:50",
           "starttime": "14:00",
           "sessions": [
             {
-              "moderator": "Workshop General Chair",
-              "session_title": "Session I - Welcome and Invited Talk - Ramesh Raskar",
+              "session_title": "Welcome and Invited Talk",
               "id": "session-2",
               "talks": [
                 {
-                  "id": "talk-31",
-                  "title": "Opening Remarks",
+                  "id": "talk-11",
+                  "title": "New Techniques for Efficient Secure Computation",
                   "authors": [
-                    ""
+                    "Yuval Ishai"
                   ],
-                  "affiliations": ""
-                },
-                {
-                  "id": "talk-25",
-                  "title": "Split Learning: Benefits of API style distributed private machine learning among untrusted parties for low power or asynchronous training and inference ",
-                  "authors": [
-                    "Ramesh Raskar (MIT)"
-                  ],
-                  "affiliations": ""
+                  "affiliations": "Technion",
+                  "starttime": "14:00",
+                  "endtime": "14:50"
                 }
               ]
             }
           ]
         },
         {
+          "endtime": "15:40",
           "starttime": "14:50",
-          "endtime": "15:30",
-          "sessions": [
-            {
-              "id": "session-30",
-              "session_title": "Session II - Contributed Talks",
-              "talks": [
-                {
-                  "affiliations": "Microsoft Research India; Microsoft Research India; Microsoft Research India; Microsoft Research India; Microsoft Research India; Microsoft Research India; Microsoft Research India",
-                  "abstract": "We present CrypTFlow2, a cryptographic library for secure inference over realistic Deep Neural Networks (DNNs) using secure 2-party computation. CrypTFlow2 protocols are both correct -- i.e., their outputs are bitwise equivalent to the cleartext execution -- and efficient -- they outperform the state-of-the-art protocols in both latency and scale. At the core of CrypTFlow2, we have new 2PC protocols for secure comparison and division, designed carefully to balance round and communication complexity for secure inference tasks. Using CrypTFlow2, we present the first secure inference over ImageNet-scale DNNs like ResNet50 and DenseNet121. These DNNs are at least an order of magnitude larger than those considered in the prior work of 2-party DNN inference. Even on the benchmarks considered by prior work, CrypTFlow2 requires an order of magnitude less communication and 20X-30X less time than the state-of-the-art.",
-                  "title": "CrypTFlow2: Practical 2-Party Secure Inference",
-                  "authors": [
-                    "Deevashwer Rathee",
-                    "Mayank Rathee",
-                    "Nishant Kumar",
-                    "Nishanth Chandran",
-                    "Divya Gupta",
-                    "Aseem Rastogi",
-                    "Rahul Sharma"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-17"
-                },
-                {
-                  "affiliations": "Tel Aviv University; Bar Ilan University; Bar Ilan University; Aarhus University; IISc Bangalore; Bar Ilan University",
-                  "abstract": "We present a framework that allows to certify the fairness degree of a model based on an interactive and privacy-preserving test. The framework verifies any trained model, regardless of its training process and architecture. Thus, it allows us to evaluate any deep learning model on multiple fairness definitions empirically. We tackle two scenarios, where either the test data is privately available only to the tester or is publicly known in advance, even to the model creator. We investigate the soundness of the proposed approach using theoretical analysis and present statistical guarantees for the interactive test. Finally, we provide a cryptographic technique to automate fairness testing and certified inference with only black-box access to the model at hand while hiding the participants' sensitive data.",
-                  "title": "Fairness in the Eyes of the Data: Certifying Machine-Learning Models",
-                  "authors": [
-                    "Shahar Segal",
-                    "Yossi Adi",
-                    "Benny Pinkas",
-                    "Carsten Baum",
-                    "Chaya Ganesh",
-                    "Joseph Keshet"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-12"
-                },
-                {
-                  "affiliations": "The Hebrew University of Jerusalem; The Hebrew University of Jerusalem; The Hebrew University of Jerusalem; The Hebrew University of Jerusalem",
-                  "abstract": "As neural networks revolutionize many applications, significant privacy conflicts between model users and providers emerge. The cryptography community developed a variety of techniques for secure computation to address such privacy issues. As generic techniques for secure computation are typically prohibitively ineffective, many efforts focus on optimizing their underlying cryptographic tools. Differently, we propose to optimize the initial design of crypto-oriented neural architectures and provide a novel Partial Activation layer. The proposed layer is much faster for secure computation. Evaluating our method on three state-of-the-art architectures (SqueezeNet, ShuffleNetV2, and MobileNetV2) demonstrates significant improvement to the efficiency of secure inference on common evaluation metrics.",
-                  "title": "Crypto-Oriented Neural Architecture Design",
-                  "authors": [
-                    "Avital Shafran",
-                    "Gil Segev",
-                    "Shmuel Peleg",
-                    "Yedid Hoshen"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-18"
-                },
-                {
-                  "affiliations": "University of Haifa, Israel; University of Haifa, Israel; Intuit Inc., Israel; Intuit Inc., Israel; Facebook  Inc., Israel; Tel-Aviv University and Intuit Inc., Israel",
-                  "abstract": "In the era of cloud computing and machine learning, data has become a highly valuable resource. Recent history has shown that the benefits brought forth by this data driven culture come at a cost of potential data leakage. Such breaches have a devastating impact on individuals and industry, and lead the community to seek privacy preserving solutions. \\n\\t%\\n\\tA promising approach is to utilize Fully Homomorphic Encryption ($\\\\FHE$) to enable machine learning over encrypted data, thus providing resiliency against information leakage. However, computing over encrypted data incurs a high computational overhead, thus requiring the redesign of algorithms, in an ``$\\\\FHE$-friendly\" manner, to maintain their practicality.   \\n\\t\\n\\tIn this work we focus on the ever-popular tree based methods (e.g., boosting, random forests), and propose a new privacy-preserving solution to training and prediction for trees. Our solution employs a low-degree approximation for the step-function together with a lightweight interactive protocol, to replace components of the vanilla algorithm that are costly over encrypted data. Our protocols for decision trees achieve practical usability demonstrated on standard UCI datasets, encrypted with fully homomorphic encryption. In addition, the communication complexity of our protocols is independent of the tree size and dataset size in prediction and training, respectively, which significantly improves on prior works.",
-                  "title": "Privacy-Preserving Decision Tree Training and Prediction",
-                  "authors": [
-                    "Adi Akavia",
-                    "Max Leibovich",
-                    "Yehezkel S. Resheff",
-                    "Roey Ron",
-                    "Moni Shahar",
-                    "Margarita Vald"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-11"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "endtime": "16:00",
-          "starttime": "15:30",
-          "sessions": [
-            {
-              "session_title": "Break",
-              "id": "session-4"
-            }
-          ]
-        },
-        {
-          "endtime": "17:30",
-          "starttime": "16:00",
           "sessions": [
             {
               "moderator": "Chair: TBD",
-              "session_title": "Session III - Invited Talks - Ilya Mironov and Shafi Goldwasser",
+              "session_title": "Contributed Talks",
               "talks": [
                 {
-                  "id": "talk-22",
-                  "title": "Crypto and ML: Just getting started",
+                  "paperId": 103,
+                  "title": "Secure Quantized Training for Deep Learning",
+                  "affiliations": "CSIRO's Data61",
+                  "abstract": "We have implemented training of neural networks in secure multi-party\r\ncomputation (MPC) using quantization commonly used in the said\r\nsetting. To the best of our knowledge, we are the first to present an\r\nMNIST classifier purely trained in MPC that comes within 0.2 percent\r\nof the accuracy of the same convolutional neural network trained via\r\nplaintext computation. More concretely, we have trained a network with\r\ntwo convolution and two dense layers to 99.2% accuracy in 25\r\nepochs. This took 3.5 hours in our MPC implementation (under one hour\r\nfor 99% accuracy).\r\n\r\nThe talk would be given by Marcel.",
                   "authors": [
-                    "Ilya Mironov (Facebook AI)"
+                    "Marcel Keller",
+                    "Ke Sun"
                   ],
-                  "affiliations": "",
-                  "starttime": "16:00",
-                  "endtime": "16:45"
+                  "category": "Uncategorized",
+                  "id": "talk-23"
                 },
                 {
-                  "id": "talk-24",
-                  "title": "Trustworthy ML: Etudes in Robustness and Privacy",
+                  "paperId": 112,
+                  "title": "ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation with Applications to Privacy Preserving Machine Learning",
+                  "affiliations": "Indian Institute of Science; TU Darmstadt",
+                  "abstract": "Secure Multi-party Computation (MPC) allows a set of mutually distrusting parties to jointly evaluate a function on their private inputs while maintaining input privacy. In this work, we improve semi-honest secure two-party computation (2PC) over rings, with a focus on the efficiency of the online phase. We propose an efficient mixed-protocol framework by extending our techniques to multi-input multiplication gates without inflating the online communication, i.e., it remains independent of the fan-in. Along the way, we construct efficient protocols for several PPML primitives such as scalar product, matrix multiplication, comparison, and maxpool. The  online communication of our scalar product is two ring elements irrespective of the vector dimension, which is a feature achieved for the first time in the Privacy-preserving Machine Learning (PPML) literature.\r\n\r\nThe practicality of our new set of protocols is showcased with Biometric Matching and Privacy-preserving Machine Learning (PPML). Most notably, for PPML, we implement and benchmark training and inference of Logistic Regression and Neural Networks over LAN and WAN networks. For training, we improve online runtime (both for LAN and WAN) over SecureML (Mohassel et al., IEEE S\\&P'17) in the range 1.5x--6.1x, while for inference, the improvements are in the range of 2.5x--754.3x.",
                   "authors": [
-                    "Shafi Goldwasser (UC Berkeley)"
+                    "Arpita Patra",
+                    "Thomas Schneider",
+                    "Ajith Suresh",
+                    "Hossein Yalame"
                   ],
-                  "affiliations": "",
-                  "starttime": "16:45",
-                  "endtime": "17:30"
+                  "category": "Uncategorized",
+                  "id": "talk-27"
+                },
+                {
+                  "paperId": 106,
+                  "title": "SIRNN: A Math Library for Secure RNN Inference",
+                  "affiliations": "Microsoft Research, UC Berkeley; Microsoft Research",
+                  "abstract": "Complex machine learning (ML) inference algorithms like recurrent neural networks (RNNs) use standard functions from math libraries like exponentiation, sigmoid, tanh, and reciprocal of square root. Although prior work on secure 2-party inference provides specialized protocols for convolutional neural networks (CNNs), existing secure implementations of these math operators rely on generic 2-party computation (2PC) protocols that suffer from high communication.\r\nWe provide new specialized 2PC protocols for math functions that crucially rely on lookup-tables and mixed-bitwidths to address this performance overhead; our protocols for math functions communicate up to 423x less data than prior work.\r\nFurthermore, our math implementations are numerically precise, which ensures that the secure implementations preserve model accuracy of cleartext. \r\nWe build on top of our novel protocols to build SIRNN, a library for end-to-end secure 2-party DNN inference, that provides the first secure implementations of an RNN operating on time series sensor data, an RNN operating on speech data, and a state-of-the-art ML architecture that combines CNNs and RNNs for identifying all heads present in images. Our evaluation\r\nshows that SIRNN achieves up to three orders of magnitude of performance improvement when compared to inference of these models using an existing state-of-the-art 2PC framework.",
+                  "authors": [
+                    "Deevashwer Rathee",
+                    "Mayank Rathee",
+                    "Rahul Kranti Kiran Goli",
+                    "Divya Gupta",
+                    "Rahul Sharma",
+                    "Nishanth Chandran",
+                    "Aseem Rastogi"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-25"
+                },
+                {
+                  "paperId": 109,
+                  "title": "Differential Privacy for Text Analytics via Natural Text Sanitization",
+                  "affiliations": "The Ohio State University; The Chinese University of Hong Kong; Carnegie Mellon University; Alibaba Group",
+                  "abstract": "Texts convey sophisticated knowledge. However, texts also convey sensitive information. Despite the success of general-purpose language models and domain-specific mechanisms with differential privacy (DP), existing text sanitization mechanisms still provide low utility, as cursed by the high-dimensional text representation. The companion issue of utilizing sanitized texts for downstream analytics is also under-explored. This paper takes a direct approach to text sanitization. Our insight is to consider both sensitivity and similarity via our new local DP notion. The sanitized texts also contribute to our sanitization-aware pretraining and fine-tuning, enabling privacy-preserving natural language processing over the BERT language model with promising utility. Surprisingly, the high utility does not boost up the success rate of inference attacks.\r\n\r\nSherman Chow will be presenting.",
+                  "authors": [
+                    "Xiang Yue",
+                    "Minxin Du",
+                    "Tianhao Wang",
+                    "Yaliang Li",
+                    "Huan Sun",
+                    "Sherman S. M. Chow"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-26"
+                },
+                {
+                  "paperId": 102,
+                  "title": "Fighting COVID-19 in the Dark: End-to-End Methodology for Improved Inference Using Homomorphically Encrypted DNN",
+                  "affiliations": "IBM Research, Bar Ilan University; IBM Research",
+                  "abstract": "The ability to run deep neural networks (DNN) while adhering to privacy regulations in untrusted cloud environments is becoming quite critical for various industries such as healthcare, finance, and retail. One interesting approach for secure prediction is Homomorphic Encryption (HE), which enables secure predictions over encrypted data. \r\nHowever, HE comes with a significant computation and communication overhead that limits its adoption in practical applications.\r\n  \r\nIn this paper we consider the CKKS HE scheme because of its efficiency in arithmetic computations. Running AI applications over this scheme is a prolific field of research, and this work leverages recent advancements in usability and speed.\r\nBecause CKKS supports only addition and multiplication,  implementing non-polynomial operators such as ReLU is challenging.\r\nAs a result, transforming a DNN to a CKKS-compatible model that can run over this scheme with minimal accuracy degradation is not a trivial task.\r\n \r\n\r\nIn this work we present a structured methodology to train an efficient CKKS-compatible model based on a pretrained model, with minimal degradation in accuracy, using new techniques for this task such as trainable activation functions and Knowledge Distillation. \r\nIn this work we present a structured methodology to train an efficient CKKS-compatible model based on a pretrained model, with minimal degradation in accuracy, using new techniques for this task such as trainable activation functions and Knowledge Distillation. \r\n As a case study, we chose the task of detecting COVID-19 in both chest X-ray and CT datasets as well as the classical CIFAR10. We evaluated the proposed methodology on AlexNet and Resnet18 by showing trade-offs between efficiency and accuracy of the generated models.",
+                  "authors": [
+                    "Moran Baruch",
+                    "Lev Greenberg",
+                    "Guy Moshowich"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-22"
                 }
               ],
               "id": "session-8"
@@ -164,160 +137,177 @@
           ]
         },
         {
-          "starttime": "17:30",
+          "endtime": "16:00",
+          "starttime": "15:40",
+          "sessions": [
+            {
+              "session_title": "Break",
+              "id": "session-1"
+            }
+          ]
+        },
+        {
+          "endtime": "17:40",
+          "starttime": "16:00",
+          "sessions": [
+            {
+              "session_title": "Invited Talks",
+              "talks": [
+                {
+                  "id": "talk-15",
+                  "title": "TBD",
+                  "authors": [
+                    "Adria Gascon, Peter Kairouz, Kallista (Kaylee) Bonawitz"
+                  ],
+                  "affiliations": "Google"
+                },
+                {
+                  "id": "talk-14",
+                  "title": "TBD",
+                  "authors": [
+                    "Vinod Vaikuntanathan"
+                  ],
+                  "affiliations": "MIT"
+                }
+              ],
+              "id": "session-10"
+            }
+          ]
+        },
+        {
+          "starttime": "17:40",
           "endtime": "18:00",
           "sessions": [
             {
-              "id": "session-26",
+              "id": "session-17",
               "session_title": "Break"
             }
           ]
         },
         {
           "starttime": "18:00",
-          "endtime": "18:45",
+          "endtime": "18:50",
           "sessions": [
             {
-              "id": "session-27",
-              "session_title": "Session IV - Invited Talk - Mohammad Mahmoody",
+              "id": "session-18",
+              "session_title": "Invited Talk",
               "talks": [
                 {
-                  "id": "talk-23",
-                  "title": "Connections between cryptographic coin flipping and adversarially robust learning",
+                  "id": "talk-13",
+                  "title": "What can we learn from cryptography to develop more trustworthy ML? ",
                   "authors": [
-                    "Mohammad Mahmoody (University of Virginia)"
+                    "Nicolas Papernot"
                   ],
-                  "affiliations": "",
-                  "starttime": "18:00",
-                  "endtime": "18:45"
+                  "affiliations": "University of Toronto"
                 }
               ]
             }
           ]
         },
         {
-          "starttime": "18:45",
-          "endtime": "19:25",
+          "starttime": "18:50",
+          "endtime": "19:00",
           "sessions": [
             {
-              "id": "session-28",
-              "session_title": "Session V - Contributed Talks",
-              "talks": [
-                {
-                  "affiliations": "Intel AI; Intel Labs; University of Hamburg; TU Darmstadt; TU Darmstadt",
-                  "abstract": "Privacy-preserving machine learning (PPML) has many applications,\\nfrom medical image classification and anomaly detection to\\nfinancial analysis. nGraph-HE enables data scientists to perform\\nprivate inference of deep learning (DL) models trained using popular\\nframeworks such as TensorFlow. nGraph-HE computes linear\\nlayers using the CKKS homomorphic encryption (HE) scheme. The\\nnon-polynomial activation functions, such as MaxPool and ReLU,\\nare evaluated in the clear by the data owner who obtains the intermediate\\nfeature maps. This leaks the feature maps to the data owner\\nfrom which it may be possible to deduce the DL model weights.\\nAs a result, such protocols may not be suitable for deployment,\\nespecially when the DL model is intellectual property.\\nIn this work, we present MP2ML, a machine learning framework\\nwhich integrates nGraph-HE and the secure two-party computation\\nframework ABY, to overcome the limitations of leaking the\\nintermediate feature maps to the data owner. We introduce a novel\\nscheme for the conversion between CKKS and secure multi-party\\ncomputation to execute DL inference while maintaining the privacy\\nof both the input data and model weights. MP2ML is compatible\\nwith popular DL frameworks such as TensorFlow that can infer pretrained\\nneural networks with native ReLU activations. We benchmark\\nMP2ML on the CryptoNets network with ReLU activations,\\non which it achieves a throughput of 33.3 images/s and an accuracy\\nof 98.6%. This throughput matches the previous state-of-the-art\\nwork, even though our protocol is more accurate and scalable.",
-                  "title": "MP2ML: A Mixed-Protocol Machine Learning Framework for Private Inference",
-                  "authors": [
-                    "Fabian Boemer",
-                    "Rosario Cammarota",
-                    "Daniel Demmler",
-                    "Thomas Schneider",
-                    "Hossein Yalame"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-16"
-                },
-                {
-                  "affiliations": "TU Darmstadt; TU Darmstadt; TU Darmstadt; TU Darmstadt; TU Darmstadt",
-                  "abstract": "The ubiquitous deployment of machine learning (ML) technologies has certainly improved many applications but also raised challenging privacy concerns, as sensitive client data is usually processed remotely at the discretion of a service provider. Therefore, privacy-preserving machine learning (PPML) aims at providing privacy using techniques such as secure multi-party computation (SMPC).\\n\\nRecent years have seen a rapid influx of cryptographic frameworks that steadily improve performance as well as usability, pushing PPML towards practice. However, as it is mainly driven by the crypto community, the PPML toolkit so far is mostly restricted to well-known neural networks. Unfortunately, deep probabilistic models rising in the ML community that can deal with a wide range of probabilistic queries and offer tractability guarantees are severely underrepresented. Due to a lack of interdisciplinary collaboration, PPML is missing such important trends, ultimately hindering the adoption of privacy technology.\\n\\nIn this work, we significantly expand the PPML toolkit beyond neural networks by introducing CryptoSPN, a framework for privacy-preserving inference of sum-product networks (SPNs). SPNs are deep probabilistic models at the sweet-spot between expressivity and tractability, allowing for a range of exact queries in linear time. In an interdisciplinary effort, we combine techniques from both ML and cryptography to allow for efficient, privacy-preserving SPN inference via SMPC.\\n\\nWe provide CryptoSPN as open source and seamlessly integrate it into the SPFlow library (Molina et al., arXiv 2019) for practical use by ML experts. Our evaluation on a broad range of SPNs demonstrates that CryptoSPN achieves highly efficient and accurate inference within seconds for medium-sized SPNs.",
-                  "title": "CryptoSPN: Expanding PPML beyond Neural Networks",
-                  "authors": [
-                    "Amos Treiber",
-                    "Alejandro Molina",
-                    "Christian Weinert",
-                    "Thomas Schneider",
-                    "Kristian Kersting"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-13"
-                },
-                {
-                  "affiliations": "Tsinghua University; Carnegie Mellon University; Carnegie Mellon University; University of California, Los Angeles; J.P. Morgan AI Research; Carnegie Mellon University",
-                  "abstract": "In this work, we introduce ACCO: a secure computation engine for securely computing algebraic circuits that also natively support gates for secure comparison and secure integer truncation. We use ACCO to build an information theoretic privacy preserving machine learning system where a set of parties collaboratively train regression models in the presence of a malicious adversary. We report an implementation of our system and compare the performance against Helen, the work of Zheng, Popa, Gonzalez and Stoica (SP’19). Our system offers a 73x speedup (for the million song dataset with 90 features) over Helen.",
-                  "title": "ACCO: Algebraic Computation with COmparison",
-                  "authors": [
-                    "Xiaoqi Duan",
-                    "Vipul Goyal",
-                    "Hanjun Li",
-                    "Rafail Ostrovsky",
-                    "Antigoni Polychroniadou",
-                    "Yifan Song"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-15"
-                },
-                {
-                  "affiliations": "Cornell University; Tel Aviv University, Cornell Tech; Cornell Tech",
-                  "abstract": "Components of machine learning systems are not (yet) perceived as security hotspots. Secure coding practices, such as ensuring that no execution paths depend on confidential inputs, have not yet been adopted by ML developers. We initiate the study of code security of ML systems by investigating how nucleus sampling---a popular approach for generating text, used for applications such as auto-completion---unwittingly leaks texts typed by users. Our main result is that the series of nucleus sizes for many natural English word sequences is a unique fingerprint. We then show how an attacker can infer typed text by measuring these fingerprints via a suitable side channel (e.g., cache access times), explain how this attack could help de-anonymize anonymous texts, and discuss defenses.",
-                  "title": "De-Anonymizing Text by Fingerprinting Language Generation",
-                  "authors": [
-                    "Zhen Sun",
-                    "Roei Schuster",
-                    "Vitaly Shmatikov"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-20"
-                }
-              ]
-            }
-          ],
-          "twosessions": false
-        },
-        {
-          "starttime": "19:25",
-          "endtime": "19:40",
-          "sessions": [
-            {
-              "id": "session-29",
+              "id": "session-19",
               "session_title": "Break"
             }
           ]
         },
         {
-          "starttime": "19:40",
-          "endtime": "20:10",
+          "starttime": "19:00",
+          "endtime": "20:00",
           "sessions": [
             {
-              "id": "session-34",
-              "session_title": "Session VI - Contributed Talks",
+              "id": "session-20",
+              "session_title": "Contributed Talks",
               "talks": [
                 {
-                  "affiliations": "UC Berkeley; UC Berkeley; UC Berkeley; UC Berkeley; UC Berkeley",
-                  "abstract": "Many companies provide neural network prediction services to users for a wide range of applications. However, current prediction systems compromise one party's privacy: either the user has to send sensitive inputs to the service provider for classification, or the service provider must store its proprietary neural networks on the user's device. The former harms the personal privacy of the user, while the latter reveals the service provider's proprietary model.\\n\\nWe design, implement, and evaluate Delphi, a secure prediction system that allows two parties to execute neural network inference without revealing either party's data. Delphi approaches the problem by simultaneously co-designing cryptography and machine learning. We first design a hybrid cryptographic protocol that improves upon the communication and computation costs over prior work. Second, we develop a planner that automatically generates neural network architecture configurations that navigate the performance-accuracy trade-offs of our hybrid protocol. Together, these techniques allow us to achieve a 22x improvement in online prediction latency compared to the state-of-the-art prior work.",
-                  "title": "Delphi: Cryptographic Inference for Neural Networks",
+                  "paperId": 117,
+                  "title": "NeuraCrypt is not private",
+                  "affiliations": "Google; UC Berkeley and NTT Research; University of Wisconsin; Princeton University; University of Virginia; Stanford University and Google",
+                  "abstract": "NeuraCrypt (Yara et al. arXiv 2021) is an algorithm that converts a sensitive dataset to\r\nan encoded dataset so that\r\n(1) it is still possible to train machine learning models on\r\nthe encoded data, but\r\n(2) an adversary who has access only to the encoded dataset can\r\nnot learn much about the original sensitive dataset.\r\nWe break NeuraCrypt's privacy claims, by perfectly solving the authors' public challenge, and by showing that NeuraCrypt does not satisfy\r\nthe formal privacy definitions posed in the original paper.\r\nOur attack consists of a series of boosting steps that,\r\ncoupled with various design flaws,\r\nturns a 1% attack advantage into a 100% complete break of the scheme.",
                   "authors": [
-                    "Pratyush Mishra",
+                    "Nicholas Carlini",
+                    "Sanjam Garg",
+                    "Somesh Jha",
+                    "Saeed Mahloujifar",
+                    "Mohammad Mahmoody",
+                    "Florian Tramer"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-31"
+                },
+                {
+                  "paperId": 114,
+                  "title": "Secure Poisson Regression",
+                  "affiliations": "Cornell Tech, Cornell University; George Mason University; Google",
+                  "abstract": "We introduce the first construction for secure two-party computation of Poisson regression, which enables two parties who hold shares of the input samples to learn only the resulting Poisson model while protecting the privacy of the inputs.\r\n\r\nOur construction relies on new protocols for secure fixed-point exponentiation and correlated matrix multiplications. Our secure exponentiation construction avoids expensive bit decomposition and achieves orders of magnitude improvement in both online and offline costs over state of the art works. As a result, the dominant cost for our secure Poisson regression are matrix multiplications with one fixed matrix. We introduce a new technique, called correlated Beaver triples, which enables many such multiplications at the cost of roughly one matrix multiplication. This further brings down the cost of secure Poisson regression.\r\n\r\nWe implement our constructions and show their extreme efficiency. Our secure exponentiation for 20-bit fractional precision takes less than 0.07ms. One iteration of Poisson regression on a dataset with 10,000 samples with 1000 binary features, requires 9.91s offline time, 23.73s online computation and 7.28MB communication. For several real datasets this translates into training that takes seconds and only a couple of MB communication.",
+                  "authors": [
+                    "Mahimna Kelkar",
+                    "Phi Hung Le",
+                    "Mariana Raykova",
+                    "Karn Seth"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-28"
+                },
+                {
+                  "paperId": 104,
+                  "title": "MUSE: Secure Inference Resilient to Malicious Clients",
+                  "affiliations": "UC Berkeley; Tata Institute of Fundamental Research",
+                  "abstract": "The increasing adoption of machine learning inference in applications has led to a corresponding increase in concerns surrounding the privacy guarantees offered by existing mechanisms for inference. Such concerns have motivated the construction of efficient secure inference protocols that allow parties to perform inference without revealing their sensitive information. Recently, there has been a proliferation of such proposals, rapidly improving efficiency. However, most of these protocols assume that the client is semi-honest, that is, the client does not deviate from the protocol; yet in practice, clients are many, have varying incentives, and can behave arbitrarily.\r\n\r\nTo demonstrate that a malicious client can completely break the security of semi-honest protocols, we first develop a new model-extraction attack against many state-of-the-art secure inference protocols. Our attack enables a malicious client to learn model weights with 22×-312× fewer queries than the best black-box model-extraction attack and scales to much deeper networks.\r\n\r\nMotivated by the severity of our attack, we design and implement MUSE, an efficient two-party secure inference protocol resilient to malicious clients. MUSE introduces a novel cryptographic protocol for conditional disclosure of secrets to switch between authenticated additive secret shares and garbled circuit labels, and an improved Beaver's triple generation procedure which is 8×-12.5× faster than existing techniques.\r\n\r\nThese protocols allow MUSE to push a majority of its cryptographic overhead into a preprocessing phase: compared to the equivalent semi-honest protocol (which is close to state-of-the-art), MUSE's online phase is only 1.7×-2.2× slower and uses 1.4× more communication. Overall, MUSE is 13.4×-21× faster and uses 2×-3.6× less communication than existing secure inference protocols which defend against malicious clients.",
+                  "authors": [
                     "Ryan Lehmkuhl",
+                    "Pratyush Mishra",
                     "Akshayaram Srinivasan",
-                    "Wenting Zheng",
                     "Raluca Ada Popa"
                   ],
                   "category": "Uncategorized",
-                  "id": "talk-14"
+                  "id": "talk-24"
                 },
                 {
-                  "affiliations": "UT Austin; Cornell",
-                  "abstract": "As secure processors such as Intel SGX (with hyperthreading) become widely adopted, there is a growing appetite for private analytics on big data. Most prior works on data-oblivious algorithms adopt the classical PRAM model to capture parallelism. However, it is widely understood that PRAM does not best capture realistic multicore processors, nor does it reflect parallel programming models adopted in practice.\\n\\nIn this paper, we initiate the study of parallel data oblivious algorithms on realistic multicores, best captured by the binary fork-join model of computation. We first show that data-oblivious sorting can be accomplished by a binary fork-join algorithm with optimal total work and optimal (cache-oblivious) cache complexity, and in O(log n log log n) span (i.e., parallel\\ntime) that matches the best-known insecure algorithm. Using our sorting algorithm as a core primitive, we show how to data-obliviously simulate general PRAM algorithms in the binary fork-join model with non-trivial efficiency. We also present results for several applications including list ranking, Euler tour, tree contraction, connected components, and minimum spanning forest. For a subset of these applications, our data-oblivious algorithms asymptotically\\noutperform the best known insecure algorithms. For other applications, we show data oblivious algorithms whose performance bounds match the best known insecure algorithms. \\n\\nComplementing these asymptotically efficient results, we present a practical variant of our sorting algorithm that is self-contained and potentially implementable. It has optimal caching cost, and it is only a log log n factor off from optimal work and about a log n factor off in terms of span; moreover, it achieves small constant factors in its bounds.",
-                  "title": "Data Oblivious Algorithms for Multicores",
+                  "paperId": 101,
+                  "title": "Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning",
+                  "affiliations": "CMU; MIT; UC Berkeley; NYU",
+                  "abstract": "Many organizations need large amounts of high-quality data for their applications, and one way to acquire such data is via combining datasets from multiple parties. Since these organizations often own sensitive data that cannot be shared in the clear with others due to policy regulation and business competition, there is increased interest in utilizing secure multi-party computation (MPC). MPC allows multiple parties to jointly compute a function without revealing their inputs to each other.\r\n\r\nWe present Cerebro, an end-to-end collaborative learning platform that enables parties to compute learning tasks without sharing plaintext data. By taking an end-to-end approach to the system design, Cerebro allows multiple parties with complex economic relationships to safely collaborate on machine learning computation through the use of release policies and auditing, while also enabling users to achieve good performance without manually navigating the complex performance tradeoffs between MPC protocols.\r\n\r\n********************\r\n\r\nThe paper will appear in USENIX Security 2021. \r\n\r\nThe talk contributed to PPML 2021 will focus on some under-explored research questions in secure multiparty computation, such as (1) efficient auditing via commitments of input, (2) the need for MPC in asymmetric network conditions, and (3) achieving efficiency for concrete learning tasks.",
                   "authors": [
-                    "Vijaya Ramachandran",
-                    "Elaine Shi"
-                  ],
-                  "category": "Uncategorized",
-                  "id": "talk-19"
-                },
-                {
-                  "affiliations": "Tel Aviv University, Cornell Tech; CSAIL / MIT; ; Cornell Tech",
-                  "abstract": "Word embeddings, i.e., low-dimensional vector representations such as GloVe and SGNS, encode word “meaning” in the sense that distances between words’ vectors correspond to their semantic proximity. This enables transfer learning of semantics for a variety of natural language processing tasks. Word embeddings are typically trained on large public corpora such as Wikipedia or Twitter. We demonstrate that an attacker who can modify the corpus on which the embedding is trained can control the “meaning” of new and existing words by changing their locations in the embedding space. We develop an explicit expression over corpus features that serves as a proxy for distance between words and establish a causative relationship between its values and embedding distances. We then show how to use this relationship for two adversarial objectives: (1) make a word a top-ranked neighbor of another word, and (2) move a word from one semantic cluster to another.\\nAn attack on the embedding can affect diverse downstream tasks, demonstrating for the first time the power of data poisoning in transfer learning scenarios. We use this attack to manipulate query expansion in information retrieval systems such as resume search, make certain names more or less visible to named entity recognition models, and cause new words to be translated to a particular target word regardless of the language. Finally, we show how the attacker can generate linguistically likely corpus modifications, thus fooling defenses that attempt to filter implausible sentences from the corpus using a language model.",
-                  "title": "Humpty Dumpty: Controlling Word Meanings via Corpus Poisoning",
-                  "authors": [
-                    "Roei Schuster",
-                    "Tal Schuster",
-                    "Yoav Meri",
-                    "Vitaly Shmatikov"
+                    "Wenting Zheng",
+                    "Ryan Deng",
+                    "Weikeng Chen",
+                    "Raluca Ada Popa",
+                    "Aurojit Panda",
+                    "Ion Stoica"
                   ],
                   "category": "Uncategorized",
                   "id": "talk-21"
+                },
+                {
+                  "paperId": 116,
+                  "title": "Privacy-preserving machine learning for support vector machines",
+                  "affiliations": "Universidad Nacional de Colombia; Aarhus University",
+                  "abstract": "The recent availability of data and the increase of computational power makes machine learning an attractive tool for scientists and engineers. \r\nHowever, the increasing amount of available information demands security measures for protecting for sensitive data. To achieve this goal, multi-party computation techniques can be used, which enable a group of parties to jointly compute a given function while keeping the information provided by each party hidden. In this work, we study how to use multi-party computation in order to train support vector machines from both a theoretical and a practical perspective, including a complexity analysis of different algorithms that can be used for this goal, together with a full-fledged implementation in the MP-SPDZ framework for MPC.\r\n\r\nOur results show that multi-party computation is a viable solution for the task of training SVMs securely, obtaining considerable efficiency and little-to-none degradation of accuracy with respect to a cleartext implementation, although different considerations like dataset dimension and network quality must be taken into account for the applicability of these techniques in different contexts. In this work we discuss these considerations, along with some other practicalities necessary for the applicability of these techniques in realistic scenarios.",
+                  "authors": [
+                    "Daniel Cabarcas",
+                    "Hernán D. Vanegas",
+                    "Daniel E. Escudero"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-30"
+                },
+                {
+                  "paperId": 115,
+                  "title": "Improved Multi-Party Fixed-Point Multiplication",
+                  "affiliations": "Visa Research; Northeastern University; University of Illinois at Chicago",
+                  "abstract": "Machine learning is widely used for a range of applications and is increasingly offered as a service by major technology companies. However, the required massive data collection raises privacy concerns during both training and inference. Privacy-preserving machine learning aims to solve this problem. In this setting, a collection of servers secret share their data and use secure multi-party computation to train and evaluate models on the joint data. All prior work focussed on the scenario where the number of servers is two or three. In this work, we study the problem where there are N >= 3 servers amongst whom the data is secret shared. \r\n\r\nA key component of machine learning algorithms is to perform fixed-point multiplication with truncation of secret shared decimal values. In this work, we design new protocols for multi-party secure fixed-point multiplication where each of the N parties have one share each of the two values to be multiplied and receive one share of the product at the end of the protocol. We consider three forms of secret sharing - replicated, Shamir, and additive, and design an efficient protocol secure in the presence of a semi-honest adversary for each of the forms. Our protocols are more communication efficient than all prior work on performing multi-party fixed-point multiplication. Additionally, for replicated secret sharing, we design another efficient protocol that is secure in the presence of a malicious adversary. Finally, we leverage our fixed-point multiplication protocols to design secure multi-party computation (MPC) protocols for arbitrary arithmetic circuits that have addition and fixed-point multiplication with truncation gates. All our protocols are proven secure using a standard simulation based security definition. Our protocols for replicated and Shamir sharing work in the presence of an honest majority of parties while the one for additive sharing can tolerate a dishonest majority as well.",
+                  "authors": [
+                    "Saikrishna Badrinarayanan",
+                    "Eysa Lee",
+                    "Peihan Miao",
+                    "Peter Rindal"
+                  ],
+                  "category": "Uncategorized",
+                  "id": "talk-29"
                 }
               ]
             }
@@ -326,5 +316,5 @@
       ]
     }
   ],
-  "database_id": "327"
+  "database_id": "440"
 }
