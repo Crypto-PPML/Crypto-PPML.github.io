@@ -88,9 +88,10 @@ The attack surface of machine learning is large: training data can be poisoned, 
 #### Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning
 
 Wenting Zheng; Ryan Deng; Weikeng Chen; Raluca Ada Popa; Aurojit Panda; Ion Stoica
+
 CMU; MIT; UC Berkeley; UC Berkeley; NYU; UC Berkeley
 
-Abstract:
+**Abstract:**
 Many organizations need large amounts of high-quality data for their applications, and one way to acquire such data is via combining datasets from multiple parties. Since these organizations often own sensitive data that cannot be shared in the clear with others due to policy regulation and business competition, there is increased interest in utilizing secure multi-party computation (MPC). MPC allows multiple parties to jointly compute a function without revealing their inputs to each other.
 
 We present Cerebro, an end-to-end collaborative learning platform that enables parties to compute learning tasks without sharing plaintext data. By taking an end-to-end approach to the system design, Cerebro allows multiple parties with complex economic relationships to safely collaborate on machine learning computation through the use of release policies and auditing, while also enabling users to achieve good performance without manually navigating the complex performance tradeoffs between MPC protocols.
@@ -102,7 +103,7 @@ Moran Baruch; Lev Greenberg; Guy Moshowich
 
 IBM Research, Bar Ilan University; IBM Research; IBM Research
 
-Abstract:
+**Abstract:**
 The ability to run deep neural networks (DNN) while adhering to privacy regulations in untrusted cloud environments is becoming quite critical for various industries such as healthcare, finance, and retail. One interesting approach for secure prediction is Homomorphic Encryption (HE), which enables secure predictions over encrypted data.
 However, HE comes with a significant computation and communication overhead that limits its adoption in practical applications.
 
@@ -121,7 +122,7 @@ Marcel Keller; Ke Sun
 
 CSIRO's Data61; CSIRO's Data61
 
-Abstract:
+**Abstract:**
 We have implemented training of neural networks in secure multi-party
 computation (MPC) using quantization commonly used in the said
 setting. To the best of our knowledge, we are the first to present an
@@ -135,9 +136,10 @@ for 99% accuracy).
 #### MUSE: Secure Inference Resilient to Malicious Clients
 
 Ryan Lehmkuhl; Pratyush Mishra; Akshayaram Srinivasan; Raluca Ada Popa
+
 UC Berkeley; UC Berkeley; Tata Institute of Fundamental Research; UC Berkeley
 
-Abstract:
+**Abstract:**
 The increasing adoption of machine learning inference in applications has led to a corresponding increase in concerns surrounding the privacy guarantees offered by existing mechanisms for inference. Such concerns have motivated the construction of efficient secure inference protocols that allow parties to perform inference without revealing their sensitive information. Recently, there has been a proliferation of such proposals, rapidly improving efficiency. However, most of these protocols assume that the client is semi-honest, that is, the client does not deviate from the protocol; yet in practice, clients are many, have varying incentives, and can behave arbitrarily.
 
 To demonstrate that a malicious client can completely break the security of semi-honest protocols, we first develop a new model-extraction attack against many state-of-the-art secure inference protocols. Our attack enables a malicious client to learn model weights with 22×-312× fewer queries than the best black-box model-extraction attack and scales to much deeper networks.
@@ -153,7 +155,7 @@ Deevashwer Rathee; Mayank Rathee; Rahul Kranti Kiran Goli; Divya Gupta; Rahul Sh
 
 Microsoft Research, UC Berkeley; Microsoft Research, UC Berkeley; Microsoft Research; Microsoft Research; Microsoft Research; Microsoft Research; Microsoft Research
 
-Abstract:
+**Abstract:**
 Complex machine learning (ML) inference algorithms like recurrent neural networks (RNNs) use standard functions from math libraries like exponentiation, sigmoid, tanh, and reciprocal of square root. Although prior work on secure 2-party inference provides specialized protocols for convolutional neural networks (CNNs), existing secure implementations of these math operators rely on generic 2-party computation (2PC) protocols that suffer from high communication.
 We provide new specialized 2PC protocols for math functions that crucially rely on lookup-tables and mixed-bitwidths to address this performance overhead; our protocols for math functions communicate up to 423x less data than prior work.
 Furthermore, our math implementations are numerically precise, which ensures that the secure implementations preserve model accuracy of cleartext.
@@ -163,18 +165,20 @@ shows that SIRNN achieves up to three orders of magnitude of performance improve
 #### Differential Privacy for Text Analytics via Natural Text Sanitization
 
 Xiang Yue; Minxin Du; Tianhao Wang; Yaliang Li; Huan Sun; Sherman S. M. Chow
+
 The Ohio State University; The Chinese University of Hong Kong; Carnegie Mellon University; Alibaba Group; The Ohio State University; The Chinese University of Hong Kong
 
-Abstract:
+**Abstract:**
 Texts convey sophisticated knowledge. However, texts also convey sensitive information. Despite the success of general-purpose language models and domain-specific mechanisms with differential privacy (DP), existing text sanitization mechanisms still provide low utility, as cursed by the high-dimensional text representation. The companion issue of utilizing sanitized texts for downstream analytics is also under-explored. This paper takes a direct approach to text sanitization. Our insight is to consider both sensitivity and similarity via our new local DP notion. The sanitized texts also contribute to our sanitization-aware pretraining and fine-tuning, enabling privacy-preserving natural language processing over the BERT language model with promising utility. Surprisingly, the high utility does not boost up the success rate of inference attacks.
 
 
 #### ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation with Applications to Privacy Preserving Machine Learning
 
 Arpita Patra; Thomas Schneider; Ajith Suresh; Hossein Yalame
+
 Indian Institute of Science; TU Darmstadt; Indian Institute of Science; TU Darmstadt
 
-Abstract:
+**Abstract:**
 Secure Multi-party Computation (MPC) allows a set of mutually distrusting parties to jointly evaluate a function on their private inputs while maintaining input privacy. In this work, we improve semi-honest secure two-party computation (2PC) over rings, with a focus on the efficiency of the online phase. We propose an efficient mixed-protocol framework by extending our techniques to multi-input multiplication gates without inflating the online communication, i.e., it remains independent of the fan-in. Along the way, we construct efficient protocols for several PPML primitives such as scalar product, matrix multiplication, comparison, and maxpool. The online communication of our scalar product is two ring elements irrespective of the vector dimension, which is a feature achieved for the first time in the Privacy-preserving Machine Learning (PPML) literature.
 
 The practicality of our new set of protocols is showcased with Biometric Matching and Privacy-preserving Machine Learning (PPML). Most notably, for PPML, we implement and benchmark training and inference of Logistic Regression and Neural Networks over LAN and WAN networks. For training, we improve online runtime (both for LAN and WAN) over SecureML (Mohassel et al., IEEE S\&P'17) in the range 1.5x--6.1x, while for inference, the improvements are in the range of 2.5x--754.3x.
@@ -182,9 +186,10 @@ The practicality of our new set of protocols is showcased with Biometric Matchin
 #### Secure Poisson Regression
 
 Mahimna Kelkar; Phi Hung Le; Mariana Raykova; Karn Seth
+
 Cornell Tech, Cornell University; George Mason University; Google; Google
 
-Abstract:
+**Abstract:**
 We introduce the first construction for secure two-party computation of Poisson regression, which enables two parties who hold shares of the input samples to learn only the resulting Poisson model while protecting the privacy of the inputs.
 
 Our construction relies on new protocols for secure fixed-point exponentiation and correlated matrix multiplications. Our secure exponentiation construction avoids expensive bit decomposition and achieves orders of magnitude improvement in both online and offline costs over state of the art works. As a result, the dominant cost for our secure Poisson regression are matrix multiplications with one fixed matrix. We introduce a new technique, called correlated Beaver triples, which enables many such multiplications at the cost of roughly one matrix multiplication. This further brings down the cost of secure Poisson regression.
@@ -194,9 +199,10 @@ We implement our constructions and show their extreme efficiency. Our secure exp
 #### Improved Multi-Party Fixed-Point Multiplication
 
 Saikrishna Badrinarayanan; Eysa Lee; Peihan Miao; Peter Rindal
+
 Visa Research; Northeastern University; University of Illinois at Chicago; Visa Research
 
-Abstract:
+**Abstract:**
 Machine learning is widely used for a range of applications and is increasingly offered as a service by major technology companies. However, the required massive data collection raises privacy concerns during both training and inference. Privacy-preserving machine learning aims to solve this problem. In this setting, a collection of servers secret share their data and use secure multi-party computation to train and evaluate models on the joint data. All prior work focussed on the scenario where the number of servers is two or three. In this work, we study the problem where there are N >= 3 servers amongst whom the data is secret shared.
 
 A key component of machine learning algorithms is to perform fixed-point multiplication with truncation of secret shared decimal values. In this work, we design new protocols for multi-party secure fixed-point multiplication where each of the N parties have one share each of the two values to be multiplied and receive one share of the product at the end of the protocol. We consider three forms of secret sharing - replicated, Shamir, and additive, and design an efficient protocol secure in the presence of a semi-honest adversary for each of the forms. Our protocols are more communication efficient than all prior work on performing multi-party fixed-point multiplication. Additionally, for replicated secret sharing, we design another efficient protocol that is secure in the presence of a malicious adversary. Finally, we leverage our fixed-point multiplication protocols to design secure multi-party computation (MPC) protocols for arbitrary arithmetic circuits that have addition and fixed-point multiplication with truncation gates. All our protocols are proven secure using a standard simulation based security definition. Our protocols for replicated and Shamir sharing work in the presence of an honest majority of parties while the one for additive sharing can tolerate a dishonest majority as well.
@@ -204,9 +210,10 @@ A key component of machine learning algorithms is to perform fixed-point multipl
 #### Privacy-preserving machine learning for support vector machines
 
 Daniel Cabarcas; Hernán D. Vanegas; Daniel E. Escudero
+
 Universidad Nacional de Colombia; Universidad Nacional de Colombia; Aarhus University
 
-Abstract:
+**Abstract:**
 The recent availability of data and the increase of computational power makes machine learning an attractive tool for scientists and engineers.
 However, the increasing amount of available information demands security measures for protecting for sensitive data. To achieve this goal, multi-party computation techniques can be used, which enable a group of parties to jointly compute a given function while keeping the information provided by each party hidden. In this work, we study how to use multi-party computation in order to train support vector machines from both a theoretical and a practical perspective, including a complexity analysis of different algorithms that can be used for this goal, together with a full-fledged implementation in the MP-SPDZ framework for MPC.
 
@@ -215,9 +222,10 @@ Our results show that multi-party computation is a viable solution for the task 
 #### NeuraCrypt is not private
 
 Nicholas Carlini; Sanjam Garg; Somesh Jha; Saeed Mahloujifar; Mohammad Mahmoody; Florian Tramer
+
 Google; UC Berkeley and NTT Research; University of Wisconsin; Princeton University; University of Virginia; Stanford University and Google
 
-Abstract:
+**Abstract:**
 NeuraCrypt (Yara et al. arXiv 2021) is an algorithm that converts a sensitive dataset to
 an encoded dataset so that
 (1) it is still possible to train machine learning models on
