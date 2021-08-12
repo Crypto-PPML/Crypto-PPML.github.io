@@ -60,9 +60,11 @@ The explosive growth of interest in privacy-preserving ML motivates new techniqu
 <p>&nbsp;</p>
 
 
-#### **Adria Gascon, Peter Kairouz, Kallista (Kaylee) Bonawitz:** TBD
+#### **Adria Gascon, Peter Kairouz, Kallista (Kaylee) Bonawitz:** Privacy in Federated Learning at Scale
+
 **Abstract:**
-TBD
+In this talk we will review some of the privacy aspects of a federated learning system, and present recent advances in cryptographic solutions that enable deployments of secure aggregation and distributed differential privacy at scale.
+
 
 <p>&nbsp;</p>
 
