@@ -56,7 +56,7 @@
           "starttime": "14:50",
           "sessions": [
             {
-              "moderator": "Chair: TBD",
+              "moderator": "Chair: Carsten Baum",
               "session_title": "Contributed Talks",
               "talks": [
                 {
@@ -309,7 +309,8 @@
                   "category": "Uncategorized",
                   "id": "talk-29"
                 }
-              ]
+              ],
+              "moderator": "Chair: Sahar Mazloom"
             }
           ]
         }
