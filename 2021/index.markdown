@@ -69,9 +69,8 @@ In this talk we will review some of the privacy aspects of a federated learning 
 <p>&nbsp;</p>
 
 
-#### **Vinod Vaikuntanathan:** TBD
-**Abstract:**
-TBD
+#### **Vinod Vaikuntanathan:**     Secure Computation and PPML: Progress and Challenges.
+
 
 <p>&nbsp;</p>
 
