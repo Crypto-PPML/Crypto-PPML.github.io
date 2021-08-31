@@ -20,6 +20,9 @@ August 15, 2021 (Sunday)
 ### Registration
 The workshop is an affiliated event of [CRYPTO 2021](https://crypto.iacr.org/2021/). To register to the workshop, please register to CRYPTO 2021, and mark in the registration form the PPML workshop. Please read [the participation guidelines](https://crypto.iacr.org/2021/participation.php).
 
+### Videos
+#### **All videos of the workshop are available at the IACR You Tube Channel [here](https://www.youtube.com/playlist?list=PLeeS-3Ml-rpolNj7TCAo6Na5Arjece_s5)**
+
 ### Location
 
 #### **Zoom. Links will be provided [here](https://crypto.iacr.org/2021/affiliated.php).**
