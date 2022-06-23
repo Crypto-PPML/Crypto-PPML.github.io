@@ -3,7 +3,6 @@ title: Privacy-Preserving Machine Learning Workshop 2021
 headerTitle: PPML 2021
 headerInfoDate: August 15, 2021
 layout: default
-redirect_from: "/"
 ---
 
 ## Affiliated Event: The 3rd Privacy-Preserving Machine Learning Workshop 2021
