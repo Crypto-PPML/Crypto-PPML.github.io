@@ -61,8 +61,7 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 
 **Submission site:**
-The submission site will be available soon. Stay tuned.
-<!---is available [here](https://secure.iacr.org/websubrev/ppml2021/submit/)--->
+The submission site is available [here](https://easychair.org/conferences/?conf=cryptoppml2022)
 
 **Submission deadline:**
 Friday, July 15th, 2022, 11:59pm EST.
