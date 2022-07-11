@@ -86,6 +86,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Dana Dachman-Soled](https://user.eng.umd.edu/~danadach/) (University of Maryland)
 - [Deepesh Data](https://sites.google.com/view/deepeshdata/) (UCLA)
 - [Daniel Escudero](https://www.escudero.me) (JPM AI Research)
+- [Harish Karthikeyan] (https://sites.google.com/view/kharish/home) (NYU)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
 - [Adam Sealfon](https://asealfon.github.io) (UC Berkley)
