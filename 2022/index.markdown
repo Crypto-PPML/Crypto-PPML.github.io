@@ -64,7 +64,7 @@ We encourage submissions exploring a range of techniques and applications for pr
 The submission site is available [here](https://easychair.org/conferences/?conf=cryptoppml2022)
 
 **Submission deadline:**
-Friday, July 15th, 2022, 11:59pm EST.
+~~Friday, July 15th, 2022, 11:59pm EST.~~
 
 
 **Notifications:**
