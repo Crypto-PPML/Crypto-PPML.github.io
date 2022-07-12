@@ -66,7 +66,8 @@ The submission site is available [here](https://easychair.org/conferences/?conf=
 **Submission deadline:**
 
 ~~Friday, July 15th, 2022, 11:59pm EST.~~
-*Extended:* Sunday, July 17th, 2022, 11:59pm EST.
+
+**Extended:** Sunday, July 17th, 2022, 11:59pm EST.
 
 **Notifications:**
 Monday, July 25th, 2022.
