@@ -70,6 +70,8 @@ In this talk I’ll describe several recent results on low-communication LDP pro
 
 Based on joint works with Hilal Asi, Jelani Nelson, Huy Nguyen and Kunal Talwar
 
+<p>&nbsp;</p>
+
 ### Contributed Talks
 
 #### The Power of the Differentially Oblivious Shuffle in Distributed Privacy Mechanisms
@@ -83,6 +85,8 @@ These works demonstrate that by relaxing the shuffler's security from simulation
 
 In this paper, we prove an optimal privacy amplification theorem by composing any locally differentially private (LDP) mechanism with a DO-shuffler, achieving parameters that tightly match the shuffle model. Our result asymptotically improves the recent work of Gordon et al., who initiated the study of distributed DP mechanisms in the DO-shuffle model. We also explore multi-message protocols in the DO-shuffle model, and construct mechanisms for the real summation and histogram problems. Our error bounds approximate the best-known results in the multi-message shuffle-model up to sub-logarithmic factors. Our results also suggest that just like in the shuffle model, allowing each client to send multiple messages is fundamentally more powerful than restricting to a single message. As an application, we derive the result of using repeated DO-shuffling for privacy-preserving time-series data aggregation.
 
+<p>&nbsp;</p>
+
 
 #### MicroFedML: Privacy Preserving Federated Learning for Small Weights
 
@@ -91,9 +95,12 @@ Yue Guo, Antigoni Polychroniadou, Elaine Shi, David Byrd and Tucker Balch
 **Abstract**
 Secure aggregation on user private data with the aid of an entrusted server provides strong privacy guarantees and has been well-studied in the context of privacy-preserving federated learning. An important problem in privacy-preserving federated learning with user constrained computation and wireless network resources is the computation and communication overhead which wastes bandwidth, increases training time, and can even impacts the model accuracy if many users drop out. The seminal work of Bonawitz et al. and the work of Bell et al. have constructed secure aggregation protocols for a very large number of users which handle dropout users in a federated learning setting. However, these works suffer from high round complexity (referred to as the number of times the users exchange messages with the server) and overhead in every training iteration. In this work, we propose and implement MicroFedML, a new secure aggregation system with lower round complexity and computation overhead per training iteration. MicroFedML reduces the computational burden by at least 100 orders of magnitude for 500 users (or more depending on the number of users) and the message size by 50 times compared to prior work. Our system is suitable and performs its best when the input domain is not too large, i.e., small model weights. Notable examples include gradient sparsification, quantization, and weight regularization in federated learning.
 
+<p>&nbsp;</p>
+
 
 #### Prio+: Privacy Preserving Aggregate Statistics via Boolean Shares
 
+Eli Jaffe, Surya Addanki, Kevin Garbe, Rafail Ostrovsky and Antigoni Polychroniadou
 
 **Abstract**
 This paper introduces Prio+, a privacy-preserving system for the collection of aggregate statistics, with the same model and goals in mind as the original and highly influential Prio paper by Henry Corrigan-Gibbs and Dan Boneh (NSDI 2017).
@@ -104,7 +111,11 @@ Our overall approach is simpler than Prio and our Prio+ strategy reduces the cli
 
 We report detailed benchmarks of our Prio+ implementation and compare these to both the original Go implementation of Prio and the Mozilla implementation of Prio. Our Prio+ software is open-source and released with the same license as Prio.
 
+<p>&nbsp;</p>
+
 #### SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost
+
+Nishanth Chandran, Divya Gupta, Sai Lakshmi Bhavana Obbattu and Akash Shah
 
 **Abstract**
 Secure inference allows a model owner (or, the server) and
@@ -130,12 +141,20 @@ this protocol, SIMC++, is same as that of MUSE, the overall
 improvements of SIMC translate to similar improvements to
 the preprocessing phase of MUSE.
 
+<p>&nbsp;</p>
+
 #### Through the Looking-Glass: Benchmarking Secure Multi-Party Computation Comparisons for ReLU's
+
+Abdelrahaman Aly, Kashif Nawaz, Eugenio Salazar and Victor Sucasas
 
 **Abstract**
 Comparisons are an essential component of Rectified Linear Unit functions (ReLU's), ever more present in Machine Learning, specifically in Neural Networks. Motivated by the increasing interest in privacy-preserving Artificial Intelligence, we explore the current state of the art in Multi-Party Computation (MPC) protocols for privacy preserving comparisons. We systematize them, and introduce constant round variations that are compatible with customary fixed point arithmetic over MPC. Furthermore, we provide novel combinations, inspired by popular comparison protocols, equipped with state of the art elements. Our main focus is implementation and benchmarking; hence, we translate our results into practice via an open source library, compatible with current MPC software tools, showcasing our contributions. Additionally, we include a comprehensive comparative study on various adversarial settings. Indeed, our results improve running times in practical scenarios. Finally, we offer conclusions about the viability of these protocols when adopted for privacy-preserving Machine Learning.
 
+<p>&nbsp;</p>
+
 #### On the Limits of Provable Security Against Model Extraction
+
+Ari Karchmer
 
 **Abstract**
 Can we hope to provide provable security against model extraction attacks? As a first step towards a theoretical study of this question, we unify and abstract a wide range of ``observational" model extraction defense mechanisms (OMEDs) --- roughly those that attempt to detect model extraction using a statistical analysis conducted on the distribution over the adversary's queries.
@@ -144,12 +163,20 @@ Our main result establishes a computational incompleteness theorem for our abstr
 To prove the incompleteness theorem, we introduce a class of model extraction attacks called natural covert learning attacks based on an intuitive connection to the Covert Learning model of Canetti and Karchmer (TCC '21). To the best of our knowledge, our result constitutes the first provable and efficient attack on any large class of MEDs, as a response to Vaikuntanathan's open problem from his talk at PPML Crypto '21.
 Finally, in this talk we will further expose the tension between Covert Learning and OMEDs by proving that Covert Learning algorithms require the nonexistence of efficient OMEDs. Therefore we obtain a full characterization of the existence of efficient OMEDs by the nonexistence of natural covert learning algorithms.
 
+<p>&nbsp;</p>
+
 #### Differentially Private Stochastic Linear Bandits: (Almost) for Free
+
+Osama A. Hanna, Antonious M. Girgis, Christina Fragouli and Suhas Diggavi
 
 **Abstract**
 In this paper, we propose differentially private algorithms for the problem of stochastic linear bandits in the central, local, and shuffled models. In the central model, we achieve almost the same regret as the optimal non-private algorithms, which means we get privacy for free. In particular, we achieve a regret of $\tilde{O}(\sqrt{T}+\frac{1}{\epsilon})$ matching the known lower bound for private linear bandits, while the best previously known algorithm achieves $\tilde{O}(\frac{1}{\epsilon}\sqrt{T})$. In the local case, we achieve a regret of $\tilde{O}(\frac{1}{\epsilon}{\sqrt{T}})$ which matches the non-private regret for constant $\epsilon$, but suffers a regret penalty when $\epsilon$ is small. In the shuffled model, we also achieve regret of $\tilde{O}(\sqrt{T}+\frac{1}{\epsilon})$ %for small $\epsilon$ as in the central case, while the best previously known algorithm suffers a regret of $\tilde{O}(\frac{1}{\epsilon}{T^{3/5}})$. Our numerical evaluation validates our theoretical results.
 
+<p>&nbsp;</p>
+
 #### LERNA: Secure Single-Server Aggregation via Key-Homomorphic Masking
+
+Hanjun Li, Huijia Lin, Antigoni Polychroniadou and Stefano Tessaro
 
 **Abstract**
 Secure aggregation protocols allow a server to privately compute the sum of inputs supplied by clients, while tolerating the potential dropout of a number of these clients. These protocols underlie an increasing number of applications ranging from secure data analytics to Federated Machine Learning.
@@ -158,7 +185,11 @@ This paper introduces LERNA, a new framework for single-server secure aggregatio
 
 We provide instantiations of LERNA based on both the Decisional Composite Residuosity (DCR) and (Ring) Learning with Rounding ((R)LWR) assumptions respectively, and evaluate a version based on the latter assumption. In addition to savings in round-complexity (which result in reduced latency), our experiments show that the server computational costs are reduced by three orders of magnitude in comparison to the state-of-the-art. In settings with a large number of clients, we also reduce the computational costs up to eight fold for most clients, while a small set of "heavy clients" is subject to a workload comparable to that of prior work.
 
+<p>&nbsp;</p>
+
 #### Multi-Server Covert Learning
+
+Justin Holmgren and Ruta Jawale
 
 **Abstract**
 We consider the problem of covert learning [Canetti and Karchmer (TCC 2021)] and the closely related problem of cryptographic sensing [Ishai, Kushilevitz, Ostrovsky, and Sahai (Crypto 2019)]. Here the goal is to learn a concept class with membership queries, while also satisfying an additional covertness constraint. This constraint concerns an observer who sees the instances x queried by the learner along with the corresponding labels f(x). Covertness requires that the observer's view is simulatable given random examples, i.e. a list of pairs (x, f(x)) where the values of x are chosen i.i.d. uniformly at random. In particular, the simulator cannot make membership queries.
@@ -171,6 +202,7 @@ The simplest instantiation of our variant divides the learner's queries into two
 
 We also consider additional security properties from prior work, such as hypothesis-hiding and verifiability, and show that our multi-lab model allows for similar gains relative to the conventional single-lab model.
 
+<p>&nbsp;</p>
 
 
 ### Call for Contributed Talks
