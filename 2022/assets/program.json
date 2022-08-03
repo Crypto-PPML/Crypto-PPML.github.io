@@ -1,0 +1,255 @@
+{
+  "config": {
+    "default_talk_minutes": 25,
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "timezone": {
+      "abbr": "UTC",
+      "name": "UTC"
+    },
+    "unassigned_talks": [
+      {
+        "id": "category-0",
+        "name": "Uncategorized",
+        "talks": []
+      },
+      {
+        "id": "category-11",
+        "name": "Invited Talks",
+        "talks": []
+      },
+      {
+        "id": "category-15",
+        "name": "Contributed Talks",
+        "talks": []
+      }
+    ],
+    "uniqueIDIndex": 25
+  },
+  "database_id": "602",
+  "days": [
+    {
+      "date": "2022-08-14",
+      "timeslots": [
+        {
+          "starttime": "8:50",
+          "endtime": "10:05",
+          "sessions": [
+            {
+              "id": "session-1",
+              "location": {
+                "name": "Lotte Lehmann"
+              },
+              "session_title": "Welcome + Contributed Talks I",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Osama A. Hanna, Antonious M. Girgis, Christina Fragouli",
+                    "Suhas Diggavi"
+                  ],
+                  "id": "talk-22",
+                  "paperId": "7",
+                  "title": "Differentially Private Stochastic Linear Bandits: (Almost) for Free"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yue Guo, Antigoni Polychroniadou, Elaine Shi, David Byrd",
+                    "Tucker Balch"
+                  ],
+                  "id": "talk-17",
+                  "paperId": "2",
+                  "title": "MicroFedML: Privacy Preserving Federated Learning for Small Weights"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Mingxun Zhou",
+                    "Elaine Shi"
+                  ],
+                  "id": "talk-16",
+                  "title": "The Power of the Differentially Oblivious Shuffle in Distributed Privacy Mechanisms"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Nishanth Chandran, Divya Gupta, Sai Lakshmi Bhavana Obbattu",
+                    "Akash Shah"
+                  ],
+                  "id": "talk-19",
+                  "paperId": "4",
+                  "title": "SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Abdelrahaman Aly, Kashif Nawaz, Eugenio Salazar",
+                    "Victor Sucasas"
+                  ],
+                  "id": "talk-20",
+                  "paperId": "5",
+                  "title": "Through the Looking-Glass: Benchmarking Secure Multi-Party Computation Comparisons for ReLU's"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "10:05",
+          "endtime": "10:20",
+          "sessions": [
+            {
+              "id": "session-3",
+              "session_title": "Coffee break in Lagoon Plaza"
+            }
+          ]
+        },
+        {
+          "starttime": "10:20",
+          "endtime": "11:20",
+          "sessions": [
+            {
+              "id": "session-2",
+              "location": {
+                "name": "Lotte Lehmann"
+              },
+              "session_title": "Invited Talk I",
+              "talks": [
+                {
+                  "affiliations": "Google Research - Brain Team",
+                  "authors": [
+                    "Abhradeep Guha Thakurta"
+                  ],
+                  "id": "talk-13",
+                  "title": "Federated Learning with Formal User-Level Differential Privacy Guarantees"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "11:30",
+          "endtime": "13:00",
+          "sessions": [
+            {
+              "id": "session-4",
+              "location": {
+                "name": "De La Guerra Common"
+              },
+              "session_title": "Lunch"
+            }
+          ]
+        },
+        {
+          "starttime": "13:00",
+          "endtime": "14:00",
+          "sessions": [
+            {
+              "id": "session-6",
+              "session_title": "Invited Talk II",
+              "talks": [
+                {
+                  "affiliations": "UC Berkley",
+                  "authors": [
+                    ""
+                  ],
+                  "id": "talk-12",
+                  "title": "Dawn Song"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "14:00",
+          "endtime": "14:30",
+          "sessions": [
+            {
+              "id": "session-8",
+              "session_title": "Coffee Break"
+            }
+          ]
+        },
+        {
+          "starttime": "14:30",
+          "endtime": "15:30",
+          "sessions": [
+            {
+              "id": "session-9",
+              "location": {
+                "name": "Lotte Lehmann"
+              },
+              "session_title": "Invited Talk III",
+              "talks": [
+                {
+                  "affiliations": "Apple AI Research",
+                  "authors": [
+                    "Vitaly Feldman"
+                  ],
+                  "id": "talk-14",
+                  "title": "Low-communication Algorithms for Private Federated Data Analysis with Optimal Accuracy Guarantees"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "15:30",
+          "endtime": "16:30",
+          "sessions": [
+            {
+              "id": "session-25",
+              "session_title": "Contributed Talks II",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Ari Karchmer"
+                  ],
+                  "id": "talk-21",
+                  "paperId": "6",
+                  "title": "On the Limits of Provable Security Against Model Extraction"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Justin Holmgren",
+                    "Ruta Jawale"
+                  ],
+                  "id": "talk-24",
+                  "paperId": "9",
+                  "title": "Multi-Server Covert Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Eli Jaffe, Surya Addanki, Kevin Garbe, Rafail Ostrovsky",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "id": "talk-18",
+                  "paperId": "3",
+                  "title": "Prio+: Privacy Preserving Aggregate Statistics via Boolean Shares"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Hanjun Li, Huijia Lin, Antigoni Polychroniadou",
+                    "Stefano Tessaro"
+                  ],
+                  "id": "talk-23",
+                  "paperId": "8",
+                  "title": "LERNA: Secure Single-Server Aggregation via Key-Homomorphic Masking"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "CRYPTO-PPML 2022"
+}
