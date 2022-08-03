@@ -41,7 +41,7 @@ The workshop will be in-person.
 
 ### (Tentative) Program
 
-The time displayed is in UTC.
+The time displayed is in Pacific Daylight Time (GMT-7).
 
 
 <div markdown="0">
