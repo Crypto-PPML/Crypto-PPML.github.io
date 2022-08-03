@@ -50,6 +50,26 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 
 <p>&nbsp;</p>
 
+### Abstracts -- Invited Speakers
+
+#### **Abhradeep Guha Thakurta:** Federated Learning with Formal User-Level Differential Privacy Guarantees
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### **Vitaly Feldman:** Low-communication Algorithms for Private Federated Data Analysis with Optimal Accuracy Guarantees
+
+**Abstract:**
+
+Locally Differentially Private (LDP) Reports are commonly used for collection of statistics and machine learning in the federated setting. Yet for both frequency estimation over a large domain and learning a high-dimensional model the best known LDP algorithms require sending prohibitively large messages from each client device to the server.  
+
+In this talk I’ll describe several recent results on low-communication LDP protocols with optimal accuracy. In particular,
+1. A general approach that, under standard cryptographic assumptions, gives  a low communication version of any efficient LDP randomizer with negligible loss in privacy and utility guarantees.
+2. New algorithms for frequency estimation and high-dimensional mean estimation that achieve the optimal privacy/utility trade-off and have low communication cost.
+
+Based on joint works with Hilal Asi, Jelani Nelson, Huy Nguyen and Kunal Talwar
+
 
 
 ### Call for Contributed Talks
