@@ -23,9 +23,11 @@ The workshop is an affiliated event of [CRYPTO 2022](https://crypto.iacr.org/202
 
 ### Location
 
-#### University of Santa Barbara, California
+#### Lotte Lehmann Hall, University of Santa Barbara, California
 
 The workshop will be in-person.
+
+It is also possible to attend via Zoom. For a link, visit [CRYPTO 2022](https://crypto.iacr.org/2022/). 
 
 ### (Confirmed) Invited Speakers
 - [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/?_ga=2.112667716.1704394045.1656012795-300469976.1656012795) (UC Berkley)
