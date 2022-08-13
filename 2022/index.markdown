@@ -41,7 +41,7 @@ It is also possible to attend via Zoom. For a link, visit [CRYPTO 2022](https://
 - [Vinod Vaikuntanathan](http://people.csail.mit.edu/vinodv/) (MIT)
 --->
 
-### (Tentative) Program
+### Program
 
 The time displayed is in Pacific Daylight Time (GMT-7).
 
