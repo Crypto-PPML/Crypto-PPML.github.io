@@ -27,13 +27,36 @@
         "talks": []
       }
     ],
-    "uniqueIDIndex": 25
+    "uniqueIDIndex": 27
   },
   "database_id": "602",
   "days": [
     {
       "date": "2022-08-14",
       "timeslots": [
+        {
+          "starttime": "7:30",
+          "endtime": "8:45",
+          "sessions": [
+            {
+              "id": "session-26",
+              "location": {
+                "name": "De La Guerra Commons"
+              },
+              "session_title": "Breakfast (for those who stay on campus)"
+            }
+          ]
+        },
+        {
+          "starttime": "8:00",
+          "endtime": "12:00",
+          "sessions": [
+            {
+              "id": "session-27",
+              "session_title": "Registration in Corwin Lobby"
+            }
+          ]
+        },
         {
           "starttime": "8:50",
           "endtime": "10:05",
