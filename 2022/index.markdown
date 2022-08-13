@@ -27,7 +27,7 @@ The workshop is an affiliated event of [CRYPTO 2022](https://crypto.iacr.org/202
 
 The workshop will be in-person.
 
-It is also possible to attend via Zoom. For a link, visit [CRYPTO 2022](https://crypto.iacr.org/2022/). 
+It is also possible to attend via Zoom. For a link, visit [CRYPTO 2022](https://crypto.iacr.org/2022/).
 
 ### (Confirmed) Invited Speakers
 - [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/?_ga=2.112667716.1704394045.1656012795-300469976.1656012795) (UC Berkley)
@@ -57,6 +57,9 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 #### **Abhradeep Guha Thakurta:** Federated Learning with Formal User-Level Differential Privacy Guarantees
 
 **Abstract:**
+In this talk I will discuss the algorithmic research that led to the deployment of the first production ML model using federated learning with a rigorous differential privacy guarantee. Along the way, I will highlight the systemic challenges that drove the algorithmic design.
+
+The talk will primarily focus on the DP-FTRL algorithm (a differentially private variant of follow-the-regularized-leader), that was developed during this research effort. I will provide both theoretical and empirical insights into the efficacy of DP-FTRL. In particular, I will show that DP-FTRL compares favorably to DP-SGD (differentially private stochastic gradient descent), but does not rely on privacy amplification by sampling (a crucial component in providing strong privacy/utility trade-offs while operating with minibatch gradients). In comparison to DP-SGD, this allows DP-FTRL to be amenable to more flexible data access patterns, which is crucial in our federated learning deployment.
 
 <p>&nbsp;</p>
 
