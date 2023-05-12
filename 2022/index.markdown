@@ -3,7 +3,6 @@ title: Privacy-Preserving Machine Learning Workshop 2022
 headerTitle: PPML 2022
 headerInfoDate: August 14, 2022
 layout: default
-redirect_from: "/"
 ---
 
 ## Affiliated Event: The 4th Privacy-Preserving Machine Learning Workshop 2022
@@ -21,7 +20,7 @@ August 14, 2022 (Sunday)
 The workshop is an affiliated event of [CRYPTO 2022](https://crypto.iacr.org/2022/). To register to the workshop, please register to CRYPTO 2022, and mark in the registration form the PPML workshop.
 
 ### Videos
-**All videos of the workshop are available at the [IACR You Tube Channel](https://www.youtube.com/watch?v=4_W6kItVd3M&list=PLeeS-3Ml-rpqdliWCMmzbnPuWBIUFNHLq&index=6)** 
+**All videos of the workshop are available at the [IACR You Tube Channel](https://www.youtube.com/watch?v=4_W6kItVd3M&list=PLeeS-3Ml-rpqdliWCMmzbnPuWBIUFNHLq&index=6)**
 
 ### Location
 
