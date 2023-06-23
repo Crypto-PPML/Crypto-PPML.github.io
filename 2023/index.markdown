@@ -49,10 +49,10 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 **Submission deadline:**
 
-Friday, July 15th, 2023, 11:59pm EST.
+Saturday, July 15th, 2023, 11:59pm EST.
 
 **Notifications:**
-Monday, July 21st, 2023.
+Friday, July 21st, 2023.
 
 Link to the submission server will be posted soon.
 
