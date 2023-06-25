@@ -64,17 +64,20 @@ Submissions must comply with the following rules:
 
 The committee will follow COI standards according to the IACR policy. Contributed Talks Committee members are allowed to submit as well.
 
-<!--### Contributed Talks Committee
+### Contributed Talks Committee
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) -- organizer
-- [Leo de Castro](https://internetpolicy.mit.edu/team/leo-de-castro/) (MIT)
-- [Dana Dachman-Soled](https://user.eng.umd.edu/~danadach/) (University of Maryland)
-- [Deepesh Data](https://sites.google.com/view/deepeshdata/) (UCLA)
+- [Hubert Chan](https://i.cs.hku.hk/~hubert/) (University of Hong Kong)
+- [Ran Cohen](https://cs.idc.ac.il/~ran/) (Reichman University)
+- [Bernardo David](https://www.bmdavid.com) (IT University of Copenhagen)
 - [Daniel Escudero](https://www.escudero.me) (JPM AI Research)
-- [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (NYU)
+- Adrià Gascón (Google)
+- [Abhishek Jain](https://www.cs.jhu.edu/~abhishek/) (Johns Hopkins University)
+- [Parker Newton](https://www.amazon.science/author/parker-newton) (Amazon)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
-- [Adam Sealfon](https://asealfon.github.io) (UC Berkley)
--->
+- [Yifan Song](https://crypto-song.github.io) (Tsinghua University)
+- [Katerina Sotiraki](https://sotiraki.com) (UC Berkeley)
+- [Akira Takahashi](https://akiratk0355.github.io) (University of Edinburgh)
 
 <!---
 - [Adi Akavia](https://sites.google.com/view/akavia) (University of Haifa)
