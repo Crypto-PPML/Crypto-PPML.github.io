@@ -28,8 +28,10 @@ The workshop is an affiliated event of [CRYPTO 2023](https://crypto.iacr.org/202
 The workshop will be in-person.
 
 ### (Confirmed) Invited Speakers
-- [Kunal Talwar](http://kunaltalwar.org)
+- [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
+- [Kunal Talwar](http://kunaltalwar.org)
+
 
 ### Call for Contributed Talks
 
