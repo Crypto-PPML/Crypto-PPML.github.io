@@ -27,8 +27,9 @@ The workshop is an affiliated event of [CRYPTO 2023](https://crypto.iacr.org/202
 
 The workshop will be in-person.
 
-
-
+### (Confirmed) Invited Speakers
+- [Kunal Talwar](http://kunaltalwar.org)
+- [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
 
 ### Call for Contributed Talks
 
@@ -90,8 +91,6 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 - [Gil Segev](https://www.gilsegev.net) (Hebrew University)
-
-
 --->
 
 
