@@ -30,7 +30,7 @@ The workshop will be in-person.
 ### (Confirmed) Invited Speakers
 - [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
-- [Kunal Talwar](http://kunaltalwar.org)
+- [Kunal Talwar](http://kunaltalwar.org) (Apple)
 
 
 ### Call for Contributed Talks
