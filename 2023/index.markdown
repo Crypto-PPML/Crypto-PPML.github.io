@@ -101,6 +101,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 ### Organizers
 
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
+- Adrià Gascón (Google)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
