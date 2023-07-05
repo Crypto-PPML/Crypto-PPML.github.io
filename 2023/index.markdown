@@ -30,6 +30,7 @@ The workshop will be in-person.
 ### (Confirmed) Invited Speakers
 - [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
+- [Mariana Raykova](https://marianapr.github.io) (Google)
 - [Kunal Talwar](http://kunaltalwar.org) (Apple)
 
 
@@ -78,6 +79,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Parker Newton](https://www.amazon.science/author/parker-newton) (Amazon)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
+- [Adam Sealfon](https://asealfon.github.io) (Google Research)
 - [Yifan Song](https://crypto-song.github.io) (Tsinghua University)
 - [Katerina Sotiraki](https://sotiraki.com) (UC Berkeley)
 - [Akira Takahashi](https://akiratk0355.github.io) (University of Edinburgh)
