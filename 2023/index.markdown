@@ -58,8 +58,7 @@ Saturday, July 15th, 2023, 11:59pm EST.
 **Notifications:**
 Friday, July 21st, 2023.
 
-Link to the submission server will be posted soon.
-
+Submission server: [https://easychair.org/conferences/?conf=cryptoppml2023](https://easychair.org/conferences/?conf=cryptoppml2023)
 Submissions must comply with the following rules:
 - We encourage submitting full papers. Abstracts can also be provided.
 - Submissions must be non-anonymous and must clearly specify which author will give the talk.
