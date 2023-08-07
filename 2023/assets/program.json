@@ -1,0 +1,310 @@
+{
+  "config": {
+    "default_talk_minutes": 25,
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "timezone": {
+      "abbr": "UTC",
+      "name": "UTC"
+    },
+    "unassigned_talks": [
+      {
+        "id": "category-0",
+        "name": "Uncategorized",
+        "talks": []
+      },
+      {
+        "id": "category-26",
+        "name": "Break",
+        "talks": []
+      }
+    ],
+    "uniqueIDIndex": 31
+  },
+  "database_id": "943",
+  "days": [
+    {
+      "date": "2023-08-20",
+      "timeslots": [
+        {
+          "starttime": "8:55",
+          "endtime": "9:45",
+          "sessions": [
+            {
+              "id": "session-1",
+              "location": {
+                "name": "Location TBD"
+              },
+              "session_title": "Invited Talk I",
+              "talks": [
+                {
+                  "starttime": "8:55",
+                  "endtime": "9:00",
+                  "affiliations": "",
+                  "authors": [
+                    ""
+                  ],
+                  "id": "talk-23",
+                  "title": "Welcome"
+                },
+                {
+                  "starttime": "9:00",
+                  "endtime": "9:45",
+                  "affiliations": "Google",
+                  "authors": [
+                    "Mariana Raykova"
+                  ],
+                  "id": "talk-22",
+                  "title": "Invited Talk I:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "9:45",
+          "endtime": "10:15",
+          "sessions": [
+            {
+              "id": "session-4",
+              "session_title": "Contributed Talks I",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Naty Peter, Eliad Tsfadia",
+                    "Jonathan Ullman"
+                  ],
+                  "id": "talk-16",
+                  "title": "Smooth Lower Bounds for Differentially Private Algorithms via Padding-and-Permuting Fingerprinting Codes"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Amer Sinha",
+                    "Chiyuan Zhang"
+                  ],
+                  "id": "talk-21",
+                  "title": "Sparsity-Preserving Differentially Private Training"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "10:15",
+          "endtime": "10:45",
+          "sessions": [
+            {
+              "id": "session-5",
+              "session_title": "Break"
+            }
+          ]
+        },
+        {
+          "starttime": "10:45",
+          "endtime": "11:30",
+          "sessions": [
+            {
+              "id": "session-6",
+              "session_title": "Invited Talk II",
+              "talks": [
+                {
+                  "affiliations": "Apple",
+                  "authors": [
+                    "Kunal Talwar "
+                  ],
+                  "id": "talk-25",
+                  "title": "Invited Talk II:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "11:30",
+          "endtime": "13:00",
+          "sessions": [
+            {
+              "id": "session-7",
+              "session_title": "Contributed Talk II",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Mingxun Zhou, Giulia Fanti",
+                    "Elaine Shi"
+                  ],
+                  "id": "talk-15",
+                  "title": "Proof of Compliance for Anonymous, Unlinkable Messages"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Kasra Abbaszadeh, Christodoulos Pappas, Dimitrios Papadopoulos",
+                    "Jonathan Katz"
+                  ],
+                  "id": "talk-12",
+                  "title": "Scalable Incrementally Verifiable Computation with Applications to Zero-Knowledge Proof-of-Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yiping Ma, Jess Woods, Sebastian Angel, Antigoni Polychroniadou",
+                    "Tal Rabin"
+                  ],
+                  "id": "talk-11",
+                  "title": "Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Jinyeong Seo, Yongsoo Song, Hyukki Lee, Yongwoo Oh, Donghoon Yoo",
+                    "Hanyul Ryu"
+                  ],
+                  "id": "talk-17",
+                  "title": "Practical Lattice-based Private Stream Aggregation and Application to Federated Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yvonne Zhou, Ivan Brugere, Dana Dachman-Soled, Danial Dervovic, Mingyu Liang, Antigoni Polychroniadou",
+                    "Min Wu"
+                  ],
+                  "id": "talk-20",
+                  "title": "Bounding the Accuracy Loss for Graphical Model Based Synthetic Data Generation in Privacy-Preserving Machine Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Emma Dauterman, Mayank Rathee, Raluca Popa",
+                    "Ion Stoica"
+                  ],
+                  "id": "talk-13",
+                  "title": "Private Time-Series Queries from Function Secret Sharing with Applications to Machine Learning"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "13:00",
+          "endtime": "14:05",
+          "sessions": [
+            {
+              "id": "session-8",
+              "session_title": "Lunch"
+            }
+          ]
+        },
+        {
+          "starttime": "14:10",
+          "endtime": "14:55",
+          "sessions": [
+            {
+              "id": "session-9",
+              "session_title": "Invited Talk III",
+              "talks": [
+                {
+                  "affiliations": "Microsoft Research",
+                  "authors": [
+                    " Janardhan (Jana) Kulkarni"
+                  ],
+                  "id": "talk-29",
+                  "title": "Invited Talk III: Differentially Private Deep Learning: Unlocking the Good Tokens"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "14:55",
+          "endtime": "15:25",
+          "sessions": [
+            {
+              "id": "session-10",
+              "session_title": "Contributed Talks III",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Jordan Frery, Andrei Stoian, Roman Bredehoft, Luis Montero, Celia Kherfallah, Benoit Chevallier-Mames",
+                    "Arthur Meyre"
+                  ],
+                  "id": "talk-18",
+                  "title": "Privacy-Preserving Tree-Based Inference with TFHE"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Alexandra Henzinger, Emma Dauterman, Henry Corrigan-Gibbs",
+                    "Nickolai Zeldovich"
+                  ],
+                  "id": "talk-14",
+                  "title": "Private web search with Tiptoe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "15:25",
+          "endtime": "15:55",
+          "sessions": [
+            {
+              "id": "session-27",
+              "session_title": "Break"
+            }
+          ]
+        },
+        {
+          "starttime": "15:55",
+          "endtime": "16:40",
+          "sessions": [
+            {
+              "id": "session-28",
+              "session_title": "Invited Talk IV",
+              "talks": [
+                {
+                  "affiliations": "University of Washington & Google",
+                  "authors": [
+                    "Sewoong Oh "
+                  ],
+                  "id": "talk-31",
+                  "title": "Invited Talk IV:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "16:40",
+          "endtime": "17:00",
+          "sessions": [
+            {
+              "id": "session-30",
+              "session_title": "Contributed Talks IV",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Kevin McCarthy, Dimitar Jetchev, Sergiu Carpov, Mariya Georgieva Belorgey, Marius Vuille",
+                    "Florian Duraffourg"
+                  ],
+                  "id": "talk-19",
+                  "title": "Private, Federated Ensemble Modeling for Financial Anomaly Detection (US-UK PETs Challenge)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "CRYPTO PPML 2023",
+  "tabbedSessions": false,
+  "twoSessions": false
+}

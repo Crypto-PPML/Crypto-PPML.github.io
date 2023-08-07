@@ -27,11 +27,21 @@ The workshop is an affiliated event of [CRYPTO 2023](https://crypto.iacr.org/202
 
 The workshop will be in-person.
 
-### (Confirmed) Invited Speakers
+### Invited Speakers
 - [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
 - [Mariana Raykova](https://marianapr.github.io) (Google)
 - [Kunal Talwar](http://kunaltalwar.org) (Apple)
+
+### (Tentative) Program
+
+
+The time displayed is in Pacific Daylight Time (GMT-7).
+
+
+<div markdown="0">
+    {% include program.html programURL='2023/assets/program.json' %}
+</div>
 
 
 ### Call for Contributed Talks
