@@ -56,7 +56,7 @@ Systems for private analytics and federated learning rely on aggregation of dist
 
 ### Contributed Talks
 
-####Scalable Incrementally Verifiable Computation with Applications to Zero-Knowledge Proof-of-Learning
+#### Scalable Incrementally Verifiable Computation with Applications to Zero-Knowledge Proof-of-Learning
 
 Kasra Abbaszadeh, Christodoulos Pappas, Dimitrios Papadopoulos and Jonathan Katz
 
@@ -69,7 +69,7 @@ Benchmarks indicate that our construction can effectively support neural network
 
 <p>&nbsp;</p>
 
-####Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning
+#### Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning
 
 Yiping Ma, Jess Woods, Sebastian Angel, Antigoni Polychroniadou and Tal Rabin
 
@@ -79,7 +79,7 @@ We implement and evaluate Flamingo and show that it can securely train a neural 
 
 <p>&nbsp;</p>
 
-####Privacy-Preserving Tree-Based Inference with TFHE
+#### Privacy-Preserving Tree-Based Inference with TFHE
 
 Jordan Frery, Andrei Stoian, Roman Bredehoft, Luis Montero, Celia Kherfallah, Benoit Chevallier-Mames and Arthur Meyre
 
@@ -88,7 +88,7 @@ Fully Homomorphic Encryption is a powerful tool for processing encrypted data an
 
 <p>&nbsp;</p>
 
-####Private, Federated Ensemble Modeling for Financial Anomaly Detection (US-UK PETs Challenge)
+#### Private, Federated Ensemble Modeling for Financial Anomaly Detection (US-UK PETs Challenge)
 
 Kevin McCarthy, Dimitar Jetchev, Sergiu Carpov, Mariya Georgieva Belorgey, Marius Vuille and Florian Duraffourg
 
@@ -113,7 +113,7 @@ process to improve the anomalous transaction detection model’s AUPRC. The solu
 
 <p>&nbsp;</p>
 
-####Bounding the Accuracy Loss for Graphical Model Based Synthetic Data Generation in Privacy-Preserving Machine Learning
+#### Bounding the Accuracy Loss for Graphical Model Based Synthetic Data Generation in Privacy-Preserving Machine Learning
 
 Yvonne Zhou, Ivan Brugere, Dana Dachman-Soled, Danial Dervovic, Mingyu Liang, Antigoni Polychroniadou and Min Wu
 
@@ -122,7 +122,7 @@ The growing use of machine learning has raised concerns about the privacy risk t
 
 <p>&nbsp;</p>
 
-####Smooth Lower Bounds for Differentially Private Algorithms via Padding-and-Permuting Fingerprinting Codes
+#### Smooth Lower Bounds for Differentially Private Algorithms via Padding-and-Permuting Fingerprinting Codes
 
 Naty Peter, Eliad Tsfadia and Jonathan Ullman
 
@@ -141,7 +141,7 @@ Our main technique is to apply a padding-and-permuting transformation to a finge
 
 <p>&nbsp;</p>
 
-####Sparsity-Preserving Differentially Private Training
+#### Sparsity-Preserving Differentially Private Training
 
 Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Amer Sinha and Chiyuan Zhang
 
@@ -150,7 +150,7 @@ As the use of large embedding models in recommendation systems and language appl
 
 <p>&nbsp;</p>
 
-####Private Time-Series Queries from Function Secret Sharing with Applications to Machine Learning
+#### Private Time-Series Queries from Function Secret Sharing with Applications to Machine Learning
 
 Emma Dauterman, Mayank Rathee, Raluca Popa and Ion Stoica
 
@@ -161,7 +161,7 @@ This talk is based on an IEEE Security & Privacy 2022 paper with co-authors Maya
 
 <p>&nbsp;</p>
 
-####Proof of Compliance for Anonymous, Unlinkable Messages
+#### Proof of Compliance for Anonymous, Unlinkable Messages
 
 Mingxun Zhou, Giulia Fanti and Elaine Shi
 
@@ -173,7 +173,7 @@ efficiency on the server side, as the verification algorithm only requires a few
 
 <p>&nbsp;</p>
 
-####Private web search with Tiptoe
+#### Private web search with Tiptoe
 
 Alexandra Henzinger, Emma Dauterman, Henry Corrigan-Gibbs and Nickolai Zeldovich
 
@@ -185,7 +185,7 @@ To provide private web search at a comparatively low cost, Tiptoe relies on a ca
 
 <p>&nbsp;</p>
 
-####Practical Lattice-based Private Stream Aggregation and Application to Federated Learning
+#### Practical Lattice-based Private Stream Aggregation and Application to Federated Learning
 
 Jinyeong Seo, Yongsoo Song, Hyukki Lee, Yongwoo Oh, Donghoon Yoo and Hanyul Ryu
 
