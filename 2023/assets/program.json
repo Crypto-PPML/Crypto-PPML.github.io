@@ -53,6 +53,7 @@
                 {
                   "starttime": "9:00",
                   "endtime": "9:45",
+                  "abstract": "Systems for private analytics and federated learning rely on aggregation of distributed data generated across many user devices. In this talk we will discuss cryptographic techniques for distributed secure aggregation in a few different models and the applications that have adopted them. We will highlight some new technical results in this area including how we can use lattices instead of PRGs to improve efficiency and how we can achieve input norm bounding guarantees in the setting of single server aggregation. We will discuss the challenges of differentially private aggregation of sparse inputs in both single and multi-server settings and we will present a new construction in the two server model.",
                   "affiliations": "Google",
                   "authors": [
                     "Mariana Raykova"
