@@ -48,6 +48,10 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 
 ### Abstracts -- Invited Speakers
 
+#### **Kunal Talwar:** Cryptographic Primitives for Private Federated Learning
+
+**Abstract:**
+Private machine learning algorithms often exhibit a large gap between what is achievable with and without a trusted curator. This motivates the problem of designing simple primitives that are on the one hand, rich enough to enable a large class of differentially private algorithms, and on the other, simple enough to be implementable scalably and reliably. In this talk, I will talk about a new primitive of this kind, that allows for efficient implementation of several commonly used algorithms, and allows for privacy accounting that is close to that in the central setting. I will discuss a system architecture that implements this primitive. Time permitting, I will also talk about Euclidean norm verification in this setting, and discuss some open questions.
 
 #### **Sewoong Oh:** Unleashing the Power of Randomization in Auditing Differentially Private ML
 
@@ -66,6 +70,7 @@ This is based on joint work with Krishna Pillutla, Galen Andrew, Peter Kairouz, 
 Systems for private analytics and federated learning rely on aggregation of distributed data generated across many user devices. In this talk we will discuss cryptographic techniques for distributed secure aggregation in a few different models and the applications that have adopted them. We will highlight some new technical results in this area including how we can use lattices instead of PRGs to improve efficiency and how we can achieve input norm bounding guarantees in the setting of single server aggregation. We will discuss the challenges of differentially private aggregation of sparse inputs in both single and multi-server settings and we will present a new construction in the two server model.
 
 <p>&nbsp;</p>
+
 
 ### Contributed Talks
 
