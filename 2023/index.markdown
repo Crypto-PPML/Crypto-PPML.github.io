@@ -49,6 +49,9 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 ### Abstracts -- Invited Speakers
 
 #### **Janardhan (Jana) Kulkarni:** Differentially Private Deep Learning: Unlocking the Good Tokens
+
+<p>&nbsp;</p>
+
 #### **Sewoong Oh:** Unleashing the Power of Randomization in Auditing Differentially Private ML
 
 **Abstract:**
