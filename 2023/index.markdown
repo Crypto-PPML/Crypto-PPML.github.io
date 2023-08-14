@@ -28,8 +28,8 @@ The workshop is an affiliated event of [CRYPTO 2023](https://crypto.iacr.org/202
 The workshop will be in-person.
 
 ### Invited Speakers
-- [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
+- [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Mariana Raykova](https://marianapr.github.io) (Google)
 - [Kunal Talwar](http://kunaltalwar.org) (Apple)
 
@@ -47,6 +47,17 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 <p>&nbsp;</p>
 
 ### Abstracts -- Invited Speakers
+
+
+#### **Sewoong Oh:** Unleashing the Power of Randomization in Auditing Differentially Private ML
+
+**Abstract:**
+Standard statistical approaches for auditing whether a private training algorithm satisfies the claimed level of privacy requires training many models, which is computationally intense. Under the standard definition of differential privacy, we are fundamentally limited by the sample dependence of the Bernoulli confidence intervals involved. To break this barrier, it requires rethinking differential privacy from first principles. To this end, we introduce Lifted Differential Privacy that, while equivalent to differential privacy, allows the privacy auditor to search over a larger space of counterexamples. We exploit this lifted search space in our novel design of audits that inject multiple canary examples. Together with a novel confidence interval that exploits the (lack of) correlation between those test statistics, we showcase the significant gain in sample complexity both theoretically and empirically. This is based on joint work with Krishna Pillutla, Galen Andrew, Peter Kairouz, H. Brendan McMahan, and Alina Oprea.
+
+[https://arxiv.org/abs/2305.18447](https://arxiv.org/abs/2305.18447)
+
+<p>&nbsp;</p>
+
 #### **Mariana Raykova:** Advances (and Challenges) in Secure Aggregation
 
 **Abstract:**
