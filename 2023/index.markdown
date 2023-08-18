@@ -31,7 +31,7 @@ The workshop will be in-person.
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
 - [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Mariana Raykova](https://marianapr.github.io) (Google)
-- [Kunal Talwar](http://kunaltalwar.org) (Apple)
+- ~~[Kunal Talwar](http://kunaltalwar.org) (Apple)~~ - cancelled
 
 ### (Tentative) Program
 
@@ -72,8 +72,7 @@ Systems for private analytics and federated learning rely on aggregation of dist
 
 #### **Kunal Talwar:** Cryptographic Primitives for Private Federated Learning
 
-**Abstract:**
-Private machine learning algorithms often exhibit a large gap between what is achievable with and without a trusted curator. This motivates the problem of designing simple primitives that are on the one hand, rich enough to enable a large class of differentially private algorithms, and on the other, simple enough to be implementable scalably and reliably. In this talk, I will talk about a new primitive of this kind, that allows for efficient implementation of several commonly used algorithms, and allows for privacy accounting that is close to that in the central setting. I will discuss a system architecture that implements this primitive. Time permitting, I will also talk about Euclidean norm verification in this setting, and discuss some open questions.
+**cancelled**
 
 <p>&nbsp;</p>
 
