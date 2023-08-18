@@ -107,30 +107,10 @@
         },
         {
           "starttime": "10:45",
-          "endtime": "11:30",
+          "endtime": "12:30",
           "sessions": [
             {
               "id": "session-6",
-              "session_title": "Invited Talk II",
-              "talks": [
-                {
-                  "affiliations": "Apple",
-                  "authors": [
-                    "Kunal Talwar "
-                  ],
-                  "id": "talk-25",
-                  "title": "Invited Talk: Cryptographic Primitives for Private Federated Learning"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "starttime": "11:30",
-          "endtime": "13:00",
-          "sessions": [
-            {
-              "id": "session-7",
               "session_title": "Contributed Talk II",
               "talks": [
                 {
@@ -186,6 +166,15 @@
                   ],
                   "id": "talk-13",
                   "title": "Private Time-Series Queries from Function Secret Sharing with Applications to Machine Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Alexandra Henzinger, Emma Dauterman, Henry Corrigan-Gibbs",
+                    "Nickolai Zeldovich"
+                  ],
+                  "id": "talk-14",
+                  "title": "Private web search with Tiptoe"
                 }
               ]
             }
@@ -207,7 +196,7 @@
           "sessions": [
             {
               "id": "session-9",
-              "session_title": "Invited Talk III",
+              "session_title": "Invited Talk II",
               "talks": [
                 {
                   "affiliations": "Microsoft Research",
@@ -241,11 +230,11 @@
                 {
                   "affiliations": "",
                   "authors": [
-                    "Alexandra Henzinger, Emma Dauterman, Henry Corrigan-Gibbs",
-                    "Nickolai Zeldovich"
+                    "Kevin McCarthy, Dimitar Jetchev, Sergiu Carpov, Mariya Georgieva Belorgey, Marius Vuille",
+                    "Florian Duraffourg"
                   ],
-                  "id": "talk-14",
-                  "title": "Private web search with Tiptoe"
+                  "id": "talk-19",
+                  "title": "Private, Federated Ensemble Modeling for Financial Anomaly Detection (US-UK PETs Challenge)"
                 }
               ]
             }
@@ -267,7 +256,7 @@
           "sessions": [
             {
               "id": "session-28",
-              "session_title": "Invited Talk IV",
+              "session_title": "Invited Talk III",
               "talks": [
                 {
                   "affiliations": "University of Washington & Google",
@@ -276,27 +265,6 @@
                   ],
                   "id": "talk-31",
                   "title": "Invited Talk: Unleashing the Power of Randomization in Auditing Differentially Private ML:"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "starttime": "16:40",
-          "endtime": "16:55",
-          "sessions": [
-            {
-              "id": "session-30",
-              "session_title": "Contributed Talks IV",
-              "talks": [
-                {
-                  "affiliations": "",
-                  "authors": [
-                    "Kevin McCarthy, Dimitar Jetchev, Sergiu Carpov, Mariya Georgieva Belorgey, Marius Vuille",
-                    "Florian Duraffourg"
-                  ],
-                  "id": "talk-19",
-                  "title": "Private, Federated Ensemble Modeling for Financial Anomaly Detection (US-UK PETs Challenge)"
                 }
               ]
             }
