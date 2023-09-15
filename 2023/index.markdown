@@ -27,11 +27,17 @@ The workshop is an affiliated event of [CRYPTO 2023](https://crypto.iacr.org/202
 
 The workshop will be in-person.
 
+
+### Update (September 2023) -- Videos:
+- [Invited talk I: Mariana Raykova + Contributed Talks I](https://www.youtube.com/watch?v=Db0em6nn36A)
+- [Contributed Talks II](https://www.youtube.com/watch?v=6tregqpSVOU)
+- [Invited talk II: Janardhan (Jana) Kulkarni + Contributed Talks III](https://www.youtube.com/watch?v=jwdc7KxZLXc)
+- [Invited talk III](https://www.youtube.com/watch?v=hldLxN6pJQ8)
+
 ### Invited Speakers
 - [Janardhan (Jana) Kulkarni](https://www.microsoft.com/en-us/research/people/jakul/) (Microsoft Research)
 - [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) (University of Washington & Google)
 - [Mariana Raykova](https://marianapr.github.io) (Google)
-- ~~[Kunal Talwar](http://kunaltalwar.org) (Apple)~~ - cancelled
 
 ### (Tentative) Program
 
@@ -70,11 +76,6 @@ Systems for private analytics and federated learning rely on aggregation of dist
 
 <p>&nbsp;</p>
 
-#### **Kunal Talwar:** Cryptographic Primitives for Private Federated Learning
-
-**cancelled**
-
-<p>&nbsp;</p>
 
 ### Contributed Talks
 
