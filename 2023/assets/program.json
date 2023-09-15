@@ -152,8 +152,7 @@
                 {
                   "affiliations": "",
                   "authors": [
-                    "Yvonne Zhou, Ivan Brugere, Dana Dachman-Soled, Danial Dervovic, Mingyu Liang, Antigoni Polychroniadou",
-                    "Min Wu"
+                    "Yvonne Zhou, Min Wu, Ivan Brugere, Dana Dachman-Soled, Danial Dervovic, Mingyu Liang, Antigoni Polychroniadou"
                   ],
                   "id": "talk-20",
                   "title": "Bounding the Accuracy Loss for Graphical Model Based Synthetic Data Generation in Privacy-Preserving Machine Learning"
