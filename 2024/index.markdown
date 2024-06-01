@@ -64,12 +64,13 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 **Submission deadline:**
 
-Saturday, June 9th, 2024, 11:59pm EST.
+Wednesday, June 12th, 2024, 11:59pm EST.
 
 **Notifications:**
 Friday, June 21st, 2024.
 
-Submission server will be updated soon. 
+Submission server: [https://crypto-ppml.github.io/2024/](https://crypto-ppml.github.io/2024/)
+
 
 Submissions must comply with the following rules:
 - We encourage submitting full papers. Abstracts can also be provided.
@@ -115,6 +116,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
 - Adrià Gascón (Google)
+- [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (JP Morgan AI Research)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
 
