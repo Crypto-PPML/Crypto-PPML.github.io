@@ -30,7 +30,10 @@ The workshop will be in-person.
 
 
 ### Invited Speakers
-TBD
+
+- Nishanth Chandran (Microsoft Research, India)
+- Kunal Talwar (Apple, USA)
+More invited speakers will be added.
 
 ### (Tentative) Program
 
@@ -69,7 +72,7 @@ Wednesday, June 12th, 2024, 11:59pm EST.
 **Notifications:**
 Friday, June 21st, 2024.
 
-Submission server: [https://crypto-ppml.github.io/2024/](https://crypto-ppml.github.io/2024/)
+Submission server: [https://easychair.org/my/conference?conf=cryptoppml2024](https://easychair.org/my/conference?conf=cryptoppml2024)
 
 
 Submissions must comply with the following rules:
