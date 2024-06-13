@@ -84,6 +84,26 @@ Submissions must comply with the following rules:
 The committee will follow COI standards according to the IACR policy. Contributed Talks Committee members are allowed to submit as well.
 
 ### Contributed Talks Committee
+
+-[Carsten Baum](https://carstenbaum.com) (DTU)
+-[Ran Cohen](https://cs.idc.ac.il/~ran/) (Reichman University)
+-[Dana Dachman-Soled](https://user.eng.umd.edu/~danadach/) (University of Maryland)
+-[Vipul Goyal](https://vipulgoyal.org) (NTT Research)
+-[Peihan Miao](https://sites.google.com/view/peihanmiao/home) (Brown University)
+-[Parker Newton](https://www.amazon.science/author/parker-newton) (Amazon)
+-[Melek Önen] (https://onen.eurecom.io) (EURECOM)
+-[Dario Pasquini](https://pasquini-dario.github.io/me/) (George Mason University)
+-[Katerina Sotiraki](https://sotiraki.com) (Yale University)
+-[Ni Trieu] (https://nitrieu.github.io) (Arizona State University)
+-[Vassilis Zikas](https://www.cs.purdue.edu/homes/vzikas/) (Purdue University)
+
+
+
+
+
+
+
+
 <!---
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) -- organizer
 - [Hubert Chan](https://i.cs.hku.hk/~hubert/) (University of Hong Kong)
