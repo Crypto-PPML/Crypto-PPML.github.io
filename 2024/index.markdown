@@ -91,10 +91,10 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Vipul Goyal](https://vipulgoyal.org) (NTT Research)
 - [Peihan Miao](https://sites.google.com/view/peihanmiao/home) (Brown University)
 - [Parker Newton](https://www.amazon.science/author/parker-newton) (Amazon)
-- [Melek Önen] (https://onen.eurecom.io) (EURECOM)
+- [Melek Önen](https://onen.eurecom.io) (EURECOM)
 - [Dario Pasquini](https://pasquini-dario.github.io/me/) (George Mason University)
 - [Katerina Sotiraki](https://sotiraki.com) (Yale University)
-- [Ni Trieu] (https://nitrieu.github.io) (Arizona State University)
+- [Ni Trieu](https://nitrieu.github.io) (Arizona State University)
 - [Vassilis Zikas](https://www.cs.purdue.edu/homes/vzikas/) (Purdue University)
 
 
