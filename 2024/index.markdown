@@ -41,8 +41,9 @@ More invited speakers will be added.
 The time displayed is in Pacific Daylight Time (GMT-7).
 
 
-TBD
-
+<div markdown="0">
+    {% include program.html programURL='2024/assets/program.json' %}
+</div>
 ### Abstracts -- Invited Speakers
 
 

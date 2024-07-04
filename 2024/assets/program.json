@@ -1,0 +1,265 @@
+{
+  "config": {
+    "default_talk_minutes": 25,
+    "default_track_locations": [
+      {
+        "name": "Enter a location"
+      }
+    ],
+    "timezone": {
+      "abbr": "UTC",
+      "name": "UTC"
+    },
+    "unassigned_talks": [
+      {
+        "id": "category-0",
+        "name": "Uncategorized",
+        "talks": []
+      }
+    ],
+    "uniqueIDIndex": 23
+  },
+  "database_id": "1084",
+  "days": [
+    {
+      "date": "2024-08-18",
+      "timeslots": [
+        {
+          "starttime": "8:55",
+          "endtime": "9:00",
+          "sessions": [
+            {
+              "id": "session-1",
+              "location": {
+                "name": "Location TBD"
+              },
+              "session_title": "Welcome"
+            }
+          ]
+        },
+        {
+          "starttime": "9:00",
+          "endtime": "9:45",
+          "sessions": [
+            {
+              "id": "session-2",
+              "session_title": "Invited Talk I: Sanjam Garg"
+            }
+          ]
+        },
+        {
+          "starttime": "9:45",
+          "endtime": "10:15",
+          "sessions": [
+            {
+              "id": "session-3",
+              "moderator": "Chair: TBD",
+              "session_title": "Contributed Talks I (Theme: LLMs)",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Leo de Castro, Daniel Escudero",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "id": "talk-11",
+                  "title": "Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Lynn Chua, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Daogao Liu, Pasin Manurangsi, Amer Sinha",
+                    "Chiyuan Zhang"
+                  ],
+                  "id": "talk-12",
+                  "title": "Mind the Privacy Unit! User-Level Differential Privacy for Language Model Fine-Tuning"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "10:15",
+          "endtime": "10:45",
+          "sessions": [
+            {
+              "id": "session-4",
+              "session_title": "Coffee break"
+            }
+          ]
+        },
+        {
+          "starttime": "10:45",
+          "endtime": "11:30",
+          "sessions": [
+            {
+              "id": "session-6",
+              "session_title": "Invited Talk II: Kunal Talwar"
+            }
+          ]
+        },
+        {
+          "starttime": "11:30",
+          "endtime": "12:30",
+          "sessions": [
+            {
+              "id": "session-5",
+              "moderator": "Chair: TBD",
+              "session_title": "Contributed Talks II (Theme: DP)",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Lynn Chua, Badih Ghazi, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Amer Sinha",
+                    "Chiyuan Zhang"
+                  ],
+                  "id": "talk-13",
+                  "title": "How Private are DP-SGD Implementations?"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yun Lu, Malik Magdon-Ismail, Yu Wei",
+                    "Vassilis Zikas"
+                  ],
+                  "id": "talk-14",
+                  "title": "Eureka: A General Framework for Black-box Differential Privacy Estimators"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Jacob Imola, Amrita Roy Chowdhury",
+                    "Kamalika Chaudhuri"
+                  ],
+                  "id": "talk-15",
+                  "title": "Metric Differential Privacy at the User-Level"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Alexander Bienstock, Ujjwal Kumar",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "id": "talk-16",
+                  "title": "Distributed Matrix Mechanism for Federated Learning using Packed Secret Sharing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "12:30",
+          "endtime": "13:50",
+          "sessions": [
+            {
+              "id": "session-7",
+              "session_title": "Lunch"
+            }
+          ]
+        },
+        {
+          "starttime": "13:50",
+          "endtime": "14:35",
+          "sessions": [
+            {
+              "id": "session-8",
+              "moderator": "Chair: TBD",
+              "session_title": "Invited Talk III: Nishanth Chandran"
+            }
+          ]
+        },
+        {
+          "starttime": "14:35",
+          "endtime": "15:20",
+          "sessions": [
+            {
+              "id": "session-9",
+              "session_title": "Contributed Talks III (Theme: Secure Aggregation)",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Harish Karthikeyan",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "id": "talk-17",
+                  "title": "OPA : One-shot Private Aggregation with Single Client Interaction and its Applications to Federated Learning"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yiping Ma, Yue Guo, Harish Karthikeyan",
+                    "Antigoni Polychroniadou"
+                  ],
+                  "id": "talk-19",
+                  "title": "Armadillo: Robust Secure Aggregation for Federated Learning with Input Validation"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "James Bell-Clark, Adrià Gascón, Baiyu Li, Mariana Raykova",
+                    "Phillipp Schoppmann"
+                  ],
+                  "id": "talk-18",
+                  "title": "Willow: Secure Aggregation with One-Shot Clients"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "starttime": "15:20",
+          "endtime": "15:50",
+          "sessions": [
+            {
+              "id": "session-10",
+              "session_title": "Break"
+            }
+          ]
+        },
+        {
+          "starttime": "15:50",
+          "endtime": "16:35",
+          "sessions": [
+            {
+              "id": "session-20",
+              "session_title": "Contributed Talks IV  (Theme: Misc)",
+              "talks": [
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Truong Son Nguyen, Wang Lun, Evegenios Kornaropoulos",
+                    "Ni Trieu"
+                  ],
+                  "id": "talk-22",
+                  "title": "AITIA: Efficient Secure Computation of Bivariate Causal Discovery"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Yun Li, Daniel Escudero, Yufei Duan, Zhicong Huang, Cheng Hong, Chao Zhang",
+                    "Yifan Song"
+                  ],
+                  "id": "talk-21",
+                  "title": "Sublinear Distributed Product Checks on Replicated Secret-Shared Data over Z2k without Ring Extensions"
+                },
+                {
+                  "affiliations": "",
+                  "authors": [
+                    "Alexander Nicita",
+                    "Steven Bellovin"
+                  ],
+                  "id": "talk-23",
+                  "title": "PRIVUS: Census Privacy System"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "CRYPTO PPML 2024",
+  "tabbedSessions": false,
+  "twoSessions": false
+}
