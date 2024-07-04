@@ -32,6 +32,7 @@ The workshop will be in-person.
 ### Invited Speakers
 
 - Nishanth Chandran (Microsoft Research, India)
+- Sanjam Garg (UC Berkley, USA)
 - Kunal Talwar (Apple, USA)
 More invited speakers will be added.
 
