@@ -59,6 +59,9 @@ formal claims are met in practice.
 
 (Based on joint work with Jaiden Fairoze, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody, and Mingyuan Wang)
 
+<p>&nbsp;</p>
+
+
 #### **Kunal Talwar:** Samplable Anonymous Aggregation for Private Federated Data Analysis
 
 **Abstract:**
@@ -70,6 +73,8 @@ I will discuss a new primitive that allows for efficient implementation of sever
 Based on these joint works with several wonderful collaborators:
 [https://arxiv.org/abs/2307.15017](https://arxiv.org/abs/2307.15017) and [https://arxiv.org/abs/2311.10237](https://arxiv.org/abs/2311.10237)
 
+<p>&nbsp;</p>
+
 
 #### **Nishanth Chandran:** Practical cryptographic solutions to secure inference and private benchmarking
 
@@ -79,7 +84,119 @@ Based on these joint works with several wonderful collaborators:
 Rapid advancements in machine learning have led to increased data silos with different stakeholders unwilling to share their sensitive data and proprietary models. These silos create barriers to offering inference-as-a-service or even being able to truly evaluate the quality of models. Theoretically, secure multi-party computation (MPC) can help overcome these barriers - however, much work is needed to make it practically deployable primarily in terms of handling scale, performance, and usability. In this talk, I will provide an overview of these challenges and present recent cryptographic techniques based on the paradigm of function secret sharing that help us build end-to-end MPC based solutions for secure inference as well as private benchmarking. Our work shows that, in certain settings, the overhead of MPC can be quite low - e.g., state-of-the-art models for vision tasks can be performed in real-time, while even billion parameter generative AI models can be executed securely in a few seconds.
 
 
+<p>&nbsp;</p>
+
+
 ### Contributed Talks
+
+#### How Private are DP-SGD Implementations?
+
+Lynn Chua, Badih Ghazi, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Amer Sinha and Chiyuan Zhang
+
+**Abstract:**
+
+
+<p>&nbsp;</p>
+
+#### Mind the Privacy Unit! User-Level Differential Privacy for Language Model Fine-Tuning
+
+Lynn Chua, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Daogao Liu, Pasin Manurangsi, Amer Sinha and Chiyuan Zhang
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+#### AITIA: Efficient Secure Computation of Bivariate Causal Discovery		
+
+Truong Son Nguyen, Wang Lun, Evegenios Kornaropoulos and Ni Trieu
+
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### OPA : One-shot Private Aggregation with Single Client Interaction and its Applications to Federated Learning
+
+Harish Karthikeyan and Antigoni Polychroniadou
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+#### Eureka: A General Framework for Black-box Differential Privacy Estimators
+
+Yun Lu, Malik Magdon-Ismail, Yu Wei and Vassilis Zikas
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### Metric Differential Privacy at the User-Level
+
+Jacob Imola, Amrita Roy Chowdhury and Kamalika Chaudhuri
+
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+
+#### Armadillo: Robust Secure Aggregation for Federated Learning with Input Validation
+
+Yiping Ma, Yue Guo, Harish Karthikeyan and Antigoni Polychroniadou
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### Sublinear Distributed Product Checks on Replicated Secret-Shared Data over Z2k without Ring Extensions
+
+Yun Li, Daniel Escudero, Yufei Duan, Zhicong Huang, Cheng Hong, Chao Zhang and Yifan Song
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+#### Willow: Secure Aggregation with One-Shot Clients
+
+James Bell-Clark, Adrià Gascón, Baiyu Li, Mariana Raykova and Phillipp Schoppmann
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### PRIVUS: Census Privacy System
+
+Alexander Nicita and Steven Bellovin
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+#### Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption
+
+Leo de Castro, Daniel Escudero and Antigoni Polychroniadou
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+#### Distributed Matrix Mechanism for Federated Learning using Packed Secret Sharing
+
+Alexander Bienstock, Ujjwal Kumar and Antigoni Polychroniadou	
+
+**Abstract:**
+
+<p>&nbsp;</p>
+
+
+
+
 ### Call for Contributed Talks
 
 There will be a session of contributed talks.
