@@ -45,6 +45,9 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 <div markdown="0">
     {% include program.html programURL='2024/assets/program.json' %}
 </div>
+
+<p>&nbsp;</p>
+
 ### Abstracts -- Invited Speakers
 
 #### **Sanjam Garg:** Publicly Detectable Watermarking for Language Models
