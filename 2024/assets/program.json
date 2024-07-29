@@ -43,7 +43,7 @@
           "sessions": [
             {
               "id": "session-2",
-              "session_title": "Invited Talk I: Sanjam Garg"
+              "session_title": "Invited Talk I: Sanjam Garg -- Publicly Detectable Watermarking for Language Models"
             }
           ]
         },
@@ -94,7 +94,7 @@
           "sessions": [
             {
               "id": "session-6",
-              "session_title": "Invited Talk II: Kunal Talwar"
+              "session_title": "Invited Talk II: Kunal Talwar -- Samplable Anonymous Aggregation for Private Federated Data Analysis"
             }
           ]
         },
@@ -164,7 +164,7 @@
             {
               "id": "session-8",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk III: Nishanth Chandran"
+              "session_title": "Invited Talk III: Nishanth Chandran -- Practical cryptographic solutions to secure inference and private benchmarking"
             }
           ]
         },

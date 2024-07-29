@@ -47,6 +47,36 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 </div>
 ### Abstracts -- Invited Speakers
 
+#### **Sanjam Garg:** Publicly Detectable Watermarking for Language Models
+
+**Abstract:**
+
+We present a highly detectable, trustless watermarking scheme for LLMs: the detection algorithm contains no secret information, and it is executable by anyone. We embed a publicly-verifiable cryptographic signature into LLM output using rejection sampling. We prove that our scheme is cryptographically
+correct, sound, and distortion-free. We make novel use of error-correction techniques to overcome periods
+of low entropy, a barrier for all prior watermarking schemes. We implement our scheme and make empirical
+measurements over open models in the 2.7B to 70B parameter range. Our experiments suggest that our
+formal claims are met in practice.  
+
+(Based on joint work with Jaiden Fairoze, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody, and Mingyuan Wang)
+
+#### **Kunal Talwar:** Samplable Anonymous Aggregation for Private Federated Data Analysis
+
+**Abstract:**
+
+In this talk, I will revisit the problem of designing scalable protocols for private statistics and private federated learning when each device holds its private data. Locally differentially private algorithms require little trust but are provably limited in their utility. Centrally differentially private algorithms can allow significantly better utility but require a trusted curator. This gap has led to significant interest in the design and implementation of simple cryptographic primitives, that can allow central-like utility guarantees without having to trust a central server.
+
+I will discuss a new primitive that allows for efficient implementation of several commonly used algorithms, and allows for privacy accounting that is close to that in the central setting without requiring the strong trust assumptions it entails. I will discuss a system architecture that implements the new primitive. Time permitting, I will also talk about Euclidean norm verification in this setting, and discuss some open questions.
+
+Based on these joint works with several wonderful collaborators:
+[https://arxiv.org/abs/2307.15017](https://arxiv.org/abs/2307.15017) and [https://arxiv.org/abs/2311.10237](https://arxiv.org/abs/2311.10237)
+
+
+#### **Nishanth Chandran:** Practical cryptographic solutions to secure inference and private benchmarking
+
+
+**Abstract:**
+
+Rapid advancements in machine learning have led to increased data silos with different stakeholders unwilling to share their sensitive data and proprietary models. These silos create barriers to offering inference-as-a-service or even being able to truly evaluate the quality of models. Theoretically, secure multi-party computation (MPC) can help overcome these barriers - however, much work is needed to make it practically deployable primarily in terms of handling scale, performance, and usability. In this talk, I will provide an overview of these challenges and present recent cryptographic techniques based on the paradigm of function secret sharing that help us build end-to-end MPC based solutions for secure inference as well as private benchmarking. Our work shows that, in certain settings, the overhead of MPC can be quite low - e.g., state-of-the-art models for vision tasks can be performed in real-time, while even billion parameter generative AI models can be executed securely in a few seconds.
 
 
 ### Contributed Talks
