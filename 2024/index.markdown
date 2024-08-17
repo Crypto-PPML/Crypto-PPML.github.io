@@ -23,7 +23,7 @@ The workshop is an affiliated event of [CRYPTO 2024](https://crypto.iacr.org/202
 
 ### Location
 
-#### University of Santa Barbara, California
+#### MCC Theater, University of Santa Barbara, California
 
 The workshop will be in-person.
 

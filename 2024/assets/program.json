@@ -31,7 +31,7 @@
             {
               "id": "session-1",
               "location": {
-                "name": "Location TBD"
+                "name": "MCC Theater"
               },
               "session_title": "Welcome"
             }
@@ -43,6 +43,7 @@
           "sessions": [
             {
               "id": "session-2",
+              "moderator": "Session chair: Harish Karthikeyan",
               "session_title": "Invited Talk I: Sanjam Garg -- Publicly Detectable Watermarking for Language Models"
             }
           ]
@@ -53,7 +54,7 @@
           "sessions": [
             {
               "id": "session-3",
-              "moderator": "Chair: TBD",
+              "moderator": "Session chair: Alex Bienstock",
               "session_title": "Contributed Talks I (Theme: LLMs)",
               "talks": [
                 {
@@ -94,6 +95,7 @@
           "sessions": [
             {
               "id": "session-6",
+              "moderator": "Session chair: Alex Bienstock",
               "session_title": "Invited Talk II: Kunal Talwar -- Samplable Anonymous Aggregation for Private Federated Data Analysis"
             }
           ]
@@ -104,7 +106,7 @@
           "sessions": [
             {
               "id": "session-5",
-              "moderator": "Chair: TBD",
+              "moderator": "Session chair: Peihan Miao",
               "session_title": "Contributed Talks II (Theme: DP)",
               "talks": [
                 {
@@ -163,7 +165,7 @@
           "sessions": [
             {
               "id": "session-8",
-              "moderator": "Chair: TBD",
+              "moderator": "Session chair: Daniel Escudero",
               "session_title": "Invited Talk III: Nishanth Chandran -- Practical cryptographic solutions to secure inference and private benchmarking"
             }
           ]
@@ -174,6 +176,7 @@
           "sessions": [
             {
               "id": "session-9",
+              "moderator": "Session chair: Akira Takahashi ",
               "session_title": "Contributed Talks III (Theme: Secure Aggregation)",
               "talks": [
                 {
@@ -223,6 +226,7 @@
           "sessions": [
             {
               "id": "session-20",
+              "moderator": "Session chair: Harish Karthikeyan ",
               "session_title": "Contributed Talks IV  (Theme: Misc)",
               "talks": [
                 {
