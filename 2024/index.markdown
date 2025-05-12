@@ -3,7 +3,6 @@ title: Privacy-Preserving Machine Learning Workshop 2024
 headerTitle: PPML 2024
 headerInfoDate: August 18, 2024
 layout: default
-redirect_from: "/"
 ---
 
 ## Affiliated Event: The 6th Privacy-Preserving Machine Learning Workshop 2024

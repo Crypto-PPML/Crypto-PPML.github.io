@@ -3,7 +3,6 @@ title: Privacy-Preserving Machine Learning Workshop 2023
 headerTitle: PPML 2023
 headerInfoDate: August 20, 2023
 layout: default
-redirect_from: "/"
 ---
 
 ## Affiliated Event: The 5th Privacy-Preserving Machine Learning Workshop 2023
