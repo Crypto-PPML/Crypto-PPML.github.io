@@ -66,14 +66,17 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 **Submission deadline:**
 
-The exact date will be published soon. 
+Submission server:  [https://easychair.org/my/conference?conf=cryptoppml2025](https://easychair.org/my/conference?conf=cryptoppml2025)
+
+The deadline for contributed talks is Sunday, June 15th, 2025
+Notification will be sent out no later than Sunday, June 22nd, 2025
+
 <!-- Wednesday, June 12th, 2024, 11:59pm EST. -->
 
 **Notifications:**
 TBA. 
 <!-- Friday, June 21st, 2024. -->
 
-Submission server: TBA 
 <!-- [https://easychair.org/my/conference?conf=cryptoppml2024](https://easychair.org/my/conference?conf=cryptoppml2024) -->
 
 
