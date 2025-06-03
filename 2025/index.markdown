@@ -97,6 +97,7 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/) (Microsoft Research)
 - [Bernardo David](https://www.bmdavid.com) (IT University of Copenhagen (ITU))
 - [Sanjam Garg](https://people.eecs.berkeley.edu/~sanjamg/) (University of California, Berkeley)
+- [Dov Gordon](https://cs.gmu.edu/~gordon/) (George Mason University)
 - [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (JP Morgan AI Research) -- organizer
 - [Melek Önen](https://onen.eurecom.io) (EURECOM)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
