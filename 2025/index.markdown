@@ -91,7 +91,22 @@ The committee will follow COI standards according to the IACR policy. Contribute
 
 ### Contributed Talks Committee
 
-TBA
+
+- [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University) -- organizer
+- [Carsten Baum](http://carstenbaum.com) (DTU Copenhagen)
+- [Nishanth Chandran](https://www.microsoft.com/en-us/research/people/nichandr/) (Microsoft Research)
+- [Bernardo David](https://www.bmdavid.com) (IT University of Copenhagen (ITU))
+- [Sanjam Garg](https://people.eecs.berkeley.edu/~sanjamg/) (University of California, Berkeley)
+- [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (JP Morgan AI Research) -- organizer
+- [Melek Önen](https://onen.eurecom.io) (EURECOM)
+- [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
+- [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
+- [Mariana Raykova](https://marianapr.github.io) (Google) -- organizer
+- [Elaine Shi](https://elaineshi.com) (CMU)
+- Phillipp Schoppmann (Google)
+- [Ni Trieu](https://nitrieu.github.io) (Arizona State University)
+
+
 
 
 
@@ -133,9 +148,10 @@ TBA
 ### Organizers
 
 - [Gilad Asharov](http://www.cs.biu.ac.il/~asharog) (Bar-Ilan University)
-- [Mariana Raykova](https://marianapr.github.io) (Google)
 - [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (JP Morgan AI Research)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA)
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research)
+- [Mariana Raykova](https://marianapr.github.io) (Google)
+
 
 Contact email: [CRYPTO.PPML@gmail.com](mailto:CRYPTO.PPML@gmail.com)
