@@ -102,8 +102,8 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
 - [Mariana Raykova](https://marianapr.github.io) (Google) -- organizer
-- [Elaine Shi](https://elaineshi.com) (CMU)
 - Phillipp Schoppmann (Google)
+- [Elaine Shi](https://elaineshi.com) (CMU)
 - [Ni Trieu](https://nitrieu.github.io) (Arizona State University)
 
 
