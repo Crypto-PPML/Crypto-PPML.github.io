@@ -23,8 +23,6 @@ The workshop is an affiliated event of [CRYPTO 2025](https://crypto.iacr.org/202
 
 ### Location
 
-<!--#### MCC Theater, University of Santa Barbara, California-->
-
 The workshop will be in-person.
 
 
