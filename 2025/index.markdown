@@ -93,11 +93,12 @@ The committee will follow COI standards according to the IACR policy. Contribute
 - [Sanjam Garg](https://people.eecs.berkeley.edu/~sanjamg/) (University of California, Berkeley)
 - [Dov Gordon](https://cs.gmu.edu/~gordon/) (George Mason University)
 - [Harish Karthikeyan](https://sites.google.com/view/kharish/home) (JP Morgan AI Research) -- organizer
+- [Parker Newton](https://www.amazon.science/author/parker-newton) (Amazon)
 - [Melek Önen](https://onen.eurecom.io) (EURECOM)
 - [Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/) (UCLA) -- organizer
 - [Antigoni Polychroniadou](https://antigonip.github.io/) (JP Morgan AI Research) -- organizer
 - [Mariana Raykova](https://marianapr.github.io) (Google) -- organizer
-- Phillipp Schoppmann (Google)
+- [Phillipp Schoppmann](https://scholar.google.com/citations?user=1FkrtpsAAAAJ&hl=en&oi=ao) (Google)
 - [Elaine Shi](https://elaineshi.com) (CMU)
 - [Ni Trieu](https://nitrieu.github.io) (Arizona State University)
 
