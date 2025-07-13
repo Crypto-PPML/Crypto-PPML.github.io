@@ -28,7 +28,9 @@ The workshop will be in-person.
 
 
 ### Invited Speakers
-
+- Divya Gupta (Microsoft Research)
+- Gautam Kamath (University of Waterloo)
+- Sumanth Dathathri (Deep Mind)
 
 ### (Tentative) Program
 
