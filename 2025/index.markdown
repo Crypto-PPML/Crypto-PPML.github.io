@@ -88,9 +88,13 @@ Jaspal Singh, Yu Wei, Vassilis Zikas
 
 **Abstract:** 
 
+<p>
 Achieving distributed differential privacy (DP) without a trusted central party is of great interest in both theory and practice. The shuffle model has recently emerged as a compelling approach. Unlike the local DP model, where users directly send randomized data to the analyzer, the shuffle model introduces an intermediate, trusted shuffler that randomly permutes the already-randomized messages before forwarding them. A key appeal of this model is its privacy amplification effect, which enables a broader class of DP computations in distributed settings. However, despite these advantages, a substantial gap remains between what can be computed in the central model and the shuffle model, typically in the non-interactive setting, which is particularly attractive for deployment due to its simplicity and flexibility.
+
 In this work, we take a step toward closing this gap by initiating the study of computational shuffle DP protocols in the non-interactive setting. We approach this by two folds. First, we make a mild relaxation of the privacy requirement — from protecting against arbitrary adversaries to protecting against all polynomial-time adversaries, i.e., transitioning from information-theoretic DP to computational DP. More importantly, we present a novel framework that transforms any central DP mechanism into a computational shuffle DP protocol, building on additively randomized encodings (ARE), a recently proposed cryptographic primitive by Halevi et al. (Crypto '23). As part of our construction, we introduce a new ARE scheme that distributes computational load more evenly across all clients, which might be of independent interest.
+
 Our computational shuffle DP protocols can support any mechanism achievable in the central model. For several key DP tasks — including selection, parity, and distinct element estimation — our computational shuffle DP protocols achieve significantly lower sample complexity than existing information-theoretic shuffle DP protocols, overcoming known lower bounds in the shuffle model. For a broad class of mechanisms, we achieve near-optimal client bandwidth (up to polylogarithmic factors).
+</p>
 
 <p>&nbsp;</p>
 
@@ -100,7 +104,9 @@ Erchi Wang, Yuqing Zhu, Yuxiang Wang
 
 **Abstract:** 
 
+<p>
 This paper studies the problem of differentially private empirical risk minimization (DP-ERM) for binary linear classification.We obtain an efficient $(\varepsilon,\delta)$-DP algorithm with an empirical zero-one risk bound of $\tilde{O}\left(\frac{1}{\gamma^2\varepsilon n} + \frac{|S_{\mathrm{out}}|}{\gamma n}\right)$ where $n$ is the number of data points, $S_{\mathrm{out}}$ is an arbitrary subset of data one can remove and $\gamma$ is the margin of linear separation of the remaining data points (after $S_{\mathrm{out}}$ is removed). Here, $\tilde{O}(\cdot)$ hides only logarithmic terms. In the agnostic case, we improve the existing results when the number of outliers is small. Our algorithm is highly adaptive because it does not require knowing the margin parameter $\gamma$ or outlier subset $S_{\mathrm{out}}$. We also derive a utility bound for the advanced private hyperparameter tuning algorithm.
+</p>
 
 <p>&nbsp;</p>
 
@@ -110,10 +116,12 @@ Yun Lu, Malik Magdon-Ismail, Yu Wei, Vassilis Zikas
 
 **Abstract:** 
 
+<p>
 Big data analytics often use randomized sketching and aggregation algorithms to make processing high-dimensional data tractable. Thus, towards achieving (differentially) private (DP) machine learning (ML), one might ask: Can we leverage this randomization in privacy-preserving ML algorithms? This question has been well studied for specific cases such as subsampling and count sketches. In this work, we take a step toward tackling a broader class of mechanisms: motivated by the central role of the Central Limit Theorem (and thus, the Gaussian distribution) in big data scenarios, we ask:
 (How) can we improve the utility of DP mechanisms for randomized ML queries when their output is a Gaussian, by leveraging the randomness of the query itself?
 Towards a (positive) answer, our starting point is proving the Normal Distributions Indistinguishability Spectrum lemma (in short, NDIS Lemma), a theoretical result with several practical implications. In a nutshell, NDIS is a closed-form analytic computation of the hockey-stick divergence between an arbitrary pair of multivariate Gaussians, parameterized by exp(ε). The importance of the NDIS lemma lies in that (1) it yields efficient estimators for the above divergence, and (2) it allows us to analyze DP mechanisms with normally distributed outputs, as well as more general mechanisms by leveraging their behavior on large inputs.
 We apply the NDIS lemma to derive DP mechanisms for queries with normally distributed outputs — i.e., Gaussian Random Projections (RP) — and for more general queries — i.e., Ordinary Least Squares (OLS). Both RP and OLS are highly relevant in data analytics. Compared to existing techniques, our new DP mechanisms achieve superior privacy-utility trade-offs for any privacy budget (ε, δ) by leveraging the randomness of the underlying algorithms. We then apply the NDIS lemma to a data-driven DP notion — in particular, relative DP introduced by Lu et al. (S&P 2024). Here, as we show, our method identifies, for the first time in any such data-driven notion, the range of (ε, δ) for which no additional noise is needed. The superiority of our resulting mechanisms is proven analytically and confirmed by extensive empirical results.
+</p>
 
 <p>&nbsp;</p>
 
@@ -123,7 +131,9 @@ Ahmad Al Badawi, Andreea Alexandru, Yuriy Polyakov
 
 **Abstract:** 
 
+<p>
 There have been multiple recent advances in the state of the art of FHE for PPML. Many new PPML implementation results have appeared using both OpenFHE and other FHE libraries. A topic of special interest has been the implementation of privacy-preserving LLM inference using FHE. The goals of this talk are to provide an overview of latest FHE advances (with focus on bootstrapping and large matrix arithmetic), recent PPML applications implemented using OpenFHE, and latest LLM inference implementations.
+</p>
 
 <p>&nbsp;</p>
 
@@ -133,10 +143,12 @@ Karthik Garimella, Austin Ebel, Gabrielle De Micheli, Brandon Reagen
 
 **Abstract:** 
 
+<p>
 We present two works that advance the state-of-the-art in privacy-preserving deep learning using Fully Homomorphic Encryption (FHE).
 First, we introduce Orion (best paper award at ASPLOS 2025), a fully-automated framework that translates deep neural networks written in PyTorch into efficient FHE programs. Orion addresses several fundamental challenges in FHE programming such as data packing, non-linear activation approximation, bootstrap placement, and scale management. In detail, Orion introduces a single-shot multiplexed packing strategy that enables arbitrary convolutions (reducing multiplicative depth by 2× and rotations by up to 6.41×) and leverages the double-hoisted baby-step giant-step matrix-vector product to reduce both the complexity and count of ciphertext rotations. Furthermore, Orion automatically places bootstraps within a network without requiring any user input. Orion achieves a 2.38× speedup over prior work on ResNet-20 and scales to networks as large as ResNet-50 on ImageNet. Using Orion, we run the first high-resolution FHE object detection using a YOLO-v1 model with 139 million parameters with minimal code changes.
 Second, we demonstrate the practical deployment of Orion through HE-LRM, the first FHE-based Deep Learning Recommendation Model. HE-LRM tackles the unique challenges of recommendation systems, which process both dense and sparse features through large embedding tables. We develop compressed embedding lookups that improve upon prior work by 77× and introduce a multi-embedding packing strategy enabling a 44 million parameter embedding lookup under FHE. Our system successfully performs encrypted inference on both the UCI Heart Disease and Criteo click-through datasets and achieves a latency of 24 and 227 seconds, respectively. HE-LRM is currently under submission.
 Together, these works bridge the gap between FHE theory and real-world machine learning applications.
+</p>
 
 <p>&nbsp;</p>
 
@@ -155,8 +167,10 @@ Elisaweta Masserova, Antigoni Polychroniadou, Akira Takahashi
 
 **Abstract:** 
 
+<p>
 Ensuring fairness in AI is a complex challenge, further complicated by privacy concerns. While companies may want to prove fairness to comply with regulations or build customer trust, they are often hesitant to disclose proprietary models.
 In our work, we address this for decision trees by designing customized zero-knowledge proofs (ZKPs), a well-established cryptographic method. Specifically, we propose and implement the first ZKP of fairness for decision trees, offering a combination of key features: 1) It overcomes previous limitations by guaranteeing fairness even against dishonest model owners who manipulate input data. 2) It is non-interactive and publicly verifiable, allowing the model owner to generate a one-time certificate proving fairness, which can be asynchronously verified by any interested party. Our solution is highly efficient in communication, delivering a dramatic improvement (~550,000× for a 30k-sized dataset) compared to the current state of the art.
+</p>
 
 <p>&nbsp;</p>
 
@@ -166,7 +180,9 @@ Sam Buxbaum, Lucas Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mar
 
 **Abstract:** 
 
+<p>
 We present a real-world deployment of secure multiparty computation to predict political preference from private web browsing data. To estimate aggregate preferences for the 2024 U.S. presidential election, we collect and analyze secret-shared data from nearly 8000 users from August 2024 through February 2025, with over 2000 daily active users sustained throughout the bulk of the survey. The use of MPC allows us to access sensitive web browsing data that users would otherwise be more hesitant to provide. We collected data using a custom-built Chrome browser plugin and performed our analysis using the CrypTen MPC library. To our knowledge, we provide the first implementation under MPC of a model for the learning from label proportions (LLP) problem in machine learning, which allows us to train on unlabeled web browsing data using publicly available polling and election results as the ground truth. This is a cross-disciplinary project combining cryptography, machine learning, and political science, and the proposed talk will focus on the privacy-preserving machine learning component. This document contains a description of the topics that will be covered in the talk.
+</p>
 
 <p>&nbsp;</p>
 
