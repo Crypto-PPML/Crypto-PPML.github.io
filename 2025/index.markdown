@@ -35,6 +35,9 @@ The workshop will be in-person.
 
 The time displayed is in Pacific Daylight Time (GMT-7).
 
+<div markdown="0">
+    {% include program.html programURL='2025/assets/program.json' %}
+</div>
 
 <p>&nbsp;</p>
 
