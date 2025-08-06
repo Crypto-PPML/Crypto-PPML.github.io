@@ -30,7 +30,7 @@ The workshop will be in-person.
 ### Invited Speakers
 - Divya Gupta (Microsoft Research)
 - Gautam Kamath (University of Waterloo)
-- Sumanth Dathathri (Deep Mind)
+- Leo de Castro (JPMorganChase)
 
 ### (Tentative) Program
 
@@ -55,6 +55,10 @@ Based on joint works with Samuel B. Hopkins, Mahbod Majid, and Shyam Narayanan.
 
 <p>&nbsp;</p>
 
+#### **Divya Gupta:** From Bottlenecks to Breakthroughs: Accelerating MPC for Secure  ML
+
+**Abstract:**
+Will be added soon. 
 
 
 ### Contributed Talks
