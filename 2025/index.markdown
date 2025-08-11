@@ -30,7 +30,7 @@ The workshop will be in-person.
 ### Invited Speakers
 - Divya Gupta (Microsoft Research)
 - Gautam Kamath (University of Waterloo)
-- Sumanth Dathathri (Deep Mind)
+- Leo de Castro (JPMorganChase)
 
 ### (Tentative) Program
 
@@ -54,6 +54,11 @@ We study the relationship between adversarial robustness and differential privac
 Based on joint works with Samuel B. Hopkins, Mahbod Majid, and Shyam Narayanan.
 
 <p>&nbsp;</p>
+
+#### **Divya Gupta:** From Bottlenecks to Breakthroughs: Accelerating MPC for Secure ML
+
+**Abstract:**
+Secure multi-party computation (MPC) holds the promise of enabling privacy-preserving machine learning across data and model silos—but in practice, performance, scale, and usability bottlenecks have limited real-world adoption. In this talk, I will discuss how recent advances in function secret sharing (FSS) are transforming these bottlenecks into breakthroughs, pushing MPC for secure ML from theory to high-performance reality. With our novel FSS-based protocols and GPU acceleration, we achieve sub-second latency for ImageNet-scale inference and execute LLaMA2-13B in under a minute—making both vision and large language models practical in secure settings. We then extend these ideas to build the first FSS-based system for maliciously secure ML inference that not only beats prior state-of-the-art in correlation size and online communication analytically, but also outperforms it empirically by two to three orders of magnitude.
 
 
 
