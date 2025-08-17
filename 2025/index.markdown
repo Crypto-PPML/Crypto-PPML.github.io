@@ -23,7 +23,7 @@ The workshop is an affiliated event of [CRYPTO 2025](https://crypto.iacr.org/202
 
 ### Location
 
-The workshop will be in-person.
+MCC theater, UCSB [(On Google Maps)](https://maps.app.goo.gl/EuD8PHU5wKH592Yb6)
 
 
 
