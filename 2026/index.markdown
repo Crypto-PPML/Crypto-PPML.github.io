@@ -1,7 +1,7 @@
 ---
 title: Privacy-Preserving Machine Learning Workshop 2026
 headerTitle: PPML 2026
-headerInfoDate: August 17, 2026
+headerInfoDate: August 16, 2026
 layout: default
 redirect_from: "/"
 ---
