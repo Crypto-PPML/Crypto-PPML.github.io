@@ -31,6 +31,7 @@ MCC theater, UCSB [(On Google Maps)](https://maps.app.goo.gl/EuD8PHU5wKH592Yb6)
 
 ### Invited Speakers
 TBA
+
 <!---
 - Divya Gupta (Microsoft Research)
 - Gautam Kamath (University of Waterloo)
@@ -42,11 +43,7 @@ TBA
 
 The time displayed is in Pacific Daylight Time (GMT-7).
 
-<!--
-<div markdown="0">
-    {% include program.html programURL='2026/assets/program.json' %}
-</div>
--->
+<!--<div markdown="0">{% include program.html programURL='2026/assets/program.json' %}</div>-->
 
 <p>&nbsp;</p>
 
@@ -75,15 +72,10 @@ We encourage submissions exploring a range of techniques and applications for pr
 
 Submission server:  [https://easychair.org/my/conference?conf=cryptoppml2026](https://easychair.org/my/conference?conf=cryptoppml2026)
 
-The deadline for contributed talks is Wednesday, June 10th, 2026
+**Deadline:** The deadline for contributed talks is Wednesday, June 10th, 2026
 
-Notification will be sent out no later than Friday, June 19th, 2026
+**Notifications:** The notificatinos will be sent out no later than Friday, June 19th, 2026
 
-<!-- Wednesday, June 12th, 2024, 11:59pm EST. -->
-
-**Notifications:**
-TBA. 
-<!-- Friday, June 21st, 2024. -->
 
 
 
