@@ -17,87 +17,97 @@
         "talks": []
       }
     ],
-    "uniqueIDIndex": 28
+    "uniqueIDIndex": 23
   },
-  "database_id": "1621",
+  "database_id": "2205",
   "days": [
     {
-      "date": "2025-08-17",
+      "date": "2026-08-16",
       "timeslots": [
         {
-          "starttime": "8:55",
-          "endtime": "9:55",
+          "starttime": "8:00",
+          "endtime": "9:00",
           "sessions": [
             {
               "id": "session-1",
               "location": {
-                "name": "Location TBD"
+                "name": "University Center Harbor Room"
               },
-              "session_title": "Welcome and Logistics"
+              "session_title": "Registration"
+            }
+          ]
+        },
+        {
+          "starttime": "8:55",
+          "endtime": "9:00",
+          "sessions": [
+            {
+              "id": "session-2",
+              "moderator": "Workshop General Chair",
+              "session_title": "Welcome"
             }
           ]
         },
         {
           "starttime": "9:00",
-          "endtime": "9:45",
+          "endtime": "9:50",
           "sessions": [
             {
               "id": "session-3",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk I",
-              "talks": [
-                {
-                  "affiliations": "Microsoft Research India",
-                  "authors": [
-                    "Divya Gupta"
-                  ],
-                  "id": "talk-11",
-                  "title": "From Bottlenecks to Breakthroughs: Accelerating MPC for Secure ML"
-                }
-              ]
+              "session_title": "Invited Talk I: Raluca Ada Popa"
             }
           ]
         },
         {
-          "starttime": "9:45",
-          "endtime": "10:15",
+          "starttime": "9:50",
+          "endtime": "10:50",
           "sessions": [
             {
-              "id": "session-12",
-              "moderator": "Chair: TBD",
-              "session_title": "Contributed Talks I (Aggregation)",
+              "id": "session-22",
+              "session_title": "Contributed Talks I - Homomorphic Encryption, Compilation, and Automation",
               "talks": [
                 {
-                  "abstract": "Secure aggregation enables a central server to compute the sum of client inputs without learning any individual input, even in the presence of dropouts or partial participation. This primitive is fundamental to privacy-preserving applications such as federated learning, where clients collaboratively train models without revealing raw data. \n\nWe present a new secure aggregation protocol, TACITA, in the single-server setting that satisfies four critical properties simultaneously: (1) one-shot communication from clients with no per-instance setup, (2) constant-size communication per client, independent of the number of participants per-instance, (3) robustness to client dropouts, and (4) no reliance on designated or persistent committees. \n\nTACITA relies on a novel cryptographic primitive we introduce and realize: succinct multi-key linearly homomorphic threshold signatures (MKLHTS), which enables verifiable aggregation of client-signed inputs with constant-size signatures. To encrypt client inputs, we also adapt the Silent Threshold Encryption (STE) scheme of Garg et al. (CRYPTO 2024) to support ciphertext-specific decryption and additive homomorphism. \n\nWe formally prove security in the Universal Composability framework and demonstrate practicality through an open-source proof-of-concept implementation, showing our protocol achieves scalability without sacrificing efficiency or requiring new trust assumptions.",
+                  "abstract": "Encrypted AI using fully homomorphic encryption (FHE) enables processing data in the encrypted form, providing strong privacy guarantees; but its slow performance has limited practical deployment. Recent works proposed ASICs to accelerate FHE, but they require advanced manufacturing processes that constrain their accessibility. GPUs provide a far more accessible platform, but achieving ASIC-level performance using GPUs has remained elusive despite substantial prior efforts, primarily focused on small models that fit comfortably within a single device. Supporting large models such as LLMs in FHE introduces a dramatic increase in computational complexity that requires optimized GPU kernels, along with managing terabyte-scale memory footprints that far exceed the capacity of a single GPU. This paper presents Cerium, a multi-GPU framework for FHE inference targeting large models. Cerium integrates a DSL, an optimizing compiler, and a runtime system to automatically generate high-performance GPU kernels, manage terabyte-scale memory footprints, and parallelize computation across multiple GPUs. Cerium introduces new IR constructs, compiler passes, plaintext compression techniques, memory-efficient data layouts, and communication-aware parallelization techniques that together enable scalable encrypted inference from small CNNs to Llama3-8B. We build Cerium on NVIDIA GPUs and demonstrate significant performance gains. For small models, Cerium outperforms expert-written GPU libraries by up to 2.25 times. Cerium achieves performance competitive with state-of-the-art FHE ASICs, outright matching the prior CraterLake FHE ASIC. It is the first GPU system to execute bootstrapping in under 10 milliseconds, achieving 7.5 milliseconds, and is the first to demonstrate encrypted inference for BERT-Base and Llama3-8B in 8 seconds and 43 seconds, respectively.",
                   "affiliations": "",
                   "authors": [
-                    "Varun Madathil",
-                    "Arthur Lazzaretti",
-                    "Zeyu Liu",
-                    "Charalampos Papamanthou"
+                    "Siddharth Jayashankar",
+                    "Wenting Zheng",
+                    "Dimitrios Skarlatos"
                   ],
-                  "id": "talk-13",
-                  "title": "TACITA: Threshold Aggregation without Client Interaction"
+                  "id": "talk-15",
+                  "title": "Cerium: A Framework For TB-Scale Encrypted LLM Inference"
                 },
                 {
+                  "abstract": "Developing functional, optimized, and secure FHE code is a challenging task that typically requires expert cryptographers. It demands carefully tracking multiplicative depth, monitoring noise growth, strategically placing bootstrapping operations, and selecting appropriate cryptographic parameters. Given the emergence of powerful AI coding agents, we ask: can we automate this process, to what extent, and how reliably? In this work, we present a multi-skill, LLM-based coding agent that compiles a free-form natural-language prompt into functionally correct and secure CKKS code for the OpenFHE-Python library, without the user writing any FHE code by hand. Our agent decomposes the FHE development process into a seven-stage pipeline that first designs and validates an FHE-friendly algorithm for the invoked task using cleartext data, and then lowers it to FHE. We evaluate the agent on two case studies: (1) private MLP inference and (2) the encrypted fetch-by-similarity challenge of the FHE Benchmarking Suite Consortium. Experiments demonstrate that the agent successfully generates functionally correct and secure FHE code for both case studies, suggesting a positive answer to the research question posed above",
                   "affiliations": "",
                   "authors": [
-                    "Ojaswi Acharya",
-                    "Suvasree Biswas",
-                    "Weiqi Feng",
-                    "Adam O'Neill",
-                    "Arkady Yerukhimovich"
+                    "Ahmad Al Badawi",
+                    "Andreea Alexandru",
+                    "Zohar Duchin",
+                    "Yuriy Polyakov",
+                    "Oded Rosolio",
+                    "Vinod Vaikuntanathan"
                   ],
-                  "id": "talk-14",
-                  "title": "Non-Interactive Verifiable Aggregation"
+                  "id": "talk-18",
+                  "title": "Multi-Skill Coding Agent for Encrypted Computation in OpenFHE"
+                },
+                {
+                  "abstract": "Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However, the performance of tensor operations in HE is highly sensitive to how the plaintext data is packed into ciphertexts. Large tensor programs introduce numerous possible layout assignments, making it both challenging and tedious for users to manually write efficient HE programs. In this paper, we present Rotom, a compilation framework that autovectorizes tensor programs into optimized HE programs. Rotom systematically explores a wide range of layout assignments, applies state-of-the-art optimizations, and automatically generates an equivalent, efficient HE program. At its core, Rotom utilizes a novel, lightweight ApplyRoll layout conversion operator to easily modify the underlying data layouts and unlock new avenues for performance gains. Our evaluation demonstrates Rotom scalably compiles all tensor workloads in under 5 minutes, reduces rotations in hand-tuned protocols by up to 3×, and achieves up to 80× performance improvement over prior autovectorization systems.",
+                  "affiliations": "",
+                  "authors": [
+                    "Edward Chen"
+                  ],
+                  "id": "talk-16",
+                  "title": "Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption"
                 }
               ]
             }
           ]
         },
         {
-          "starttime": "10:15",
-          "endtime": "10:45",
+          "starttime": "10:50",
+          "endtime": "11:05",
           "sessions": [
             {
               "id": "session-4",
@@ -106,88 +116,53 @@
           ]
         },
         {
-          "starttime": "10:45",
-          "endtime": "11:30",
+          "starttime": "11:05",
+          "endtime": "11:55",
           "sessions": [
             {
               "id": "session-5",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk II",
-              "talks": [
-                {
-                  "abstract": "We study the relationship between adversarial robustness and differential privacy in high-dimensional algorithmic statistics. We give the first black-box reduction from privacy to robustness which can produce private estimators with optimal tradeoffs among sample complexity, accuracy, and privacy for a wide range of fundamental high-dimensional parameter estimation problems, including mean and covariance estimation. We show that this reduction can be implemented in polynomial time in some important special cases. In particular, using nearly-optimal polynomial-time robust estimators for the mean and covariance of high-dimensional Gaussians which are based on the Sum-of-Squares method, we design the first polynomial-time private estimators for these problems with nearly-optimal samples-accuracy-privacy tradeoffs. Our algorithms are also robust to a nearly optimal fraction of adversarially-corrupted samples.\n\nBased on joint works with Samuel B. Hopkins, Mahbod Majid, and Shyam Narayanan.",
-                  "affiliations": "University of Waterloo",
-                  "authors": [
-                    "Gautam Kamath"
-                  ],
-                  "id": "talk-15",
-                  "title": "Robustness Implies Privacy in Statistical Estimation"
-                }
-              ]
+              "session_title": "Invited Talk II: Yevgeniy Dodis"
             }
           ]
         },
         {
-          "starttime": "11:30",
-          "endtime": "12:30",
+          "starttime": "11:55",
+          "endtime": "12:35",
           "sessions": [
             {
-              "id": "session-16",
-              "moderator": "Chair: TBD",
-              "session_title": "Contributed Talks II (Differential Privacy)",
+              "id": "session-6",
+              "session_title": "Contributed Talks II: Differential Privacy",
               "talks": [
                 {
-                  "abstract": "The spherical noise added to gradients in differentially private (DP) training undermines the performance of adaptive optimizers like AdaGrad and Adam, and hence many recent works have proposed algorithms to address this challenge. However, the empirical results in these works focus on simple tasks and models and the conclusions may not generalize to model training in practice. In this paper we survey several of these variants, and develop better theoretical intuition for them as well as perform empirical studies comparing them. We find that a common intuition of aiming for unbiased estimates of second moments of gradients in adaptive optimizers is misguided, and instead that a simple technique called scale-then-privatize (which does not achieve unbiased second moments) has more desirable theoretical behaviors and outperforms all other variants we study on a small-scale language model training task. We additionally argue that scale-then-privatize causes the noise addition to better match the application of correlated noise mechanisms which are more desirable to use in practice.",
+                  "abstract": " Privacy auditing provides an important safeguard by estimating the actual information leaked by a model, thus ensuring that theoretical privacy guarantees hold in practice. We study empirical privacy auditing for differentially private (DP) machine learning, focusing on efficient one-run methods for mechanisms such as DP-SGD. Prior one-run approaches threshold training examples or \"canaries\" into binary membership guesses, which discards useful information. We show that, in the white-box DP-SGD setting, canary-aligned signals naturally form a sequence of random variables whose normalized sum is asymptotically Gaussian. Leveraging this distributional perspective, we develop a DP-auditing framework that leads to tighter privacy lower bounds from a single training run.",
                   "affiliations": "",
                   "authors": [
-                    "Arun Ganesh",
-                    "Brendan McMahan",
-                    "Abhradeep Thakurta"
-                  ],
-                  "id": "talk-17",
-                  "title": "On Design Principles for Private Adaptive Optimizers"
-                },
-                {
-                  "abstract": "Achieving distributed differential privacy (DP) without a trusted central party is of great interest in both theory and practice. The shuffle model has recently emerged as a compelling approach. Unlike the local DP model, where users directly send randomized data to the analyzer, the shuffle model introduces an intermediate, trusted shuffler that randomly permutes the already-randomized messages before forwarding them. A key appeal of this model is its privacy amplification effect, which enables a broader class of DP computations in distributed settings. However, despite these advantages, a substantial gap remains between what can be computed in the central model and the shuffle model, typically in the non-interactive setting, which is particularly attractive for deployment due to its simplicity and flexibility.\n\nIn this work, we take a step toward closing this gap by initiating the study of computational shuffle DP protocols in the non-interactive setting. We approach this by two folds. First, we make a mild relaxation of the privacy requirement --- from protecting against arbitrary adversaries to protecting against all polynomial-time adversaries, i.e., transitioning from information-theoretic DP to computational DP. More importantly, we present a novel framework that transforms any central DP mechanism into a computational shuffle DP protocol, building on additively randomized encodings (\\are), a recently proposed cryptographic primitive by Halevi et al. (Crypto '23). As part of our construction, we introduce a new \\are scheme that distributes computational load more evenly across all clients, which might be of independent interest.\n\nOur computational shuffle DP protocols can support any mechanism achievable in the central model. For several key DP tasks --- including selection, parity, and distinct element estimation --- our computational shuffle DP protocols achieve significantly lower sample complexity than existing information-theoretic shuffle DP protocols, overcoming known lower bounds in the shuffle model. For a broad class of mechanisms, we achieve near-optimal client bandwidth (up to polylogarithmic factors).",
-                  "affiliations": "",
-                  "authors": [
-                    "Jaspal Singh",
-                    "Yu Wei",
+                    "Adya Agrawal, Yu Wei, Jaspal Singh, Malik Magdon-Ismail",
                     "Vassilis Zikas"
                   ],
-                  "id": "talk-18",
-                  "title": "SHARE: computational differential privacy in the SHuffle-model using Additive Randomized Encodings"
+                  "id": "talk-11",
+                  "title": "Let's Ask Gauss: Improved One-Run Privacy Auditing"
                 },
                 {
-                  "abstract": "This paper studies the problem of differentially private empirical risk minimization (DP-ERM) for binary linear classification.\nWe obtain an efficient $(\\varepsilon,\\delta)$-DP algorithm with an empirical zero-one risk bound of $\\tilde{O}\\left(\\frac{1}{\\gamma^2\\varepsilon n} + \\frac{|S_{\\mathrm{out}}|}{\\gamma n}\\right)$ where $n$ is the number of data points, $S_{\\mathrm{out}}$ is an arbitrary subset of data one can remove and $\\gamma$ is the margin of linear separation of the remaining data points (after $S_{\\mathrm{out}}$ is removed). Here, $\\tilde{O}(\\cdot)$ hides only logarithmic terms. In the agnostic case, we improve the existing results when the number of outliers is small. Our algorithm is highly adaptive because it does not require knowing the margin parameter $\\gamma$ or outlier subset $S_{\\mathrm{out}}$. We also derive a utility bound for the advanced private hyperparameter tuning algorithm.",
+                  "abstract": "We present new auditors to assess Differential Privacy (DP) of an algorithm based on output samples. Such empirical auditors are common to check for algorithmic correctness and implementation bugs. Most existing auditors are batch-based or targeted toward the traditional notion of (ε,δ)-DP; typically both. In this work, we shift the focus to the highly expressive privacy concept of f-DP, in which the entire privacy behavior is captured by a single tradeoff curve. Our auditors detect violations across the full privacy spectrum with statistical significance guarantees, which are supported by theory and simulations. Most importantly, and in contrast to prior work, our auditors do not require a user-specified sample size as an input. Rather, they adaptively determine a near-optimal number of samples needed to reach a decision, thereby avoiding the excessively large sample sizes common in many auditing studies. This reduction in sampling cost becomes especially beneficial for expensive training procedures such as DP-SGD. Our method supports both whitebox and blackbox settings and can also be executed in one-run frameworks.",
                   "affiliations": "",
                   "authors": [
-                    "Erchi Wang",
-                    "Yuqing Zhu",
-                    "Yuxiang Wang"
-                  ],
-                  "id": "talk-19",
-                  "title": "Adapting to Linear Separable Subsets with Large-Margin in Differentially Private Learning"
-                },
-                {
-                  "abstract": "Big data analytics often use randomized sketching and aggregation algorithms to make processing high-dimensional data tractable. Thus, towards achieving (differentially) private (DP) machine learning (ML), one might ask: Can we leverage this randomization in privacy-preserving ML algorithms? This question has been well studied for specific cases such as subsampling and count sketches. In this work, we take a step toward tackling a broader class of mechanisms: motivated by the central role of the Central Limit Theorem (and thus, the Gaussian distribution) in big data scenarios, we ask:\n\n(How) can we improve the utility of DP mechanisms for randomized ML queries when their output is a Gaussian, by leveraging the randomness of the query itself?\n\nTowards a (positive) answer, our starting point is proving the Normal Distributions Indistinguishability Spectrum lemma (in short, NDIS Lemma), a theoretical result with several practical implications. In a nutshell, NDIS is a closed-form analytic computation of the hockey-stick divergence between an arbitrary pair of multivariate Gaussians, parameterized by exp(ε). The importance of the NDIS lemma lies in that (1) it yields efficient estimators for the above divergence, and (2) it allows us to analyze DP mechanisms with normally distributed outputs, as well as more general mechanisms by leveraging their behavior on large inputs.\n\nWe apply the NDIS lemma to derive DP mechanisms for queries with normally distributed outputs—i.e., Gaussian Random Projections (RP)—and for more general queries—i.e., Ordinary Least Squares (OLS). Both RP and OLS are highly relevant in data analytics. Compared to existing techniques, our new DP mechanisms achieve superior privacy-utility trade-offs for any privacy budget (ε, δ) by leveraging the randomness of the underlying algorithms. We then apply the NDIS lemma to a data-driven DP notion—in particular, relative DP introduced by Lu et al. (S&P 2024). Here, as we show, our method identifies, for the first time in any such data-driven notion, the range of (ε, δ) for which no additional noise is needed. The superiority of our resulting mechanisms is proven analytically and confirmed by extensive empirical results.",
-                  "affiliations": "",
-                  "authors": [
-                    " Yun Lu",
-                    "Malik Magdon-Ismail",
+                    "Tim Kutta",
+                    "Martin Dunsche",
                     "Yu Wei",
                     "Vassilis Zikas"
                   ],
                   "id": "talk-20",
-                  "title": "The Normal Distributions Indistinguishability Spectrum and its Application to Privacy-Preserving Machine Learning"
+                  "title": "Sequential Auditing for f-Differential Privacy"
                 }
               ]
             }
           ]
         },
         {
-          "starttime": "12:30",
-          "endtime": "14:05",
+          "starttime": "12:35",
+          "endtime": "14:00",
           "sessions": [
             {
               "id": "session-7",
@@ -196,65 +171,74 @@
           ]
         },
         {
-          "starttime": "14:10",
-          "endtime": "14:55",
+          "starttime": "14:00",
+          "endtime": "14:50",
           "sessions": [
             {
-              "id": "session-8",
+              "id": "session-23",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk III",
-              "talks": [
-                {
-                  "affiliations": "JPMorganChase",
-                  "authors": [
-                    "Leo De Castro"
-                  ],
-                  "id": "talk-21",
-                  "title": "Securely Outsourcing AI or: How I learned to stop worrying and love Fully Homomorphic Encryption"
-                }
-              ]
+              "session_title": "Invited Talk III: Eugene Bagdasarian "
             }
           ]
         },
         {
-          "starttime": "14:55",
-          "endtime": "15:25",
+          "starttime": "14:50",
+          "endtime": "15:50",
           "sessions": [
             {
-              "id": "session-22",
+              "id": "session-10",
               "moderator": "Chair: TBD",
-              "session_title": "Contributed Talks III (Fully Homomorphic Encryption)",
+              "session_title": "Contributed Talks III - Security and AI Agents",
               "talks": [
                 {
-                  "abstract": "There have been multiple recent advances in the state of the art of FHE for PPML. Many new PPML implementation results have appeared using both OpenFHE and other FHE libraries. A topic of special interest has been the implementation of privacy-preserving LLM inference using FHE. The goals of this talk are to provide an overview of latest FHE advances (with focus on bootstrapping and large matrix arithmetic), recent PPML applications implemented using OpenFHE, and latest LLM inference implementations.",
+                  "abstract": "AI agents in multi-agent systems increasingly operate over sensitive data, yet existing guardrail and LLM-scanning approaches primarily provide empirical, average-case protections and fail to prevent post-access leakage through tool calls, context sharing, memory persistence, inference, or multi-hop routing. Because LLM-based agents are inherently non-deterministic, placing them in the security-critical path is unsafe: in regulated settings, any non-zero attack success rate is unacceptable. We introduce AgentCrypt, a three-level framework that enforces privacy via a deterministic cryptographic wrapper independent of model behavior. AgentCrypt provides rigorous, worst-case guarantees for tagged data, even under adversarial manipulation or agent errors. We formalize this with new security definitions, a foundation absent from prior guardrail- and LLM-scanning-based agent safety work. The framework spans policy-based encrypted retrieval (Level 2, via identity-based encryption) and any computation (Level 3), with optional fully homomorphic encryption when raw data access must be eliminated. Importantly, we also address multi-hop routing scenarios in which sensitive data traverses multiple intermediate agents, a setting fundamentally beyond the reach of LLM-based scanning approaches. We implement AgentCrypt in LangGraph and Google ADK and introduce a benchmark of privacy-annotated multi-agent scenarios spanning FERPA, HIPAA, GLBA, GDPR, and CCPA standards. We generate hundreds of scenarios across 14 (attack) classes, including impersonation, multi-hop routing, real-world exfiltration, and prompt injection attacks. AgentCrypt maintains 84% task correctness while preserving privacy in 100% of the scenarios",
                   "affiliations": "",
                   "authors": [
-                    "Ahmad Al Badawi",
-                    "Andreea Alexandru",
-                    "Yuriy Polyakov"
+                    "Harish Karthikeyan",
+                    "Yue Guo",
+                    "Leo de Castro",
+                    "Antigoni Polychroniadou",
+                    "Udari Madhushani Sehwag",
+                    "Leo Ardon",
+                    "Sumitra Ganesh",
+                    "Manuela Veloso"
                   ],
-                  "id": "talk-23",
-                  "title": "Latest Trends and Results in PPML using FHE"
+                  "id": "talk-19",
+                  "title": "AgentCrypt: Advancing Privacy and Secure Computation in AI Agent Collaboration"
                 },
                 {
-                  "abstract": "We present two works that advance the state-of-the-art in privacy-preserving deep learning using Fully Homomorphic Encryption (FHE).\n\nFirst, we introduce Orion (best paper award at ASPLOS 2025), a fully-automated framework that translates deep neural networks written in PyTorch into efficient FHE programs. Orion addresses several fundamental challenges in FHE programming such as data packing, non-linear activation approximation, bootstrap placement, and scale management. In detail, Orion introduces a single-shot multiplexed packing strategy that enables arbitrary convolutions (reducing multiplicative depth by 2× and rotations by up to 6.41×) and leverages the double-hoisted baby-step giant-step matrix-vector product to reduce both the complexity and count of ciphertext rotations. Furthermore, Orion automatically places bootstraps within a network without requiring any user input. Orion achieves a 2.38× speedup over prior work on ResNet-20 and scales to networks as large as ResNet-50 on ImageNet. Using Orion, we run the first high-resolution FHE object detection using a YOLO-v1 model with 139 million parameters with minimal code changes.\n\nSecond, we demonstrate the practical deployment of Orion through HE-LRM, the first FHE-based Deep Learning Recommendation Model. HE-LRM tackles the unique challenges of recommendation systems, which process both dense and sparse features through large embedding tables. We develop compressed embedding lookups that improve upon prior work by 77× and introduce a multi-embedding packing strategy enabling a 44 million parameter embedding lookup under FHE. Our system successfully performs encrypted inference on both the UCI Heart Disease and Criteo click-through datasets and achieves a latency of 24 and 227 seconds, respectively. HE-LRM is currently under submission.\n\nTogether, these works bridge the gap between FHE theory and real-world machine learning applications.",
+                  "abstract": "Cryptanalysis---the task of finding attacks against cryptographic schemes---sits at the intersection of mathematical reasoning and programming, two areas where LLMs have made rapid progress. Just like math and programming, cryptanalytic attacks are formally defined and can be unambiguously verified. This raises the question if cryptanalysis might experience a similar acceleration in progress through LLMs. In this paper we introduce CryptanalysisBench, a benchmark of 114 tasks spanning six families of cryptographic primitives (block ciphers, hash functions, etc) drawn primarily from four NIST standardization competitions. Each task asks an agent to break an implementation of a cryptographic primitive by winning a formal security game. The benchmark has three tiers: (1) primitives with known practical breaks; (2) scaled-down variants of primitives without one; (3) a challenge set of unbroken production primitives. We evaluate Claude Opus 4.7, GPT-5.5 and Claude Mythos: all three solve a majority of Tier 1 (72.4%, 79.3%, and 75.9% respectively), while Tier 2 remains largely out of reach. One notable exception in Tier 2 is the SPoC AEAD, for which Mythos proposed a novel full key recovery attack. For Tier 1 successes, we provide a fine-grained analysis distinguishing paper recall from source-level rediscovery. We release CryptanalysisBench both as a forecasting tool to track when AI cryptanalytic capability becomes a serious factor, and as scaffolding for subjecting candidate schemes to more attacks before they are deployed.",
                   "affiliations": "",
                   "authors": [
-                    "Karthik Garimella",
-                    "Austin Ebel",
-                    "Gabrielle De Micheli",
-                    "Brandon Reagen"
+                    "Lukas Fluri",
+                    "Avital Shafran",
+                    "Nicholas Carlini",
+                    "Matthew Jagielski",
+                    "Milad Nasr",
+                    "Orr Dunkelman",
+                    "Eyal Ronen",
+                    "Florian Tramèr"
                   ],
-                  "id": "talk-24",
-                  "title": "Orion: A Fully Homomorphic Encryption Framework with an Application to Deep Learning Recommendation Models"
+                  "id": "talk-21",
+                  "title": "CryptanalysisBench: Can LLMs do cryptanalysis?"
+                },
+                {
+                  "abstract": "Adversarial examples (AEs) are inputs to machine learning models that closely resemble natural data but induce incorrect predictions, posing a major challenge to model robustness. While numerous defense strategies have been proposed, they often suffer from a trade-off between robustness to AEs and accuracy on clean data. To address this issue, we propose a novel defense method based on an isometric autoencoder, a variant of an autoencoder in which the decoder acts as an isometry. This model learns the data manifold and projects off-manifold inputs, such as AEs, onto their nearest points on the manifold. According to the Dimpled Manifold Model, adversarial perturbations are approximately perpendicular to the data manifold; thus, our method effectively neutralizes these perturbations by restoring inputs to their unperturbed states. We theoretically show that, in the context of Gaussian Process (GP) regression, the encoder of an isometric autoencoder preserves both the predictive mean and variance, maintaining consistent model behavior. On the other hand, the projection by isometric autoencoder improves the robustness of the AEs, and thereby overcoming the trade-off, which achieves the certified robustness and accuracy simultaneously. Empirical evaluations further confirm the efficacy of our approach. Therefore, our method can be applied as a pre-processing step for enhancing robustness to any classifier including neural networks, serving as a purifier of AEs.",
+                  "affiliations": "",
+                  "authors": [
+                    "Hiroaki Maeshima",
+                    "Akira Otsuka"
+                  ],
+                  "id": "talk-17",
+                  "title": "Manifold Projection Guarantees Adversarial Robustness"
                 }
               ]
             }
           ]
         },
         {
-          "starttime": "15:25",
-          "endtime": "15:55",
+          "starttime": "15:50",
+          "endtime": "16:05",
           "sessions": [
             {
               "id": "session-9",
@@ -263,67 +247,47 @@
           ]
         },
         {
-          "starttime": "15:55",
-          "endtime": "16:55",
+          "starttime": "16:05",
+          "endtime": "17:05",
           "sessions": [
             {
-              "id": "session-10",
+              "id": "session-8",
               "moderator": "Chair: TBD",
-              "session_title": "Contributed Talks IV",
+              "session_title": "Contributed Talks IV - PIR & Secure Aggregation",
               "talks": [
                 {
-                  "abstract": "Fully homomorphic encryption (FHE) is a promising cryptographic solution that enables computation on encrypted data, but its adoption remains a challenge due to steep performance overheads. Although recent FHE architectures have made valiant efforts to narrow the performance gap, they not only have massive monolithic chip designs but also only target small ML workloads. We present Cinnamon, a framework for accelerating state-of-the-art ML workloads that are encrypted using FHE. Cinnamon accelerates encrypted computing by exploiting parallelism at all levels of a program, using novel algorithms, compilers, and hardware techniques to create a scale-out design for FHE as opposed to a monolithic chip design. Our evaluation of the Cinnamon framework on small programs shows a 2.3× improvement in performance compared to prior state-of-the-art designs. Further, we use Cinnamon to show for the first time the scalability of large ML models such as the BERT language model in FHE. Cinnamon achieves a speedup of 36,600× compared to a CPU bringing down the inference time from 17 hours to 1.67 seconds thereby enabling new opportunities for privacy-preserving machine learning. Finally, Cinnamon's parallelization strategies and architectural extensions reduce the required resources per-chip leading to a 5× and 2.68× improvement in performance-per-dollar compared to state-of-the-art monolithic and chiplet architectures respectively.",
+                  "abstract": " Secure aggregation is a core primitive for privacy-preserving federated learning, enabling a server to compute aggregates of client updates without learning individual inputs. Recent protocols have explored committee-based designs to reduce client overhead and tolerate weakly connected participants. However, existing approaches still incur communication and computation costs that scale with the number of clients and/or the size of model updates. This becomes a serious bottleneck in interaction between the server and the committee, given that model updates are high-dimensional and the committee is a small set of clients. We present Lighthouse, a new secure aggregation protocol that supports one-shot client communication and achieves constant committee computation and communication overhead with the server, independent of both the number of clients and the size of the input vector. Our protocol attains the best-known round complexity of two rounds, matching OPA (CRYPTO 2025) and TACITA (ePrint 2025) and improving upon Flamingo (S&P 2023) and Willow (CRYPTO 2025). Our core technical contribution is a novel application of recent advances in batched threshold encryption, which enables succinct server–committee interaction while preserving security and correctness. Beyond asymptotic improvements over prior works, Lighthouse yields substantial concrete efficiency gains: For an aggregation with 1024 clients, we reduce server-to-committee communication by over 100× and committee-to-server communication by over 300× compared to Flamingo and Willow. Also, we present an extension that supports dynamic client participation, a critical requirement for practical deployments at scale, while preserving the asymptotic and concrete efficiency of the static protocol for clients.",
                   "affiliations": "",
                   "authors": [
-                    "Siddharth Jayashankar",
-                    "Edward Chen",
-                    "Tom Tang",
-                    "Wenting Zheng",
-                    "Dimitrios Skarlatos"
+                    "Sanjam Garg, Alireza Kavousi, Dimitris Kolonelos, Erkan Tairi",
+                    "Zhipeng Wang"
                   ],
-                  "id": "talk-25",
-                  "title": "Cinnamon: A Framework for Scale-Out Encrypted AI"
+                  "id": "talk-12",
+                  "title": "Lighthouse: Single-Server Secure Aggregation with O(1) Server-Committee Communication at Scale"
                 },
                 {
-                  "abstract": "Ensuring fairness in AI is a complex challenge, further complicated by privacy concerns. While companies may want to prove fairness to comply with regulations or build customer trust, they are often hesitant to disclose proprietary models.\n\nIn our work, we address this for decision trees by designing customized zero-knowledge proofs (ZKPs), a well-established cryptographic method. Specifically, we propose and implement the first ZKP of fairness for decision trees, offering a combination of key features: 1) It overcomes previous limitations by guaranteeing fairness even against dishonest model owners who manipulate input data. 2) It is non-interactive and publicly verifiable, allowing the model owner to generate a one-time certificate proving fairness, which can be asynchronously verified by any interested party. Our solution is highly efficient in communication, delivering a dramatic improvement (~550,000x for a 30k-sized dataset) compared to the current state of the art.",
+                  "abstract": "We present the Speakeasy system for private search. Speakeasy allows a client to search a public corpus of a billion documents (e.g., a web crawl) while cryptographically hiding all information about the client's query from the system's servers. A Speakeasy deployment consists of two infrastructure providers; the system tolerates a malicious attacker controlling at most one of them. On DEEP-1B, Speakeasy achieves 83.63% recall and answers queries with 4.4 seconds of latency using less than 20 MB communication in the WAN setting. Prior private search systems had either significantly worse recall (e.g., 32.15 recall@10 on DEEP-10M) or prohibitively expensive communication costs (e.g., hundreds of megabytes of communication per-query at billion-document scale). Speakeasy achieves these gains with a new private nearest-neighbor search protocol that heavily exploits lightweight two-server private-information-retrieval techniques. Using Speakeasy, we build end-to-end solutions for two search applications: private retrieval-augmented generation (RAG) and private web search.",
                   "affiliations": "",
                   "authors": [
-                    "Elisaweta Masserova",
-                    "Antigoni Polychroniadou",
-                    "Akira Takahashi"
+                    "Vihan Lakshman",
+                    "Xiaochen Zhu",
+                    "Alexandra Henzinger",
+                    "Henry Corrigan-Gibbs",
+                    "Emma Dauterman"
                   ],
-                  "id": "talk-28",
-                  "title": "Non-Interactive and Publicly Verifiable Zero Knowledge Proof for Fair Decision Trees"
+                  "id": "talk-13",
+                  "title": "Speakeasy: Billion-Scale Two-Server Private Semantic Search"
                 },
                 {
-                  "abstract": "We present a real-world deployment of secure multiparty computation to predict political preference from private web browsing data. To estimate aggregate preferences for the 2024 U.S. presidential election, we collect and analyze secret-shared data from nearly 8000 users from August 2024 through February 2025, with over 2000 daily active users sustained throughout the bulk of the survey. The use of MPC allows us to access sensitive web browsing data that users would otherwise be more hesitant to provide. We collected data using a custom-built Chrome browser plugin and performed our analysis using the CrypTen MPC library. To our knowledge, we provide the first implementation under MPC of a model for the learning from label proportions (LLP) problem in machine learning, which allows us to train on unlabeled web browsing data using publicly available polling and election results as the ground truth. This is a cross-disciplinary project combining cryptography, machine learning, and political science, and the proposed talk will focus on the privacy-preserving machine learning component. This document contains a description of the topics that will be covered in the talk.",
+                  "abstract": "Modern recommendation systems provide value to users through personalized suggestions driven by machine learning models, yet they require users to divulge their behavioral history to a platform. To address this tension between privacy and personalization, we present PinPointe. PinPointe is a private, personalized recommendation system that provides privacy for querying users seeking recommendations. PinPointe introduces a clustering abstraction to transform the challenge of receiving personalized recommendations into a private key-value lookup. The proposed system works by embedding and clustering user profiles, and pre-computing aggregate recommendation lists for each cluster. Clients then find the nearest cluster to their user profile embedding and use SimplePIR, a private information retrieval protocol, to retrieve the list of pre-computed recommendations. PinPointe relies on its server having access to a portion of user data, aligning with real-world platforms that have opt-in privacy settings. With 30% of user profiles available for training and 70% of users kept fully private, our best configuration achieves 70.5% of the recall of its non-private counterpart. Through the use of user-item interactions and SimplePIR, PinPointe offers a practical privacy-utility tradeoff, achieving recommendation quality competitive with non-private systems while hiding user data.",
                   "affiliations": "",
                   "authors": [
-                    "Sam Buxbaum",
-                    "Lucas Tassis",
-                    "Lucas Boschelli",
-                    "Giovanni Comarela",
-                    "Mayank Varia",
-                    "Mark Crovella",
-                    "Dino Christenson"
+                    "Naomi Boneh",
+                    "Caeley Woo",
+                    "Emma Dauterman"
                   ],
-                  "id": "talk-27",
-                  "title": "Real-World Deployment of Privacy-Preserving Machine Learning for Political Polling in the 2024 Presidential Election"
-                },
-                {
-                  "abstract": "Large language models (LLMs) are increasingly used as personal agents, accessing sensitive user data such as calendars, emails, and medical records. Users currently face a trade-off: They can send private records—many of which are stored in remote databases—to powerful but untrusted LLM providers, increasing their exposure risk. Alternatively, they can run less powerful models locally on trusted devices. We bridge this gap: Our Socratic Chain-of-Thought Reasoning first sends a generic, non-private user query to a powerful, untrusted LLM, which generates a Chain-of-Thought (CoT) prompt and detailed sub-queries without accessing user data. Next, we embed these sub-queries and perform encrypted sub-second semantic search using our Homomorphically Encrypted Vector Database across one million entries of a single user's private data. This represents a realistic scale of personal documents, emails, and records accumulated over years of digital activity. Finally, we feed the CoT prompt and the decrypted records to a local language model and generate the final response. On the LoCoMo long-context QA benchmark, our system—combining GPT-4o with a local Llama-1B model—outperforms using GPT-4o alone by up to 7.1 percentage points, while preserving strict data privacy. This demonstrates a first step toward systems where tasks are decomposed and split between untrusted strong LLMs and weak local ones, preserving user privacy.",
-                  "affiliations": "",
-                  "authors": [
-                    "Yubeen Bae",
-                    "Minchan Kim",
-                    "Jaejin Lee",
-                    "Sangbum Kim",
-                    "Jaehyung Kim",
-                    "Yejin Choi",
-                    "Niloofar Mireshghallah"
-                  ],
-                  "id": "talk-26",
-                  "title": "Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought Reasoning and Homomorphically Encrypted Vector Databases"
+                  "id": "talk-14",
+                  "title": "PinPointe: Personalized Private Recommendations through Clustering and Private Information Retrieval"
                 }
               ]
             }
@@ -332,7 +296,7 @@
       ]
     }
   ],
-  "name": "The 7th Privacy-Preserving Machine Learning Workshop 2025 at CRYPTO",
+  "name": "CRYPTO PPML 2026",
   "tabbedSessions": false,
   "twoSessions": false
 }
