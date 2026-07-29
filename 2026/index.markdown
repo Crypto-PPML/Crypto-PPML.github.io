@@ -23,7 +23,8 @@ The workshop is an affiliated event of [CRYPTO 2026](https://crypto.iacr.org/202
 
 ### Location
 
-University Center Harbor Room, USCB
+Integrated Learning Pavilion (ILP) 1302, UCSB [(In Google Maps)](https://maps.app.goo.gl/s86K4D6WA4qionQC7)
+
 <!---
 MCC theater, UCSB [(On Google Maps)](https://maps.app.goo.gl/EuD8PHU5wKH592Yb6)
 -->

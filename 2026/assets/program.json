@@ -31,7 +31,7 @@
             {
               "id": "session-1",
               "location": {
-                "name": "University Center Harbor Room"
+                "name": "Integrated Learning Pavilion (ILP) 1302"
               },
               "session_title": "Registration"
             }
@@ -135,14 +135,14 @@
               "session_title": "Contributed Talks II: Differential Privacy",
               "talks": [
                 {
-                  "abstract": " Privacy auditing provides an important safeguard by estimating the actual information leaked by a model, thus ensuring that theoretical privacy guarantees hold in practice. We study empirical privacy auditing for differentially private (DP) machine learning, focusing on efficient one-run methods for mechanisms such as DP-SGD. Prior one-run approaches threshold training examples or \"canaries\" into binary membership guesses, which discards useful information. We show that, in the white-box DP-SGD setting, canary-aligned signals naturally form a sequence of random variables whose normalized sum is asymptotically Gaussian. Leveraging this distributional perspective, we develop a DP-auditing framework that leads to tighter privacy lower bounds from a single training run.",
+                  "abstract": "The additive noise mechanism is a foundational tool for differential privacy (DP) of T-dimensional real-valued vector queries. The Gaussian mechanism, utilizing Gaussian noise, is the mostly widely used such mechanism, due to its simplicity and strong privacy guarantees. In this work, we provide justification for this choice, showing that as the dimension T→∞, no additive-noise mechanism can asymptotically improve on the Gaussian mechanism's privacy--utility tradeoff for the strong privacy settings typically this http URL also develop a new family of \\emph{Spherical Generalized Gamma} DP mechanisms, which contains both the Gaussian mechanism and the recently studied ℓ2 mechanism (Joseph \\emph{et al.}, ICML 2025). We identify members of this family that outperform both the Gaussian and ℓ2 mechanisms in certain low-dimensional settings, and show tight composition of all mechanisms in this family, answering an open question of Joseph \\emph{et al.}~regarding the ℓ2 mechanism.",
                   "affiliations": "",
                   "authors": [
-                    "Adya Agrawal, Yu Wei, Jaspal Singh, Malik Magdon-Ismail",
-                    "Vassilis Zikas"
+                    "Yu Wei, Alexander Bienstock,",
+                    "Antigoni Polychroniadou"
                   ],
                   "id": "talk-11",
-                  "title": "Let's Ask Gauss: Improved One-Run Privacy Auditing"
+                  "title": "Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy"
                 },
                 {
                   "abstract": "We present new auditors to assess Differential Privacy (DP) of an algorithm based on output samples. Such empirical auditors are common to check for algorithmic correctness and implementation bugs. Most existing auditors are batch-based or targeted toward the traditional notion of (ε,δ)-DP; typically both. In this work, we shift the focus to the highly expressive privacy concept of f-DP, in which the entire privacy behavior is captured by a single tradeoff curve. Our auditors detect violations across the full privacy spectrum with statistical significance guarantees, which are supported by theory and simulations. Most importantly, and in contrast to prior work, our auditors do not require a user-specified sample size as an input. Rather, they adaptively determine a near-optimal number of samples needed to reach a decision, thereby avoiding the excessively large sample sizes common in many auditing studies. This reduction in sampling cost becomes especially beneficial for expensive training procedures such as DP-SGD. Our method supports both whitebox and blackbox settings and can also be executed in one-run frameworks.",
