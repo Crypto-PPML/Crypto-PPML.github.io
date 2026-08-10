@@ -33,7 +33,7 @@ MCC theater, UCSB [(On Google Maps)](https://maps.app.goo.gl/EuD8PHU5wKH592Yb6)
 ### Invited Speakers
 
 
-- [Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/) (Google Deepmind, UC Berkely)
+- [Raluca Ada Popa](https://people.eecs.berkeley.edu/~raluca/) (Google Deepmind, UC Berkeley)
 - [Yevgeniy Dodis](https://cs.nyu.edu/~dodis/) (New York University) 
 - [Eugene Bagdasarian](https://people.cs.umass.edu/~eugene/) (UMass Amherst)  
 
@@ -51,6 +51,14 @@ The time displayed is in Pacific Daylight Time (GMT-7).
 <p>&nbsp;</p>
 
 ### Abstracts -- Invited Speakers
+
+#### Raluca Ada Popa -- ShannonProver: Towards Automating Formal Cryptographic Proofs
+
+**Abstract:**
+
+Cryptographic proofs are produced at a scale that increasingly exceeds the community's ability to verify them manually. Machine-checked proofs offer a path toward scalable proof verification, but writing proof scripts for expressive proof assistants such as EasyCrypt remains a major bottleneck: even when the high-level proof plan is known, converting it into proof tactics requires substantial reasoning effort. This paper presents ShannonProver, an agentic framework for automating cryptographic proofs. ShannonProver targets the setting in which a cryptographer provides the security model and a decomposition of the target theorem into lemma-level proof obligations, while the system automatically constructs EasyCrypt proof scripts for those obligations.
+
+We evaluate ShannonProver on a dataset of formal cryptographic proofs in EasyCrypt. The dataset spans textbook primitives, deployed protocols, and standardization efforts such as NIST proposals, and includes expert case studies drawn from a corpus that has not previously been available online. We show that ShannonProver can automate substantial portions of cryptographic proof engineering for case studies such as ChaChaPoly1305 and MEE-CBC. More broadly, this work suggests a path toward accelerating cryptographic research: as agents automate the proof-engineering burden, cryptographers can iterate more quickly on new constructions, obtain machine-checked assurance earlier, and bring trustworthy protocols from design to deployment faster.
 
 ### Contributed Talks
 
