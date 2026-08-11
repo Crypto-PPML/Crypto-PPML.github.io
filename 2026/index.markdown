@@ -60,11 +60,17 @@ Cryptographic proofs are produced at a scale that increasingly exceeds the commu
 
 We evaluate ShannonProver on a dataset of formal cryptographic proofs in EasyCrypt. The dataset spans textbook primitives, deployed protocols, and standardization efforts such as NIST proposals, and includes expert case studies drawn from a corpus that has not previously been available online. We show that ShannonProver can automate substantial portions of cryptographic proof engineering for case studies such as ChaChaPoly1305 and MEE-CBC. More broadly, this work suggests a path toward accelerating cryptographic research: as agents automate the proof-engineering burden, cryptographers can iterate more quickly on new constructions, obtain machine-checked assurance earlier, and bring trustworthy protocols from design to deployment faster.
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 #### Eugene Bagdasarian -- Privacy and Security of Frontier AI Agents
 
 **Abstract:**
 
 AI agents are increasingly delegated with completing complex tasks: querying APIs and operating on user data. It appears unlikely that static or pre-defined rules could help limit attacks that leverage prompt injections without sacrificing utility. Leveraging the theory of Contextual Integrity, I argue that we should build a dynamic policy engine that leverages language models to understand and reason about appropriateness in every context, but enforce these decisions using system primitives. I will outline a set of problems towards having trustworthy AI agents and discuss future problems in multi-agent environments. 
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ### Contributed Talks
 
