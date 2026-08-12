@@ -17,7 +17,7 @@
         "talks": []
       }
     ],
-    "uniqueIDIndex": 23
+    "uniqueIDIndex": 26
   },
   "database_id": "2205",
   "days": [
@@ -55,7 +55,18 @@
             {
               "id": "session-3",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk I: Raluca Ada Popa"
+              "session_title": "Invited Talk I",
+              "talks": [
+                {
+                  "abstract": "Cryptographic proofs are produced at a scale that increasingly exceeds the community's ability to verify them manually. Machine-checked proofs offer a path toward scalable proof verification, but writing proof scripts for expressive proof assistants such as EasyCrypt remains a major bottleneck: even when the high-level proof plan is known, converting it into proof tactics requires substantial reasoning effort. This paper presents ShannonProver, an agentic framework for automating cryptographic proofs. ShannonProver targets the setting in which a cryptographer provides the security model and a decomposition of the target theorem into lemma-level proof obligations, while the system automatically constructs EasyCrypt proof scripts for those obligations.\n\nWe evaluate ShannonProver on a dataset of formal cryptographic proofs in EasyCrypt. The dataset spans textbook primitives, deployed protocols, and standardization efforts such as NIST proposals, and includes expert case studies drawn from a corpus that has not previously been available online. We show that ShannonProver can automate substantial portions of cryptographic proof engineering for case studies such as ChaChaPoly1305 and MEE-CBC. More broadly, this work suggests a path toward accelerating cryptographic research: as agents automate the proof-engineering burden, cryptographers can iterate more quickly on new constructions, obtain machine-checked assurance earlier, and bring trustworthy protocols from design to deployment faster.",
+                  "affiliations": "UC Berkeley, Gogle Deepmind",
+                  "authors": [
+                    "Reluca Ada Popa"
+                  ],
+                  "id": "talk-24",
+                  "title": "ShannonProver: Towards Automating Formal Cryptographic Proofs"
+                }
+              ]
             }
           ]
         },
@@ -96,7 +107,7 @@
                   "abstract": "Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However, the performance of tensor operations in HE is highly sensitive to how the plaintext data is packed into ciphertexts. Large tensor programs introduce numerous possible layout assignments, making it both challenging and tedious for users to manually write efficient HE programs. In this paper, we present Rotom, a compilation framework that autovectorizes tensor programs into optimized HE programs. Rotom systematically explores a wide range of layout assignments, applies state-of-the-art optimizations, and automatically generates an equivalent, efficient HE program. At its core, Rotom utilizes a novel, lightweight ApplyRoll layout conversion operator to easily modify the underlying data layouts and unlock new avenues for performance gains. Our evaluation demonstrates Rotom scalably compiles all tensor workloads in under 5 minutes, reduces rotations in hand-tuned protocols by up to 3×, and achieves up to 80× performance improvement over prior autovectorization systems.",
                   "affiliations": "",
                   "authors": [
-                    "Edward Chen"
+                    "Edward Chen, Fraser Brown, Wenting Zheng"
                   ],
                   "id": "talk-16",
                   "title": "Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption"
@@ -122,7 +133,18 @@
             {
               "id": "session-5",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk II: Yevgeniy Dodis"
+              "session_title": "Invited Talk II",
+              "talks": [
+                {
+                  "abstract": "As AI systems mediate ever more of our information, cryptography faces two problems at opposite ends of the AI data lifecycle. On the output side, AI-generated content is flooding the internet, and post hoc detection has proven brittle — leading providers such as Google and Anthropic to embrace watermarking, in which the content itself carries a hidden, detectable signal. The first part of the talk covers the cryptographic foundation of this approach: pseudorandom codes (PRCs), error-correcting codes whose codewords look random. After recalling the elegant LPN-based construction of Christ and Gunn, I will present our work on ideal PRCs (STOC 2025), which strengthens robustness to hold even against adaptive adversaries with access to the generator and the detector — arguably the right security notion for deployed watermarking — and mention new applications of PRCs beyond watermarking.\n\nThe second part turns to the input side: the sensitive prompts users continuously send to models in the cloud, which standard encryption protects only computationally, leaving them exposed to \"store now, decrypt later\" attacks. I will present an approach to everlasting privacy based on server-aided randomness, whose technical heart is locally computable randomness derivation from a giant key: locally computable t-wise independent hashing (STOC 2026), doubly-affine extractors (ITC 2021), and t-time local MACs (new) — culminating in a surprising object: a securely reusable one-time pad. The latter proposal provides the first server-aided transmission protocol based on a single pre-shared key that is both reusable and information-theoretically secure, bypassing Shannon's impossibility result.",
+                  "affiliations": "New York University",
+                  "authors": [
+                    "Yevgeniy Dodis"
+                  ],
+                  "id": "talk-26",
+                  "title": "Pseudorandomness in the AI Data Lifecycle: Watermarking the Outputs, Protecting the Inputs"
+                }
+              ]
             }
           ]
         },
@@ -177,7 +199,18 @@
             {
               "id": "session-23",
               "moderator": "Chair: TBD",
-              "session_title": "Invited Talk III: Eugene Bagdasarian "
+              "session_title": "Invited Talk III",
+              "talks": [
+                {
+                  "abstract": "AI agents are increasingly delegated with completing complex tasks: querying APIs and operating on user data. It appears unlikely that static or pre-defined rules could help limit attacks that leverage prompt injections without sacrificing utility. Leveraging the theory of Contextual Integrity, I argue that we should build a dynamic policy engine that leverages language models to understand and reason about appropriateness in every context, but enforce these decisions using system primitives. I will outline a set of problems towards having trustworthy AI agents and discuss future problems in multi-agent environments. ",
+                  "affiliations": "University of Massachussets at Amherst",
+                  "authors": [
+                    "Eugene Bagdasarian"
+                  ],
+                  "id": "talk-25",
+                  "title": "Privacy and Security of Frontier AI Agents"
+                }
+              ]
             }
           ]
         },
