@@ -63,6 +63,17 @@ We evaluate ShannonProver on a dataset of formal cryptographic proofs in EasyCry
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
+#### Yevgeniy Dodis -- Pseudorandomness in the AI Data Lifecycle: Watermarking the Outputs, Protecting the Inputs
+
+**Abstract:**
+
+As AI systems mediate ever more of our information, cryptography faces two problems at opposite ends of the AI data lifecycle. On the output side, AI-generated content is flooding the internet, and post hoc detection has proven brittle — leading providers such as Google and Anthropic to embrace watermarking, in which the content itself carries a hidden, detectable signal. The first part of the talk covers the cryptographic foundation of this approach: pseudorandom codes (PRCs), error-correcting codes whose codewords look random. After recalling the elegant LPN-based construction of Christ and Gunn, I will present our work on ideal PRCs (STOC 2025), which strengthens robustness to hold even against adaptive adversaries with access to the generator and the detector — arguably the right security notion for deployed watermarking — and mention new applications of PRCs beyond watermarking.
+
+The second part turns to the input side: the sensitive prompts users continuously send to models in the cloud, which standard encryption protects only computationally, leaving them exposed to "store now, decrypt later" attacks. I will present an approach to everlasting privacy based on server-aided randomness, whose technical heart is locally computable randomness derivation from a giant key: locally computable t-wise independent hashing (STOC 2026), doubly-affine extractors (ITC 2021), and t-time local MACs (new) — culminating in a surprising object: a securely reusable one-time pad. The latter proposal provides the first server-aided transmission protocol based on a single pre-shared key that is both reusable and information-theoretically secure, bypassing Shannon's impossibility result.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 #### Eugene Bagdasarian -- Privacy and Security of Frontier AI Agents
 
 **Abstract:**
